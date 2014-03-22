@@ -152,11 +152,13 @@ body {
         opacity: .7;
         letter-spacing: 1px;
         line-height: 33px;
-        color: gray;
+        color: rgb(46, 49, 51);
         font-weight: 100;
         font-size: 26px;
     }
 }
+
+// Project one start
 
 .project-one {
     vertical-align: top;
@@ -167,13 +169,37 @@ body {
     background-color: snow;
     width: 345px;
     height: 410px;
-    border-radius: 0px 0px 3px 3px;
+    border-radius: 2px;
     box-shadow: 0px 0px 7px -3px silver;
+    color: rgb(46, 49, 51);
+
+    &:hover {
+            color: snow;
+            background-color: rgb(138, 193, 186);
+        }
 }
 
+.mobber-title {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-left: 48px;
+    margin-bottom: 5px;
+}
+
+.mobber-description {
+    font-size: 13px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin-left: 48px;
+    margin-top: 0px;
+}
+        
 .mobber-photo-div {
-    width: 345px;
-    height: 190px;
+    border-radius: 50%;
+    margin: 48px;
+    width: 250px;
+    height: 250px;
     overflow: hidden;
 
     .mobber-photo {
@@ -182,20 +208,10 @@ body {
     }
 }
 
-.mobber-title-div {
-    margin-left: 20px;
-    margin-top: 30px;
-    
-    .mobber-title {
-        color: silver;
-        font-weight: 200;
-        letter-spacing: 1px;
-        font-size: 20px;
-    }
-}
-
+// Projects two start
 
 .project-two {
+    vertical-align: top;
     margin-top: 20px;
     position: relative;
     margin-right: 30px;
@@ -203,8 +219,43 @@ body {
     background-color: snow;
     width: 345px;
     height: 410px;
-    border-radius: 0px 0px 3px 3px;
+    border-radius: 2px;
     box-shadow: 0px 0px 7px -3px silver;
+    color: rgb(46, 49, 51);
+
+    &:hover {
+            color: snow;
+            background-color: rgb(138, 193, 186);
+        }
+}
+
+.mobber-title {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-left: 48px;
+    margin-bottom: 5px;
+}
+
+.mobber-description {
+    font-size: 13px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin-left: 48px;
+    margin-top: 0px;
+}
+        
+.mobber-photo-div {
+    border-radius: 50%;
+    margin: 48px;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+
+    .mobber-photo {
+        width: 445px;
+        height: auto;
+    }
 }
 
 .project-three {
@@ -217,6 +268,40 @@ body {
     height: 410px;
     border-radius: 0px 0px 3px 3px;
     box-shadow: 0px 0px 7px -3px silver;
+
+    &:hover {
+        color: snow;
+        background-color: rgb(138, 193, 186);
+    }
+}
+
+.mobber-title {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-left: 48px;
+    margin-bottom: 5px;
+}
+
+.mobber-description {
+    font-size: 13px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin-left: 48px;
+    margin-top: 0px;
+}
+        
+.mobber-photo-div {
+    border-radius: 50%;
+    margin: 48px;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+
+    .mobber-photo {
+        width: 445px;
+        height: auto;
+    }
 }
 
 .project-four {
@@ -274,7 +359,7 @@ body {
 
 
 .about {
-    background-color: rgb(192, 116, 94);
+    background-color: rgb(138, 193, 186);
     width: 100%;
     height: 390px; 
 }
@@ -287,69 +372,69 @@ body {
 
 
 
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-/* Styles */
-}
+// /* Smartphones (portrait and landscape) ----------- */
+// @media only screen 
+// and (min-device-width : 320px) 
+// and (max-device-width : 480px) {
+// /* Styles */
+// }
 
-/* Smartphones (landscape) ----------- */
-@media only screen 
-and (min-width : 321px) {
-/* Styles */
-}
+// /* Smartphones (landscape) ----------- */
+// @media only screen 
+// and (min-width : 321px) {
+// /* Styles */
+// }
 
-/* Smartphones (portrait) ----------- */
-@media only screen 
-and (max-width : 320px) {
+// /* Smartphones (portrait) ----------- */
+// @media only screen 
+// and (max-width : 320px) {
 
-.navigation div {
-    width: 100%;
-    display: block;
-    position: relative;
-}
+// .navigation div {
+//     width: 100%;
+//     display: block;
+//     position: relative;
+// }
 
-}
+// }
 
-/* iPads (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-/* Styles */
-}
+// /* iPads (portrait and landscape) ----------- */
+// @media only screen 
+// and (min-device-width : 768px) 
+// and (max-device-width : 1024px) {
+// /* Styles */
+// }
 
-/* iPads (landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
-/* Styles */
-}
+// /* iPads (landscape) ----------- */
+// @media only screen 
+// and (min-device-width : 768px) 
+// and (max-device-width : 1024px) 
+// and (orientation : landscape) {
+// /* Styles */
+// }
 
-/* iPads (portrait) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
-/* Styles */
-}
+// /* iPads (portrait) ----------- */
+// @media only screen 
+// and (min-device-width : 768px) 
+// and (max-device-width : 1024px) 
+// and (orientation : portrait) {
+// /* Styles */
+// }
 
-/* Desktops and laptops ----------- */
-@media only screen 
-and (min-width : 1224px) {
-/* Styles */
-}
+// /* Desktops and laptops ----------- */
+// @media only screen 
+// and (min-width : 1224px) {
+// /* Styles */
+// }
 
-/* Large screens ----------- */
-@media only screen 
-and (min-width : 1824px) {
-/* Styles */
-}
+// /* Large screens ----------- */
+// @media only screen 
+// and (min-width : 1824px) {
+// /* Styles */
+// }
 
-/* iPhone 4 ----------- */
-@media
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
-/* Styles */
-}
+// /* iPhone 4 ----------- */
+// @media
+// only screen and (-webkit-min-device-pixel-ratio : 1.5),
+// only screen and (min-device-pixel-ratio : 1.5) {
+// /* Styles */
+// }
