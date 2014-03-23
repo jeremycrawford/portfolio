@@ -189,7 +189,7 @@ body {
         }
 }
 
-.mobber-title {
+.mello-yellow-title {
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -198,7 +198,7 @@ body {
     margin-bottom: 5px;
 }
 
-.mobber-description {
+.mello-yellow-description {
     font-size: 13px;
     font-weight: 200;
     letter-spacing: 1px;
@@ -206,12 +206,13 @@ body {
     margin-top: 0px;
 }
         
-.mobber-photo-div {
+.mello-yellow-photo-div {
+    overflow: hidden;
     width: 345px;
-    height: 250px;
+    height: 200px;
 
-    .mobber-photo {
-        width: 445px;
+    .mello-yellow-photo {
+        width: 345px;
         height: auto;
     }
 }
@@ -219,6 +220,156 @@ body {
 // Projects two start
 
 .project-two {
+    vertical-align: top;
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 120px;
+    position: relative;
+    display: inline-block;
+    background-color: snow;
+    width: 345px;
+    height: 410px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 7px -3px silver;
+    color: rgb(46, 49, 51);
+
+    &:hover {
+            color: snow;
+            background-color: rgb(138, 193, 186);
+        }
+}
+
+.logos-title {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 138px;
+    margin-left: 48px;
+    margin-bottom: 5px;
+}
+
+.logos-description {
+    font-size: 13px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin-left: 48px;
+    margin-top: 0px;
+}
+        
+.logos-photo-div {
+    width: 345px;
+    height: 200px;
+    overflow: hidden;
+
+    .logos-photo {
+        width: 345px;
+        height: auto;
+    }
+}
+
+// Project Three
+
+.project-three {
+    margin-top: 20px;      
+    margin-left: 30px;
+    margin-bottom: 120px;
+    position: relative;
+    display: inline-block;
+    background-color: snow;
+    width: 345px;
+    height: 410px;
+    border-radius: 0px 0px 3px 3px;
+    box-shadow: 0px 0px 7px -3px silver;
+    text-decoration: none;
+    color: rgb(46, 49, 51);
+
+    &:hover {
+        color: snow;
+        background-color: rgb(138, 193, 186);
+    }
+}
+
+.todo-app-title {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 138px;
+    margin-left: 48px;
+    margin-bottom: 5px;
+}
+
+.todo-app-description {
+    font-size: 13px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin-left: 48px;
+    margin-top: 0px;
+}
+        
+.todo-app-photo-div {
+    width: 345px;
+    height: 200px;
+    overflow: hidden;
+
+    .todo-app-photo {
+        width: 445px;
+        height: auto;
+    }
+}
+
+// Project Four
+
+.project-four {
+    vertical-align: top;
+    margin-top: 20px;
+    margin-right: 60px;
+    margin-bottom: 120px;
+    position: relative;
+    display: inline-block;
+    background-color: snow;
+    width: 345px;
+    height: 410px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 7px -3px silver;
+    color: rgb(46, 49, 51);
+
+    &:hover {
+            color: snow;
+            background-color: rgb(138, 193, 186);
+        }
+}
+
+.picshare-title {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 138px;
+    margin-left: 48px;
+    margin-bottom: 5px;
+}
+
+.picshare-description {
+    font-size: 13px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin-left: 48px;
+    margin-top: 0px;
+}
+        
+.picshare-photo-div {
+    overflow: hidden;
+    width: 345px;
+    height: 200px;
+
+    .picshare-photo {
+        width: 345px;
+        height: auto;
+    }
+}
+
+// Project Five
+
+.project-five {
     vertical-align: top;
     margin-top: 20px;
     margin-right: 30px;
@@ -257,7 +408,7 @@ body {
         
 .mobber-photo-div {
     width: 345px;
-    height: 250px;
+    height: 200px;
     overflow: hidden;
 
     .mobber-photo {
@@ -266,7 +417,9 @@ body {
     }
 }
 
-.project-three {
+// Project Six
+
+.project-six {
     margin-top: 20px;      
     margin-left: 30px;
     margin-bottom: 120px;
@@ -277,6 +430,8 @@ body {
     height: 410px;
     border-radius: 0px 0px 3px 3px;
     box-shadow: 0px 0px 7px -3px silver;
+    text-decoration: none;
+    color: rgb(46, 49, 51);
 
     &:hover {
         color: snow;
