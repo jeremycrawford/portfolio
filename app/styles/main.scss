@@ -136,6 +136,27 @@ body {
     }
 }
 
+.scroll-up-btn {
+    top: 692px;
+    position: fixed;
+    right: 10px;
+    display: inline-block;
+    margin: 0 auto;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    background: url(/images/up-arrow-white.png) no-repeat;
+    background-size: 100%;
+    opacity: .5;
+
+    &:hover {
+        background: url(/images/up-arrow-green.png) no-repeat;
+        background-size: 100%;
+        opacity: .5;
+    }
+}
+
 // Main Section End
 
 
@@ -516,10 +537,11 @@ body {
 }
 
 .social-links {
+    padding-left: 155px;
     margin: 0 auto;
     margin-top: 60px;
-    width: 26%;
-    height: 80px;
+    width: 50%;
+    height: 85px;
 }
 
 .github {
@@ -527,8 +549,8 @@ body {
     margin: 0 auto;
     margin-right: 20px;
     border-radius: 50%;
-    width: 75px;
-    height: 75px;
+    width: 85px;
+    height: 85px;
     background: url(/images/mark-light-green.png) no-repeat;
     background-size: 100%;
 
@@ -543,8 +565,8 @@ body {
     margin: 0 auto;
     margin-right: 20px;
     border-radius: 50%;
-    width: 75px;
-    height: 75px;
+    width: 85px;
+    height: 85px;
     background: url(/images/linkedin-light-green.png) no-repeat;
     background-size: 100%;
 
@@ -559,8 +581,8 @@ body {
     margin: 0 auto;
     margin-right: 20px;
     border-radius: 50%;
-    width: 75px;
-    height: 75px;
+    width: 85px;
+    height: 85px;
     background: url(/images/wordpress-light-green.png) no-repeat;
     background-size: 100%;
 
@@ -574,8 +596,8 @@ body {
     display: inline-block;
     margin: 0 auto;
     border-radius: 50%;
-    width: 75px;
-    height: 75px;
+    width: 85px;
+    height: 85px;
     background: url(/images/twiiter-light-green.png) no-repeat;
     background-size: 100%;
 
