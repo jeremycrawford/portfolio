@@ -18,7 +18,7 @@ body {
     width: 1193px;
 }
 // Main Section Start
-.main {
+#main {
     width: 100%;
     height: 780px;
     overflow: hidden;
@@ -48,18 +48,18 @@ body {
     h1 {
         text-align: center;
         color: white;
-        text-transform: uppercase;
+        text-transform: capitalize;
         padding-top: 70px;
-        font-size: 50px;
-        font-weight: 200;
-        letter-spacing: 1px;
+        font-size: 57px;
+        font-weight: 100;
+        letter-spacing: 2px;
     }
 
     p {
         margin-top: 5px;
         text-align: center;
         letter-spacing: 2px;
-        color: silver;
+        color: white;
         text-transform: uppercase;
         font-size: 13px;
     }
@@ -77,19 +77,21 @@ body {
     position: relative;
 }
 
-.work-btn {
-    text-transform: uppercase;
+#work-btn {
+    text-transform: capitalize;
     width: 150px;
     height: 45px;
     color: silver;
     border: 2px solid rgb(138, 193, 186);
-    line-height: 38px;
+    line-height: 36px;
     text-align: center;
     padding-top: 3px;
     margin: 0 auto;
     margin-top: 30px;
     margin-right: 20px;
     display: inline-block;
+    font-weight: 200;
+    letter-spacing: 1px;
 
     &:hover {
 
@@ -97,19 +99,21 @@ body {
     }
 }
 
-.about-btn {
-    text-transform: uppercase;
+#about-btn {
+    text-transform: capitalize;
     width: 150px;
     height: 45px;
     color: silver;
     border: 2px solid rgb(138, 193, 186);
-    line-height: 38px;
+    line-height: 36px;
     text-align: center;
     padding-top: 3px;
     margin: 0 auto;
     margin-top: 30px;
     margin-right: 20px;
     display: inline-block;
+    font-weight: 200;
+    letter-spacing: 1px;
 
     &:hover {
 
@@ -117,18 +121,20 @@ body {
     }
 }
 
-.contact-btn {
-    text-transform: uppercase;
+#contact-btn {
+    text-transform: capitalize;
     width: 150px;
     height: 45px;
     color: silver;
     border: 2px solid rgb(138, 193, 186);
-    line-height: 38px;
+    line-height: 36px;
     text-align: center;
     padding-top: 3px;
     margin: 0 auto;
     margin-top: 30px;
     display: inline-block;
+    font-weight: 200;
+    letter-spacing: 1px;
 
     &:hover {
 
@@ -136,7 +142,7 @@ body {
     }
 }
 
-.scroll-up-btn {
+#scroll-up-btn {
     top: 692px;
     position: fixed;
     right: 10px;
@@ -149,6 +155,7 @@ body {
     background: url(/images/up-arrow-white.png) no-repeat;
     background-size: 100%;
     opacity: .5;
+    transition-duration: .7s;
 
     &:hover {
         background: url(/images/up-arrow-green.png) no-repeat;
@@ -169,7 +176,7 @@ body {
 
 // Work Section Start
 
-.work {
+#work {
     background-color: rgb(244, 244, 244);
     width: 100%;
     height: auto;
@@ -203,6 +210,7 @@ body {
     border-radius: 2px;
     box-shadow: 0px 0px 7px -3px silver;
     color: rgb(46, 49, 51);
+    transition-duration: .6s; 
 
     &:hover {
             color: snow;
@@ -253,6 +261,7 @@ body {
     border-radius: 2px;
     box-shadow: 0px 0px 7px -3px silver;
     color: rgb(46, 49, 51);
+    transition-duration: .6s;
 
     &:hover {
             color: snow;
@@ -303,6 +312,7 @@ body {
     box-shadow: 0px 0px 7px -3px silver;
     text-decoration: none;
     color: rgb(46, 49, 51);
+    transition-duration: .6s;
 
     &:hover {
         color: snow;
@@ -353,6 +363,7 @@ body {
     border-radius: 2px;
     box-shadow: 0px 0px 7px -3px silver;
     color: rgb(46, 49, 51);
+    transition-duration: .6s;
 
     &:hover {
             color: snow;
@@ -403,6 +414,7 @@ body {
     border-radius: 2px;
     box-shadow: 0px 0px 7px -3px silver;
     color: rgb(46, 49, 51);
+    transition-duration: .6s;
 
     &:hover {
             color: snow;
@@ -453,6 +465,7 @@ body {
     box-shadow: 0px 0px 7px -3px silver;
     text-decoration: none;
     color: rgb(46, 49, 51);
+    transition-duration: .6s;
 
     &:hover {
         color: snow;
@@ -502,13 +515,13 @@ body {
 
 
 
-.about {
+#about {
     background-color: rgb(138, 193, 186);
     width: 100%;
     height: 525px; 
 }
 
-.footer {
+#footer {
     background-color: rgb(46, 49, 51);
     width: 100%;
     height: 500px;
@@ -537,9 +550,10 @@ body {
 }
 
 .social-links {
-    padding-left: 155px;
+    padding-left: 100px;
     margin: 0 auto;
-    margin-top: 60px;
+    margin-top: 95px;
+    margin-bottom: 115px;
     width: 50%;
     height: 85px;
 }
@@ -553,6 +567,7 @@ body {
     height: 85px;
     background: url(/images/mark-light-green.png) no-repeat;
     background-size: 100%;
+    transition-duration: .7s;
 
     &:hover {
         background: url(/images/mark-white.png) no-repeat;
@@ -569,6 +584,7 @@ body {
     height: 85px;
     background: url(/images/linkedin-light-green.png) no-repeat;
     background-size: 100%;
+    transition-duration: .7s;
 
     &:hover {
         background: url(/images/linkedin-white.png) no-repeat;
@@ -585,6 +601,7 @@ body {
     height: 85px;
     background: url(/images/wordpress-light-green.png) no-repeat;
     background-size: 100%;
+    transition-duration: .7s;
 
     &:hover {
         background: url(/images/wordpress-white.png) no-repeat;
@@ -595,11 +612,13 @@ body {
 .twitter {
     display: inline-block;
     margin: 0 auto;
+    margin-right: 20px;
     border-radius: 50%;
     width: 85px;
     height: 85px;
     background: url(/images/twiiter-light-green.png) no-repeat;
     background-size: 100%;
+    transition-duration: .7s;
 
     &:hover {
         background: url(/images/twiiter-white.png) no-repeat;
@@ -607,17 +626,23 @@ body {
     }
 }
 
-.email {
-    margin-top: 60px;
+.mail {
+    display: inline-block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+    background: url(/images/mail-light-green.png) no-repeat;
+    background-size: 100%;
+    transition-duration: .7s;
 
-    .email-address {
-        letter-spacing: 1px;
-        text-align: center;
-        font-size: 12px;
-        color: rgb(138, 193, 186);
-        font-weight: 200;
+    &:hover {
+        background: url(/images/mail-white.png) no-repeat;
+        background-size: 100%;
     }
 }
+
+
 
 .bottom-line {
     margin-top: 75px;
