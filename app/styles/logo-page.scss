@@ -358,17 +358,148 @@ body {
 
 
 
-.about {
-    background-color: rgb(138, 193, 186);
-    width: 100%;
-    height: 390px; 
-}
-
-.footer {
+#footer {
     background-color: rgb(46, 49, 51);
     width: 100%;
-    height: 390px;
+    height: 500px;
 }
+
+.connect {
+    
+
+    .say-hello {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 500;
+        padding-top: 55px;
+        font-size: 24px;
+        color: rgb(138, 193, 186);
+        margin-top: 0px;
+        text-align: center;
+    }
+}
+
+.underline {
+    margin: 20px auto;
+    background-color: rgb(138, 193, 186);
+    width: 20px;
+    height: 2px;
+}
+
+.social-links {
+    padding-left: 100px;
+    margin: 0 auto;
+    margin-top: 95px;
+    margin-bottom: 115px;
+    width: 50%;
+    height: 85px;
+}
+
+.github {
+    display: inline-block;
+    margin: 0 auto;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+    background: url(/images/mark-light-green.png) no-repeat;
+    background-size: 100%;
+    transition-duration: .7s;
+
+    &:hover {
+        background: url(/images/mark-white.png) no-repeat;
+        background-size: 100%;
+    }
+}
+
+.linkedin {
+    display: inline-block;
+    margin: 0 auto;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+    background: url(/images/linkedin-light-green.png) no-repeat;
+    background-size: 100%;
+    transition-duration: .7s;
+
+    &:hover {
+        background: url(/images/linkedin-white.png) no-repeat;
+        background-size: 100%;
+    }
+}
+
+.wordpress {
+    display: inline-block;
+    margin: 0 auto;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+    background: url(/images/wordpress-light-green.png) no-repeat;
+    background-size: 100%;
+    transition-duration: .7s;
+
+    &:hover {
+        background: url(/images/wordpress-white.png) no-repeat;
+        background-size: 100%;
+    }
+}
+
+.twitter {
+    display: inline-block;
+    margin: 0 auto;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+    background: url(/images/twiiter-light-green.png) no-repeat;
+    background-size: 100%;
+    transition-duration: .7s;
+
+    &:hover {
+        background: url(/images/twiiter-white.png) no-repeat;
+        background-size: 100%;
+    }
+}
+
+.mail {
+    display: inline-block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+    background: url(/images/mail-light-green.png) no-repeat;
+    background-size: 100%;
+    transition-duration: .7s;
+
+    &:hover {
+        background: url(/images/mail-white.png) no-repeat;
+        background-size: 100%;
+    }
+}
+
+.bottom-line {
+    margin-top: 75px;
+    width: 100%;
+    height: 1px;
+    background-color: silver;
+    opacity: .2;
+}
+
+.copyright-div {
+    margin-top: 45px;
+
+    .copyright-info {
+        text-align: center;
+        font-size: 11px;
+        font-weight: 100;
+        color: silver;
+
+    }
+}
+
+// Footer End
 
 
 

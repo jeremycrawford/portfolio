@@ -177,7 +177,7 @@ body {
 // Work Section Start
 
 #work {
-    background-color: rgb(244, 244, 244);
+    background-color: #E6E6E6;
     width: 100%;
     height: auto;
 }
@@ -521,10 +521,26 @@ body {
     height: 525px; 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+// Footer Start
+
+
 #footer {
     background-color: rgb(46, 49, 51);
+    background-size: 100% 100%;
     width: 100%;
-    height: 500px;
+    height: auto;
 }
 
 .connect {
@@ -550,7 +566,7 @@ body {
 }
 
 .social-links {
-    padding-left: 100px;
+    text-align: center;
     margin: 0 auto;
     margin-top: 95px;
     margin-bottom: 115px;
@@ -642,8 +658,6 @@ body {
     }
 }
 
-
-
 .bottom-line {
     margin-top: 75px;
     width: 100%;
@@ -654,6 +668,7 @@ body {
 
 .copyright-div {
     margin-top: 45px;
+    padding-bottom: 25px;
 
     .copyright-info {
         text-align: center;
@@ -664,6 +679,7 @@ body {
     }
 }
 
+// Footer End
 
 // /* Smartphones (portrait and landscape) ----------- */
 // @media only screen 
