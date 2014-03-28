@@ -195,9 +195,40 @@ body {
     }
 }
 
-// Project one start
+// Project Container Content Styles
 
-.project-one {
+.project-photo-container {
+    overflow: hidden;
+    width: 345px;
+    height: 200px;
+}
+
+.project-photo {
+    width: 345px;
+    height: auto;
+}
+
+.project-title {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 138px;
+    margin-left: 48px;
+    margin-bottom: 5px;
+}
+
+.project-description {
+    font-size: 13px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin-left: 48px;
+    margin-top: 0px;
+}
+        
+
+// Project Container One
+
+.project-one-container {
     vertical-align: top;
     margin-top: 20px;
     margin-right: 60px;
@@ -218,37 +249,9 @@ body {
         }
 }
 
-.mello-yellow-title {
-    font-size: 14px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    margin-top: 138px;
-    margin-left: 48px;
-    margin-bottom: 5px;
-}
+// Project Container Two
 
-.mello-yellow-description {
-    font-size: 13px;
-    font-weight: 200;
-    letter-spacing: 1px;
-    margin-left: 48px;
-    margin-top: 0px;
-}
-        
-.mello-yellow-photo-div {
-    overflow: hidden;
-    width: 345px;
-    height: 200px;
-
-    .mello-yellow-photo {
-        width: 345px;
-        height: auto;
-    }
-}
-
-// Projects two start
-
-.project-two {
+.project-two-container {
     vertical-align: top;
     margin-top: 20px;
     margin-right: 30px;
@@ -269,37 +272,9 @@ body {
         }
 }
 
-.logos-title {
-    font-size: 14px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    margin-top: 138px;
-    margin-left: 48px;
-    margin-bottom: 5px;
-}
+// Project Container Three
 
-.logos-description {
-    font-size: 13px;
-    font-weight: 200;
-    letter-spacing: 1px;
-    margin-left: 48px;
-    margin-top: 0px;
-}
-        
-.logos-photo-div {
-    width: 345px;
-    height: 200px;
-    overflow: hidden;
-
-    .logos-photo {
-        width: 345px;
-        height: auto;
-    }
-}
-
-// Project Three
-
-.project-three {
+.project-three-container {
     margin-top: 20px;      
     margin-left: 30px;
     margin-bottom: 120px;
@@ -320,37 +295,9 @@ body {
     }
 }
 
-.todo-app-title {
-    font-size: 14px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    margin-top: 138px;
-    margin-left: 48px;
-    margin-bottom: 5px;
-}
+// Project Container Four
 
-.todo-app-description {
-    font-size: 13px;
-    font-weight: 200;
-    letter-spacing: 1px;
-    margin-left: 48px;
-    margin-top: 0px;
-}
-        
-.todo-app-photo-div {
-    width: 345px;
-    height: 200px;
-    overflow: hidden;
-
-    .todo-app-photo {
-        width: 445px;
-        height: auto;
-    }
-}
-
-// Project Four
-
-.project-four {
+.project-four-container {
     vertical-align: top;
     margin-top: 20px;
     margin-right: 60px;
@@ -371,37 +318,9 @@ body {
         }
 }
 
-.picshare-title {
-    font-size: 14px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    margin-top: 138px;
-    margin-left: 48px;
-    margin-bottom: 5px;
-}
+// Project Container Five
 
-.picshare-description {
-    font-size: 13px;
-    font-weight: 200;
-    letter-spacing: 1px;
-    margin-left: 48px;
-    margin-top: 0px;
-}
-        
-.picshare-photo-div {
-    overflow: hidden;
-    width: 345px;
-    height: 200px;
-
-    .picshare-photo {
-        width: 345px;
-        height: auto;
-    }
-}
-
-// Project Five
-
-.project-five {
+.project-five-container {
     vertical-align: top;
     margin-top: 20px;
     margin-right: 30px;
@@ -422,37 +341,9 @@ body {
         }
 }
 
-.mobber-title {
-    font-size: 14px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    margin-top: 138px;
-    margin-left: 48px;
-    margin-bottom: 5px;
-}
+// Project Container Six
 
-.mobber-description {
-    font-size: 13px;
-    font-weight: 200;
-    letter-spacing: 1px;
-    margin-left: 48px;
-    margin-top: 0px;
-}
-        
-.mobber-photo-div {
-    width: 345px;
-    height: 200px;
-    overflow: hidden;
-
-    .mobber-photo {
-        width: 445px;
-        height: auto;
-    }
-}
-
-// Project Six
-
-.project-six {
+.project-six-container {
     margin-top: 20px;      
     margin-left: 30px;
     margin-bottom: 120px;
@@ -470,34 +361,6 @@ body {
     &:hover {
         color: snow;
         background-color: rgb(138, 193, 186);
-    }
-}
-
-.mobber-title {
-    font-size: 14px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    margin-top: 138px;
-    margin-left: 48px;
-    margin-bottom: 5px;
-}
-
-.mobber-description {
-    font-size: 13px;
-    font-weight: 200;
-    letter-spacing: 1px;
-    margin-left: 48px;
-    margin-top: 0px;
-}
-        
-.mobber-photo-div {
-    width: 345px;
-    height: 200px;
-    overflow: hidden;
-
-    .mobber-photo {
-        width: 445px;
-        height: auto;
     }
 }
 
