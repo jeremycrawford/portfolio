@@ -172,16 +172,6 @@ body {
     text-align: center;
 }
 
-// Project Container Content Styles
-
-// .project-photo-container {
-//     margin: 0 auto;
-//     text-align: center;
-//     overflow: hidden;
-//     width: 345px;
-//     height: auto;
-// }
-
 .project-photo {
     width: 250px;
     height: auto;
@@ -213,20 +203,20 @@ body {
     vertical-align: top;
     margin-top: 20px;
     margin-right: 40px;
-    margin-bottom: 120px;
+    margin-bottom: 20px;
     position: relative;
     display: inline-block;
     background-color: snow;
     width: 380px;
     height: 330px;
-    border-radius: 2px;
+    border-radius: 3px;
     box-shadow: 6px 6px 0px 0px silver;
     color: rgb(46, 49, 51); 
 }
 
 .get-logo-container {
     width: 350px;
-    height: 350px;
+    height: 330px;
     margin: 0 auto;
 
     .get-logo {
@@ -255,20 +245,20 @@ body {
     vertical-align: top;
     margin-top: 20px;
     margin-right: 40px;
-    margin-bottom: 120px;
+    margin-bottom: 20px;
     position: relative;
     display: inline-block;
     background-color: snow;
     width: 380px;
     height: 330px;
-    border-radius: 2px;
+    border-radius: 3px;
     box-shadow: 6px 6px 0px 0px silver;
     color: rgb(46, 49, 51);
 }
 
 .rivera-logo-container {
     width: 350px;
-    height: 350px;
+    height: 330px;
     margin: 0 auto;
 
     .rivera-logo {
@@ -293,13 +283,13 @@ body {
 
 .project-three-container {
     margin-top: 20px;      
-    margin-bottom: 120px;
+    margin-bottom: 20px;
     position: relative;
     display: inline-block;
     background-color: snow;
     width: 380px;
     height: 330px;
-    border-radius: 0px 0px 3px 3px;
+    border-radius: 3px;
     box-shadow: 6px 6px 0px 0px silver;
     text-decoration: none;
     color: rgb(46, 49, 51);
@@ -307,7 +297,7 @@ body {
 
 .golf-slayer-logo-container {
     width: 350px;
-    height: 350px;
+    height: 330px;
     margin: 0 auto;
 
     .golf-slayer-logo {
@@ -322,6 +312,121 @@ body {
 
         &:hover {
             background: url(/images/golf-slayer-color.png) no-repeat;
+            background-size: 100%;
+            opacity: 1;
+        }
+    }
+}
+
+// Project Container Three
+
+.project-four-container {
+    margin-top: 20px;
+    margin-right: 40px;      
+    margin-bottom: 120px;
+    position: relative;
+    display: inline-block;
+    background-color: snow;
+    width: 380px;
+    height: 330px;
+    border-radius: 3px;
+    box-shadow: 6px 6px 0px 0px silver;
+    text-decoration: none;
+    color: rgb(46, 49, 51);
+}
+
+.my-yellow-logo-container {
+    width: 350px;
+    height: 330px;
+    margin: 0 auto;
+
+    .my-yellow-logo {
+        display: inline-block;
+        width: 278px;
+        margin-top: 27px;
+        height: 280px;
+        background: url(/images/my-yellow-gray.png) no-repeat;
+        background-size: 100%;
+        transition-duration: .7s;
+        opacity: .7;
+
+        &:hover {
+            background: url(/images/my-yellow-color.png) no-repeat;
+            background-size: 100%;
+            opacity: 1;
+        }
+    }
+}
+
+.project-five-container {
+    margin-top: 20px;
+    margin-right: 40px;      
+    margin-bottom: 120px;
+    position: relative;
+    display: inline-block;
+    background-color: snow;
+    width: 380px;
+    height: 330px;
+    border-radius: 3px;
+    box-shadow: 6px 6px 0px 0px silver;
+    text-decoration: none;
+    color: rgb(46, 49, 51);
+}
+
+.queen-city-logo-container {
+    width: 350px;
+    height: 330px;
+    margin: 0 auto;
+
+    .queen-city-logo {
+        display: inline-block;
+        width: 278px;
+        margin-top: 27px;
+        height: 280px;
+        background: url(/images/queen-city-fab-gray.png) no-repeat;
+        background-size: 100%;
+        transition-duration: .7s;
+        opacity: .7;
+
+        &:hover {
+            background: url(/images/queen-city-fab-color.png) no-repeat;
+            background-size: 100%;
+            opacity: 1;
+        }
+    }
+}
+
+.project-six-container {
+    margin-top: 20px;     
+    margin-bottom: 120px;
+    position: relative;
+    display: inline-block;
+    background-color: snow;
+    width: 380px;
+    height: 330px;
+    border-radius: 3px;
+    box-shadow: 6px 6px 0px 0px silver;
+    text-decoration: none;
+    color: rgb(46, 49, 51);
+}
+
+.safe-logo-container {
+    width: 350px;
+    height: 330px;
+    margin: 0 auto;
+
+    .safe-logo {
+        display: inline-block;
+        width: 278px;
+        margin-top: 27px;
+        height: 280px;
+        background: url(/images/safe-logo-gray.png) no-repeat;
+        background-size: 100%;
+        transition-duration: .7s;
+        opacity: .7;
+
+        &:hover {
+            background: url(/images/safe-logo-color.png) no-repeat;
             background-size: 100%;
             opacity: 1;
         }
