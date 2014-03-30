@@ -17,21 +17,85 @@ body {
 .container {
     width: 1193px;
 }
-// Main Section Start
-.main {
+
+#header {
     width: 100%;
-    height: 780px;
-    overflow: hidden;
-    background-color: rgba(0, 0, 0, .6);
+    height: 80px;
+    background-color: rgb(46, 49, 51);
 }
 
-.background-image {
+.header-container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.header-logo-div {
+    padding-top: 5px;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+
+    .header-logo {
+        margin-top: 10px;
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.navigation-buttons {
+    display: inline-block;
+    float: right;
+
+    .profile-buttons {
+        font-weight: 100;
+        letter-spacing: 2px;
+        display: inline-block;
+        width: 121px;
+        height: 80px;
+        color: white;
+        border: none;
+        background-color: rgb(46, 49, 51);
+        line-height: 70px;
+        text-align: center;
+        padding-top: 3px;
+        margin: 0 auto;
+        -webkit-transition: all .2s ease-in-out;
+
+        &:hover {
+            background-color: rgba(0, 0, 0, .1);
+            border-bottom: 4px solid rgb(138, 193, 186);
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Main Section Start
+#main {
     width: 100%;
-    height: auto;
-    position: absolute;
-    background-size: cover;
-    background-position: center;
-    z-index: -100;
+    height: 250px;
+    overflow: hidden;
+    background-size: auto;
+    background-color: rgb(138, 193, 186);
 }
 
 .col-lg-12 {
@@ -42,17 +106,20 @@ body {
     h1 {
         text-align: center;
         color: white;
-        text-transform: uppercase;
-        padding-top: 150px;
-        font-size: 50px;
+        text-transform: capitalize;
+        padding-top: 70px;
+        font-size: 4em;
+        font-weight: 100;
+        letter-spacing: 2px;
     }
 
     p {
+        margin-top: 5px;
         text-align: center;
         letter-spacing: 2px;
-        color: silver;
+        color: white;
         text-transform: uppercase;
-        font-size: 16px;
+        font-size: 13px;
     }
 }
 
@@ -68,62 +135,90 @@ body {
     position: relative;
 }
 
-.work-btn {
-    text-transform: uppercase;
+#work-btn {
+    text-transform: capitalize;
     width: 150px;
     height: 45px;
     color: silver;
-    border: 2px solid #a4905b;
-    line-height: 38px;
+    border: 2px solid rgb(138, 193, 186);
+    line-height: 36px;
     text-align: center;
     padding-top: 3px;
     margin: 0 auto;
     margin-top: 30px;
     margin-right: 20px;
     display: inline-block;
+    font-weight: 200;
+    letter-spacing: 1px;
 
     &:hover {
 
-        background-color: rgba(164, 144, 91, .2);
+        background-color: rgba(138, 193, 186, .4);
     }
 }
 
-.about-btn {
-    text-transform: uppercase;
+#about-btn {
+    text-transform: capitalize;
     width: 150px;
     height: 45px;
     color: silver;
-    border: 2px solid #a4905b;
-    line-height: 38px;
+    border: 2px solid rgb(138, 193, 186);
+    line-height: 36px;
     text-align: center;
     padding-top: 3px;
     margin: 0 auto;
     margin-top: 30px;
     margin-right: 20px;
     display: inline-block;
+    font-weight: 200;
+    letter-spacing: 1px;
 
     &:hover {
 
-        background-color: rgba(164, 144, 91, .2);
+        background-color: rgba(138, 193, 186, .4);
     }
 }
 
-.contact-btn {
-    text-transform: uppercase;
+#contact-btn {
+    text-transform: capitalize;
     width: 150px;
     height: 45px;
     color: silver;
-    border: 2px solid #a4905b;
-    line-height: 38px;
+    border: 2px solid rgb(138, 193, 186);
+    line-height: 36px;
     text-align: center;
     padding-top: 3px;
     margin: 0 auto;
     margin-top: 30px;
     display: inline-block;
+    font-weight: 200;
+    letter-spacing: 1px;
 
     &:hover {
 
-        background-color: rgba(164, 144, 91, .2);
+        background-color: rgba(138, 193, 186, .4);
+    }
+}
+
+#scroll-up-btn {
+    top: 692px;
+    position: fixed;
+    right: 10px;
+    display: inline-block;
+    margin: 0 auto;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    background: url(/images/up-arrow-white.png) no-repeat;
+    background-size: 100%;
+    opacity: .5;
+    transition-duration: .7s;
+
+    &:hover {
+        background: url(/images/up-arrow-green.png) no-repeat;
+        background-size: 100%;
+        opacity: .5;
     }
 }
 
@@ -139,55 +234,60 @@ body {
 
 // Work Section Start
 
-.work {
-    background-color: rgb(244, 244, 244);
+#work {
+    background-color: #DADADA;
     width: 100%;
     height: auto;
 }
 
+.work-container {
+    width: 100%;
+    text-align: center;
+}
+
 .work-header {
-    margin-top: 50px;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 0px;
 
     .work-intro {
-        opacity: .7;
         letter-spacing: 1px;
-        line-height: 33px;
-        color: rgb(46, 49, 51);
+        padding-left: 200px;
+        padding-right: 200px;
+        line-height: 60px;
+        color: #2e3133;
         font-weight: 100;
-        font-size: 26px;
+        font-size: 30px;
     }
 }
 
-// Project one start
+// Project Container Content Styles
 
-.project-one {
-    vertical-align: top;
-    margin-top: 20px;
-    position: relative;
-    margin-right: 60px;
-    display: inline-block;
-    background-color: snow;
-    width: 345px;
-    height: 410px;
-    border-radius: 2px;
-    box-shadow: 0px 0px 7px -3px silver;
-    color: rgb(46, 49, 51);
+// .project-photo-container {
+//     margin: 0 auto;
+//     text-align: center;
+//     overflow: hidden;
+//     width: 345px;
+//     height: auto;
+// }
 
-    &:hover {
-            color: snow;
-            background-color: rgb(138, 193, 186);
-        }
+.project-photo {
+    width: 250px;
+    height: auto;
+
+
 }
 
-.mobber-title {
+.project-title {
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
+    margin-top: 138px;
     margin-left: 48px;
     margin-bottom: 5px;
 }
 
-.mobber-description {
+.project-description {
     font-size: 13px;
     font-weight: 200;
     letter-spacing: 1px;
@@ -195,153 +295,126 @@ body {
     margin-top: 0px;
 }
         
-.mobber-photo-div {
-    border-radius: 50%;
-    margin: 48px;
-    width: 250px;
-    height: 250px;
-    overflow: hidden;
 
-    .mobber-photo {
-        width: 445px;
-        height: auto;
+// Project Container One
+
+.project-one-container {
+    vertical-align: top;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 120px;
+    position: relative;
+    display: inline-block;
+    background-color: snow;
+    width: 400px;
+    height: 350px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 7px -3px silver;
+    color: rgb(46, 49, 51); 
+}
+
+.get-logo-container {
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+
+    .get-logo {
+        margin-top: 27px;
+        display: inline-block;
+        width: 300px;
+        height: 320px;
+        background: url(/images/get-a-gig-logo-gray.png) no-repeat;
+        background-size: 100%;
+        transition-duration: .7s;
+        opacity: .7;
+
+        &:hover {
+            background: url(/images/get-a-gig-logo.png) no-repeat;
+            background-size: 100%;
+            opacity: 1;
+        }
     }
 }
 
-// Projects two start
 
-.project-two {
+
+// Project Container Two
+
+.project-two-container {
     vertical-align: top;
     margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 120px;
     position: relative;
-    margin-right: 30px;
     display: inline-block;
     background-color: snow;
-    width: 345px;
-    height: 410px;
+    width: 400px;
+    height: 350px;
     border-radius: 2px;
     box-shadow: 0px 0px 7px -3px silver;
     color: rgb(46, 49, 51);
+}
 
-    &:hover {
-            color: snow;
-            background-color: rgb(138, 193, 186);
+.rivera-logo-container {
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+
+    .rivera-logo {
+        display: inline-block;
+        width: 335px;
+        margin-top: 4px;
+        height: 350px;
+        background: url(/images/rivera-logo-gray.png) no-repeat;
+        background-size: 100%;
+        transition-duration: .7s;
+        opacity: .7;
+
+        &:hover {
+            background: url(/images/rivera-logo-color.png) no-repeat;
+            background-size: 100%;
+            opacity: 1;
         }
-}
-
-.mobber-title {
-    font-size: 14px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    margin-left: 48px;
-    margin-bottom: 5px;
-}
-
-.mobber-description {
-    font-size: 13px;
-    font-weight: 200;
-    letter-spacing: 1px;
-    margin-left: 48px;
-    margin-top: 0px;
-}
-        
-.mobber-photo-div {
-    border-radius: 50%;
-    margin: 48px;
-    width: 250px;
-    height: 250px;
-    overflow: hidden;
-
-    .mobber-photo {
-        width: 445px;
-        height: auto;
     }
 }
 
-.project-three {
+// Project Container Three
+
+.project-three-container {
     margin-top: 20px;      
+    margin-bottom: 120px;
     position: relative;
-    margin-left: 30px;
     display: inline-block;
     background-color: snow;
-    width: 345px;
-    height: 410px;
+    width: 400px;
+    height: 350px;
     border-radius: 0px 0px 3px 3px;
     box-shadow: 0px 0px 7px -3px silver;
+    text-decoration: none;
+    color: rgb(46, 49, 51);
+}
 
-    &:hover {
-        color: snow;
-        background-color: rgb(138, 193, 186);
+.golf-slayer-logo-container {
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+
+    .golf-slayer-logo {
+        display: inline-block;
+        width: 300px;
+        margin-top: 27px;
+        height: 350px;
+        background: url(/images/golf-slayer-gray.png) no-repeat;
+        background-size: 100%;
+        transition-duration: .7s;
+        opacity: .7;
+
+        &:hover {
+            background: url(/images/golf-slayer-color.png) no-repeat;
+            background-size: 100%;
+            opacity: 1;
+        }
     }
-}
-
-.mobber-title {
-    font-size: 14px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    margin-left: 48px;
-    margin-bottom: 5px;
-}
-
-.mobber-description {
-    font-size: 13px;
-    font-weight: 200;
-    letter-spacing: 1px;
-    margin-left: 48px;
-    margin-top: 0px;
-}
-        
-.mobber-photo-div {
-    border-radius: 50%;
-    margin: 48px;
-    width: 250px;
-    height: 250px;
-    overflow: hidden;
-
-    .mobber-photo {
-        width: 445px;
-        height: auto;
-    }
-}
-
-.project-four {
-    margin-top: 60px;
-    margin-right: 60px;
-    margin-bottom: 60px;
-    position: relative;
-    vertical-align: top;
-    display: inline-block;
-    background-color: snow;
-    width: 345px;
-    height: 410px;
-    border-radius: 0px 0px 3px 3px;
-    box-shadow: 0px 0px 7px -3px silver;
-}
-
-.project-five {
-    margin-top: 60px;
-    margin-bottom: 60px;
-    position: relative;
-    margin-right: 30px;
-    display: inline-block;
-    background-color: snow;
-    width: 345px;
-    height: 410px;
-    border-radius: 0px 0px 3px 3px;
-    box-shadow: 0px 0px 7px -3px silver;
-}
-
-.project-six {
-    margin-top: 60px;      
-    margin-left: 30px;
-    margin-bottom: 60px;
-    position: relative;
-    display: inline-block;
-    background-color: snow;
-    width: 345px;
-    height: 410px;
-    border-radius: 0px 0px 3px 3px;
-    box-shadow: 0px 0px 7px -3px silver;
 }
 
 // Work Section End
@@ -358,10 +431,14 @@ body {
 
 
 
+// Footer Start
+
+
 #footer {
     background-color: rgb(46, 49, 51);
+    background-size: 100% 100%;
     width: 100%;
-    height: 500px;
+    height: auto;
 }
 
 .connect {
@@ -387,11 +464,11 @@ body {
 }
 
 .social-links {
-    padding-left: 100px;
+    text-align: center;
     margin: 0 auto;
     margin-top: 95px;
     margin-bottom: 115px;
-    width: 50%;
+    width: 100%;
     height: 85px;
 }
 
@@ -446,6 +523,7 @@ body {
     }
 }
 
+
 .twitter {
     display: inline-block;
     margin: 0 auto;
@@ -489,6 +567,7 @@ body {
 
 .copyright-div {
     margin-top: 45px;
+    padding-bottom: 25px;
 
     .copyright-info {
         text-align: center;

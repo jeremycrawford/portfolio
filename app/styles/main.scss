@@ -15,29 +15,42 @@ body {
 }
 
 .container {
-    width: 1193px;
+    width: 100%;
 }
 // Main Section Start
 #main {
     width: 100%;
     height: 780px;
     overflow: hidden;
+    background-size: auto;
     background-color: rgba(0, 0, 0, .7);
 }
 
 .background-image {
     width: 100%;
     height: auto;
-    position: absolute;
+    position: fixed;
     background-size: cover;
     background-position: center;
     z-index: -100;
+
+    /* Smartphones (landscape) ----------- */
+    @media screen and (max-width : 768px) {
+        width: auto;
+        height: 100%;
+    }
 }
 
 .logo {
     margin-top: 100px;
     width: 100px;
     height: auto;
+
+    /* Smartphones (landscape) ----------- */
+    @media screen and (max-width : 768px) {
+        width: 50px;
+        height: auto;
+    }
 }
 
 .col-lg-12 {
@@ -50,7 +63,7 @@ body {
         color: white;
         text-transform: capitalize;
         padding-top: 70px;
-        font-size: 57px;
+        font-size: 4em;
         font-weight: 100;
         letter-spacing: 2px;
     }
@@ -174,16 +187,29 @@ body {
 
 
 
+
+
+
+
+
+
 // Work Section Start
 
 #work {
-    background-color: #E6E6E6;
+    background-color: #DADADA;
     width: 100%;
     height: auto;
 }
 
+.work-container {
+    width: 100%;
+    padding-left: 9.5%;
+}
+
 .work-header {
-    margin-top: 50px;
+    padding-left: 9.5%;
+    padding-top: 30px;
+    margin-top: 0px;
 
     .work-intro {
         opacity: .7;
@@ -254,7 +280,7 @@ body {
 .project-two-container {
     vertical-align: top;
     margin-top: 20px;
-    margin-right: 30px;
+    margin-right: 60px;
     margin-bottom: 120px;
     position: relative;
     display: inline-block;
@@ -276,7 +302,6 @@ body {
 
 .project-three-container {
     margin-top: 20px;      
-    margin-left: 30px;
     margin-bottom: 120px;
     position: relative;
     display: inline-block;
@@ -323,7 +348,7 @@ body {
 .project-five-container {
     vertical-align: top;
     margin-top: 20px;
-    margin-right: 30px;
+    margin-right: 60px;
     margin-bottom: 120px;
     position: relative;
     display: inline-block;
@@ -345,7 +370,6 @@ body {
 
 .project-six-container {
     margin-top: 20px;      
-    margin-left: 30px;
     margin-bottom: 120px;
     position: relative;
     display: inline-block;
@@ -433,7 +457,7 @@ body {
     margin: 0 auto;
     margin-top: 95px;
     margin-bottom: 115px;
-    width: 50%;
+    width: 100%;
     height: 85px;
 }
 
@@ -547,9 +571,9 @@ body {
 
 // /* Smartphones (portrait and landscape) ----------- */
 // @media only screen 
-// and (min-device-width : 320px) 
-// and (max-device-width : 480px) {
-// /* Styles */
+// and (min-device-width : 768px) 
+// and (max-device-width : 1024px) {
+
 // }
 
 // /* Smartphones (landscape) ----------- */
