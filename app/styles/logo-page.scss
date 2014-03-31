@@ -48,7 +48,7 @@ body {
     display: inline-block;
     float: right;
 
-    .profile-buttons {
+    .home-button {
         font-weight: 100;
         letter-spacing: 2px;
         display: inline-block;
@@ -69,6 +69,51 @@ body {
         }
     }
 }
+
+#contact-button {
+    font-weight: 100;
+    letter-spacing: 2px;
+    display: inline-block;
+    width: 121px;
+    height: 80px;
+    color: white;
+    border: none;
+    background-color: rgb(46, 49, 51);
+    line-height: 70px;
+    text-align: center;
+    padding-top: 3px;
+    margin: 0 auto;
+    -webkit-transition: all .2s ease-in-out;
+
+    &:hover {
+        background-color: rgba(0, 0, 0, .1);
+        border-bottom: 4px solid rgb(138, 193, 186);
+    }
+}
+
+#scroll-up-btn {
+    top: 692px;
+    position: fixed;
+    right: 10px;
+    display: inline-block;
+    margin: 0 auto;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    background: url(/images/up-arrow-white.png) no-repeat;
+    background-size: 100%;
+    opacity: .5;
+    transition-duration: .7s;
+
+    &:hover {
+        background: url(/images/up-arrow-green.png) no-repeat;
+        background-size: 100%;
+        opacity: .5;
+    }
+}
+
+
 
 
 
@@ -124,28 +169,6 @@ body {
     color: white;
     font-weight: 100;
     font-size: 20px;
-}
-
-#scroll-up-btn {
-    top: 692px;
-    position: fixed;
-    right: 10px;
-    display: inline-block;
-    margin: 0 auto;
-    margin-right: 20px;
-    border-radius: 50%;
-    width: 65px;
-    height: 65px;
-    background: url(/images/up-arrow-white.png) no-repeat;
-    background-size: 100%;
-    opacity: .5;
-    transition-duration: .7s;
-
-    &:hover {
-        background: url(/images/up-arrow-green.png) no-repeat;
-        background-size: 100%;
-        opacity: .5;
-    }
 }
 
 // Main Section End
@@ -323,7 +346,7 @@ body {
 .project-four-container {
     margin-top: 20px;
     margin-right: 40px;      
-    margin-bottom: 120px;
+    margin-bottom: 20px;
     position: relative;
     display: inline-block;
     background-color: snow;
@@ -361,7 +384,7 @@ body {
 .project-five-container {
     margin-top: 20px;
     margin-right: 40px;      
-    margin-bottom: 120px;
+    margin-bottom: 20px;
     position: relative;
     display: inline-block;
     background-color: snow;
@@ -398,7 +421,7 @@ body {
 
 .project-six-container {
     margin-top: 20px;     
-    margin-bottom: 120px;
+    margin-bottom: 20px;
     position: relative;
     display: inline-block;
     background-color: snow;
@@ -432,6 +455,122 @@ body {
         }
     }
 }
+
+.project-seven-container {
+    margin-top: 20px;
+    margin-right: 40px;      
+    margin-bottom: 120px;
+    position: relative;
+    display: inline-block;
+    background-color: snow;
+    width: 380px;
+    height: 330px;
+    border-radius: 3px;
+    box-shadow: 6px 6px 0px 0px silver;
+    text-decoration: none;
+    color: rgb(46, 49, 51);
+}
+
+.river-logo-container {
+    width: 350px;
+    height: 330px;
+    margin: 0 auto;
+
+    .river-logo {
+        display: inline-block;
+        width: 330px;
+        margin-top: 4px;
+        height: 315px;
+        background: url(/images/river-logo-gray.png) no-repeat;
+        background-size: 100%;
+        transition-duration: .7s;
+        opacity: .7;
+
+        &:hover {
+            background: url(/images/river-logo-color.png) no-repeat;
+            background-size: 100%;
+            opacity: 1;
+        }
+    }
+}
+
+.project-eight-container {
+    margin-top: 20px;
+    margin-right: 40px;      
+    margin-bottom: 120px;
+    position: relative;
+    display: inline-block;
+    background-color: snow;
+    width: 380px;
+    height: 330px;
+    border-radius: 3px;
+    box-shadow: 6px 6px 0px 0px silver;
+    text-decoration: none;
+    color: rgb(46, 49, 51);
+}
+
+.senior-logo-container {
+    width: 350px;
+    height: 330px;
+    margin: 0 auto;
+
+    .senior-logo {
+        display: inline-block;
+        width: 340px;
+        margin-top: 3px;
+        height: 315px;
+        background: url(/images/senior-services-logo-gray.png) no-repeat;
+        background-size: 100%;
+        transition-duration: .7s;
+        opacity: .7;
+
+        &:hover {
+            background: url(/images/senior-services-logo-color.png) no-repeat;
+            background-size: 100%;
+            opacity: 1;
+        }
+    }
+}
+
+.project-nine-container {
+    margin-top: 20px;    
+    margin-bottom: 120px;
+    position: relative;
+    display: inline-block;
+    background-color: snow;
+    width: 380px;
+    height: 330px;
+    border-radius: 3px;
+    box-shadow: 6px 6px 0px 0px silver;
+    text-decoration: none;
+    color: rgb(46, 49, 51);
+}
+
+.tinas-logo-container {
+    width: 350px;
+    height: 330px;
+    margin: 0 auto;
+
+    .tinas-logo {
+        display: inline-block;
+        width: 340px;
+        margin-top: 3px;
+        height: 315px;
+        background: url(/images/tees-cakery-logo-gray.png) no-repeat;
+        background-size: 100%;
+        transition-duration: .7s;
+        opacity: .7;
+
+        &:hover {
+            background: url(/images/tees-cakery-logo-color.png) no-repeat;
+            background-size: 100%;
+            opacity: 1;
+        }
+    }
+}
+
+
+
 
 // Work Section End
 

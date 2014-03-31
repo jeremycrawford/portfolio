@@ -1,7 +1,7 @@
 console.log('\'Allo \'Allo!');
 
 $("#work-btn").click(function() {
-    $('html, body').animate({
+    $('body').animate({
         scrollTop: $("#work").offset().top
     }, 1250);
 });
@@ -20,6 +20,5 @@ $("#contact-btn").click(function() {
 
 $("#scroll-up-btn").click(function() {
     $('html, body').animate({
-        scrollTop: $("#main").offset().top
-    }, 500);
+        scrollTop: 0}, 500);
 });
