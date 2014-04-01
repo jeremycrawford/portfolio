@@ -202,8 +202,10 @@ body {
 }
 
 .work-container {
+    padding-bottom: 100px;
     width: 100%;
     padding-left: 9.5%;
+    margin: 0 auto;
 }
 
 .work-header {
@@ -212,6 +214,7 @@ body {
     margin-top: 0px;
 
     .work-intro {
+        padding-left: 20px;
         opacity: .7;
         letter-spacing: 1px;
         line-height: 33px;
@@ -256,9 +259,7 @@ body {
 
 .project-one-container {
     vertical-align: top;
-    margin-top: 20px;
-    margin-right: 60px;
-    margin-bottom: 120px;
+    margin: 20px;
     position: relative;
     display: inline-block;
     background-color: snow;
@@ -279,9 +280,7 @@ body {
 
 .project-two-container {
     vertical-align: top;
-    margin-top: 20px;
-    margin-right: 60px;
-    margin-bottom: 120px;
+    margin: 20px;
     position: relative;
     display: inline-block;
     background-color: snow;
@@ -301,8 +300,7 @@ body {
 // Project Container Three
 
 .project-three-container {
-    margin-top: 20px;      
-    margin-bottom: 120px;
+    margin: 20px;      
     position: relative;
     display: inline-block;
     background-color: snow;
@@ -324,9 +322,7 @@ body {
 
 .project-four-container {
     vertical-align: top;
-    margin-top: 20px;
-    margin-right: 60px;
-    margin-bottom: 120px;
+    margin: 20px;
     position: relative;
     display: inline-block;
     background-color: snow;
@@ -347,9 +343,7 @@ body {
 
 .project-five-container {
     vertical-align: top;
-    margin-top: 20px;
-    margin-right: 60px;
-    margin-bottom: 120px;
+    margin: 20px;
     position: relative;
     display: inline-block;
     background-color: snow;
@@ -369,9 +363,8 @@ body {
 // Project Container Six
 
 .project-six-container {
-    margin-top: 20px;      
-    margin-bottom: 120px;
     position: relative;
+    margin: 20px;      
     display: inline-block;
     background-color: snow;
     width: 345px;
@@ -403,9 +396,22 @@ body {
 
 
 #about {
-    background-color: rgb(138, 193, 186);
+    background-color: rgba(138, 193, 186, .8);
     width: 100%;
     height: 525px; 
+}
+
+.about-me-copy {
+    margin-top: 0px;
+    padding-top: 94px;
+    text-align: center;
+    line-height: 37px;
+    letter-spacing: 1px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-weight: 400;
+    font-size: 28px;
+    color: snow;
 }
 
 
