@@ -155,28 +155,6 @@ body {
     }
 }
 
-#scroll-up-btn {
-    top: 692px;
-    position: fixed;
-    right: 10px;
-    display: inline-block;
-    margin: 0 auto;
-    margin-right: 20px;
-    border-radius: 50%;
-    width: 65px;
-    height: 65px;
-    background: url(/images/up-arrow-white.png) no-repeat;
-    background-size: 100%;
-    opacity: .5;
-    transition-duration: .7s;
-
-    &:hover {
-        background: url(/images/up-arrow-green.png) no-repeat;
-        background-size: 100%;
-        opacity: .5;
-    }
-}
-
 // Main Section End
 
 
@@ -403,14 +381,14 @@ body {
 
 .about-me-copy {
     margin-top: 0px;
-    padding-top: 94px;
+    padding-top: 128px;
     text-align: center;
-    line-height: 37px;
+    line-height: 38px;
     letter-spacing: 1px;
     padding-left: 150px;
     padding-right: 150px;
-    font-weight: 400;
-    font-size: 28px;
+    font-weight: 300;
+    font-size: 25px;
     color: snow;
 }
 
@@ -561,15 +539,42 @@ body {
 }
 
 .copyright-div {
-    margin-top: 45px;
+    margin-top: 20px;
     padding-bottom: 25px;
+    height: 85px;
+    width: 100%;
+    text-align: center;
 
     .copyright-info {
+        padding-left: 85px;
+        padding-top: 25px;
+        display: inline-block;
         text-align: center;
         font-size: 11px;
         font-weight: 100;
         color: silver;
 
+    }
+}
+
+#scroll-up-btn {
+    float: right;
+    right: 10px;
+    display: inline-block;
+    margin: 0 auto;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    background: url(/images/up-arrow-white.png) no-repeat;
+    background-size: 100%;
+    opacity: .5;
+    transition-duration: .7s;
+
+    &:hover {
+        background: url(/images/up-arrow-green.png) no-repeat;
+        background-size: 100%;
+        opacity: .5;
     }
 }
 
