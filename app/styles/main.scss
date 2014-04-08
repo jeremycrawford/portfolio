@@ -1,7 +1,6 @@
 $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 
 @import 'sass-bootstrap/lib/bootstrap';
-@import 'styles/logo-page.css';
 
 .browsehappy {
     margin: 0.2em 0;
@@ -458,7 +457,7 @@ body {
     transition-duration: .7s;
 
     &:hover {
-        background: url(../images/mark-white.png) no-repeat;
+        background: url(/images/mark-white.png) no-repeat;
         background-size: 100%;
     }
 }
@@ -470,12 +469,12 @@ body {
     border-radius: 50%;
     width: 85px;
     height: 85px;
-    background: url(../images/linkedin-light-green.png) no-repeat;
+    background: url(/images/linkedin-light-green.png) no-repeat;
     background-size: 100%;
     transition-duration: .7s;
 
     &:hover {
-        background: url(../images/linkedin-white.png) no-repeat;
+        background: url(/images/linkedin-white.png) no-repeat;
         background-size: 100%;
     }
 }
