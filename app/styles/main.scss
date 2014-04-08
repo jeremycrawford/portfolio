@@ -720,6 +720,7 @@ body {
         margin-top: 27px;
         height: 280px;
         background: url("../images/my-yellow-gray.png") no-repeat;
+
         background-size: 100%;
         transition-duration: .7s;
         opacity: .7;
@@ -727,7 +728,7 @@ body {
         &:hover {
             background: url("../images/my-yellow-color.png") no-repeat;
             background-size: 100%;
-            opacity: 1;
+            opacity: 1; 
         }
     }
 }
