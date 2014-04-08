@@ -171,7 +171,7 @@ body {
 
 
 
-// Work Section Start
+// Main Work Section Start
 
 #work {
     background-color: #DADADA;
@@ -404,6 +404,538 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Logo Page Section Start
+
+
+
+#logo-page-header {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(46, 49, 51);
+}
+
+.header-container {
+    width: 1228px;
+    margin: 0 auto;
+}
+
+.header-logo-div {
+    padding-top: 5px;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+
+    .header-logo {
+        margin-top: 10px;
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.navigation-buttons {
+    display: inline-block;
+    float: right;
+
+    .home-button {
+        font-weight: 100;
+        letter-spacing: 2px;
+        display: inline-block;
+        width: 121px;
+        height: 80px;
+        color: white;
+        border: none;
+        background-color: rgb(46, 49, 51);
+        line-height: 70px;
+        text-align: center;
+        padding-top: 3px;
+        margin: 0 auto;
+        -webkit-transition: all .2s ease-in-out;
+
+        &:hover {
+            background-color: rgba(0, 0, 0, .1);
+            border-bottom: 4px solid rgb(138, 193, 186);
+        }
+    }
+}
+
+#contact-button {
+    font-weight: 100;
+    letter-spacing: 2px;
+    display: inline-block;
+    width: 121px;
+    height: 80px;
+    color: white;
+    border: none;
+    background-color: rgb(46, 49, 51);
+    line-height: 70px;
+    text-align: center;
+    padding-top: 3px;
+    margin: 0 auto;
+    -webkit-transition: all .2s ease-in-out;
+
+    &:hover {
+        background-color: rgba(0, 0, 0, .1);
+        border-bottom: 4px solid rgb(138, 193, 186);
+    }
+}
+
+
+
+// Main Section Start
+#logo-main {
+    width: 100%;
+    height: 380px;
+    overflow: hidden;
+    background-size: auto;
+    background-color: rgb(138, 193, 186);
+}
+
+.col-lg-12 {
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+
+    h1 {
+        text-align: center;
+        color: white;
+        text-transform: capitalize;
+        padding-top: 152px;
+        font-size: 4em;
+        font-weight: 100;
+        letter-spacing: 2px;
+    }
+}
+
+.logo-work-intro {
+    letter-spacing: 1px;
+    padding-left: 200px;
+    padding-right: 200px;
+    line-height: 24px;
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+// Main Section End
+
+
+
+// Work Section Start
+
+#logo-work {
+    background-color: #DADADA;
+    width: 100%;
+    height: auto;
+}
+
+.logo-work-container {
+    padding-top: 65px;
+    width: 100%;
+    text-align: center;
+}       
+
+// Project Container One
+
+.logo-one-container {
+    vertical-align: top;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    background-color: snow;
+    width: 380px;
+    height: 330px;
+    border-radius: 3px;
+    box-shadow: 6px 6px 0px 0px silver;
+    color: rgb(46, 49, 51); 
+}
+
+.get-logo-container {
+    width: 350px;
+    height: 330px;
+    margin: 0 auto;
+
+    .get-logo {
+        margin-top: 34px;
+        display: inline-block;
+        width: 260px;
+        height: 280px;
+        background: url(/images/get-a-gig-logo-gray.png) no-repeat;
+        background-size: 100%;
+        transition-duration: .7s;
+        opacity: .7;
+
+        &:hover {
+            background: url(/images/get-a-gig-logo.png) no-repeat;
+            background-size: 100%;
+            opacity: 1;
+        }
+    }
+}
+
+
+
+// Project Container Two
+
+.logo-two-container {
+    vertical-align: top;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    background-color: snow;
+    width: 380px;
+    height: 330px;
+    border-radius: 3px;
+    box-shadow: 6px 6px 0px 0px silver;
+    color: rgb(46, 49, 51);
+}
+
+.rivera-logo-container {
+    width: 350px;
+    height: 330px;
+    margin: 0 auto;
+
+    .rivera-logo {
+        display: inline-block;
+        width: 290px;
+        margin-top: 17px;
+        height: 280px;
+        background: url(/images/rivera-logo-gray.png) no-repeat;
+        background-size: 100%;
+        transition-duration: .7s;
+        opacity: .7;
+
+        &:hover {
+            background: url(/images/rivera-logo-color.png) no-repeat;
+            background-size: 100%;
+            opacity: 1;
+        }
+    }
+}
+
+// Project Container Three
+
+.logo-three-container {
+    margin-top: 20px;      
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    background-color: snow;
+    width: 380px;
+    height: 330px;
+    border-radius: 3px;
+    box-shadow: 6px 6px 0px 0px silver;
+    text-decoration: none;
+    color: rgb(46, 49, 51);
+}
+
+.golf-slayer-logo-container {
+    width: 350px;
+    height: 330px;
+    margin: 0 auto;
+
+    .golf-slayer-logo {
+        display: inline-block;
+        width: 278px;
+        margin-top: 27px;
+        height: 280px;
+        background: url(/images/golf-slayer-gray.png) no-repeat;
+        background-size: 100%;
+        transition-duration: .7s;
+        opacity: .7;
+
+        &:hover {
+            background: url(/images/golf-slayer-color.png) no-repeat;
+            background-size: 100%;
+            opacity: 1;
+        }
+    }
+}
+
+// Project Container Three
+
+.logo-four-container {
+    margin-top: 20px;
+    margin-right: 40px;      
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    background-color: snow;
+    width: 380px;
+    height: 330px;
+    border-radius: 3px;
+    box-shadow: 6px 6px 0px 0px silver;
+    text-decoration: none;
+    color: rgb(46, 49, 51);
+}
+
+.my-yellow-logo-container {
+    width: 350px;
+    height: 330px;
+    margin: 0 auto;
+
+    .my-yellow-logo {
+        display: inline-block;
+        width: 278px;
+        margin-top: 27px;
+        height: 280px;
+        background: url(/images/my-yellow-gray.png) no-repeat;
+        background-size: 100%;
+        transition-duration: .7s;
+        opacity: .7;
+
+        &:hover {
+            background: url(/images/my-yellow-color.png) no-repeat;
+            background-size: 100%;
+            opacity: 1;
+        }
+    }
+}
+
+.logo-five-container {
+    margin-top: 20px;
+    margin-right: 40px;      
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    background-color: snow;
+    width: 380px;
+    height: 330px;
+    border-radius: 3px;
+    box-shadow: 6px 6px 0px 0px silver;
+    text-decoration: none;
+    color: rgb(46, 49, 51);
+}
+
+.queen-city-logo-container {
+    width: 350px;
+    height: 330px;
+    margin: 0 auto;
+
+    .queen-city-logo {
+        display: inline-block;
+        width: 278px;
+        margin-top: 27px;
+        height: 280px;
+        background: url(/images/queen-city-fab-gray.png) no-repeat;
+        background-size: 100%;
+        transition-duration: .7s;
+        opacity: .7;
+
+        &:hover {
+            background: url(/images/queen-city-fab-color.png) no-repeat;
+            background-size: 100%;
+            opacity: 1;
+        }
+    }
+}
+
+.logo-six-container {
+    margin-top: 20px;     
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    background-color: snow;
+    width: 380px;
+    height: 330px;
+    border-radius: 3px;
+    box-shadow: 6px 6px 0px 0px silver;
+    text-decoration: none;
+    color: rgb(46, 49, 51);
+}
+
+.safe-logo-container {
+    width: 350px;
+    height: 330px;
+    margin: 0 auto;
+
+    .safe-logo {
+        display: inline-block;
+        width: 278px;
+        margin-top: 27px;
+        height: 280px;
+        background: url(/images/safe-logo-gray.png) no-repeat;
+        background-size: 100%;
+        transition-duration: .7s;
+        opacity: .7;
+
+        &:hover {
+            background: url(/images/safe-logo-color.png) no-repeat;
+            background-size: 100%;
+            opacity: 1;
+        }
+    }
+}
+
+.logo-seven-container {
+    margin-top: 20px;
+    margin-right: 40px;      
+    margin-bottom: 120px;
+    position: relative;
+    display: inline-block;
+    background-color: snow;
+    width: 380px;
+    height: 330px;
+    border-radius: 3px;
+    box-shadow: 6px 6px 0px 0px silver;
+    text-decoration: none;
+    color: rgb(46, 49, 51);
+}
+
+.river-logo-container {
+    width: 350px;
+    height: 330px;
+    margin: 0 auto;
+
+    .river-logo {
+        display: inline-block;
+        width: 330px;
+        margin-top: 4px;
+        height: 315px;
+        background: url(/images/river-logo-gray.png) no-repeat;
+        background-size: 100%;
+        transition-duration: .7s;
+        opacity: .7;
+
+        &:hover {
+            background: url(/images/river-logo-color.png) no-repeat;
+            background-size: 100%;
+            opacity: 1;
+        }
+    }
+}
+
+.logo-eight-container {
+    margin-top: 20px;
+    margin-right: 40px;      
+    margin-bottom: 120px;
+    position: relative;
+    display: inline-block;
+    background-color: snow;
+    width: 380px;
+    height: 330px;
+    border-radius: 3px;
+    box-shadow: 6px 6px 0px 0px silver;
+    text-decoration: none;
+    color: rgb(46, 49, 51);
+}
+
+.senior-logo-container {
+    width: 350px;
+    height: 330px;
+    margin: 0 auto;
+
+    .senior-logo {
+        display: inline-block;
+        width: 340px;
+        margin-top: 3px;
+        height: 315px;
+        background: url(/images/senior-services-logo-gray.png) no-repeat;
+        background-size: 100%;
+        transition-duration: .7s;
+        opacity: .7;
+
+        &:hover {
+            background: url(/images/senior-services-logo-color.png) no-repeat;
+            background-size: 100%;
+            opacity: 1;
+        }
+    }
+}
+
+.logo-nine-container {
+    margin-top: 20px;    
+    margin-bottom: 120px;
+    position: relative;
+    display: inline-block;
+    background-color: snow;
+    width: 380px;
+    height: 330px;
+    border-radius: 3px;
+    box-shadow: 6px 6px 0px 0px silver;
+    text-decoration: none;
+    color: rgb(46, 49, 51);
+}
+
+.tinas-logo-container {
+    width: 350px;
+    height: 330px;
+    margin: 0 auto;
+
+    .tinas-logo {
+        display: inline-block;
+        width: 340px;
+        margin-top: 3px;
+        height: 315px;
+        background: url(/images/tees-cakery-logo-gray.png) no-repeat;
+        background-size: 100%;
+        transition-duration: .7s;
+        opacity: .7;
+
+        &:hover {
+            background: url(/images/tees-cakery-logo-color.png) no-repeat;
+            background-size: 100%;
+            opacity: 1;
+        }
+    }
+}
+
+// Logo Page Section End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Footer Start
 
 
@@ -579,6 +1111,24 @@ body {
 }
 
 // Footer End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // /* Smartphones (portrait and landscape) ----------- */
 // @media only screen 
