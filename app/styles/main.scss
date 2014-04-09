@@ -24,7 +24,16 @@ body {
     overflow: hidden;
     background-size: auto;
     background-color: rgba(0, 0, 0, .7);
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        width: 100%;
+        height: 155px;
+        background-color: rgb(46, 49, 51);
+    }  
 }
+
+
 
 .background-image {
     width: 100%;
@@ -56,6 +65,12 @@ body {
         width: 50px;
         height: auto;
     }
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        display: inline-block;
+        margin-top: 40px;
+    } 
 }
 
 .col-lg-12 {
@@ -63,7 +78,7 @@ body {
     position: relative;
     text-align: center;
 
-    h1 {
+    .main-title {
         text-align: center;
         color: white;
         text-transform: capitalize;
@@ -71,6 +86,18 @@ body {
         font-size: 4em;
         font-weight: 100;
         letter-spacing: 2px;
+
+        /* Smartphones (portrait) ----------- */
+        @media only screen and (max-width : 320px) {
+            text-align: center;
+            color: white;
+            text-transform: capitalize;
+            margin-top: 11px;
+            padding-top: 0px;
+            font-size: 12px;
+            font-weight: 100;
+            letter-spacing: 2px;
+        } 
     }
 
     p {
@@ -80,6 +107,11 @@ body {
         color: white;
         text-transform: uppercase;
         font-size: 13px;
+
+        /* Smartphones (portrait) ----------- */
+        @media only screen and (max-width : 320px) {
+            display: none;
+        } 
     }
 }
 
@@ -115,6 +147,11 @@ body {
 
         background-color: rgba(138, 193, 186, .4);
     }
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        display: none;
+    } 
 }
 
 #about-btn {
@@ -137,6 +174,11 @@ body {
 
         background-color: rgba(138, 193, 186, .4);
     }
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        display: none;
+    } 
 }
 
 #contact-btn {
@@ -158,6 +200,11 @@ body {
 
         background-color: rgba(138, 193, 186, .4);
     }
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        display: none;
+    } 
 }
 
 // Main Section End
@@ -182,6 +229,11 @@ body {
     background-color: #DADADA;
     width: 100%;
     height: auto;
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        background-color: white;
+    } 
 }
 
 .work-container {
@@ -189,6 +241,12 @@ body {
     width: 100%;
     padding-left: 9.5%;
     margin: 0 auto;
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        padding-left: 8px;
+        padding-bottom: 10px;
+    } 
 }
 
 .work-header {
@@ -204,7 +262,18 @@ body {
         color: rgb(46, 49, 51);
         font-weight: 100;
         font-size: 26px;
+
+        /* Smartphones (portrait) ----------- */
+        @media only screen and (max-width : 320px) {
+            padding-left: 0px;
+            text-align: center;
+        } 
     }
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        padding-left: 0px;
+    } 
 }
 
 // Project Container Content Styles
@@ -213,11 +282,23 @@ body {
     overflow: hidden;
     width: 345px;
     height: 200px;
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        width: 80px;
+        height: 80px;
+        display: none;
+    } 
 }
 
 .project-photo {
     width: 345px;
     height: auto;
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        display: none;
+    } 
 }
 
 .project-title {
@@ -227,6 +308,16 @@ body {
     margin-top: 138px;
     margin-left: 48px;
     margin-bottom: 5px;
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        font-size: 11px;
+        font-weight: 300;
+        margin-top: 43%;
+        margin-left: 0px;
+        margin-bottom: 5px;
+        text-align: center;
+    } 
 }
 
 .project-description {
@@ -235,6 +326,11 @@ body {
     letter-spacing: 1px;
     margin-left: 48px;
     margin-top: 0px;
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        display: none;
+    } 
 }
         
 
@@ -254,9 +350,19 @@ body {
     transition-duration: .6s; 
 
     &:hover {
-            color: snow;
-            background-color: rgb(138, 193, 186);
-        }
+        color: snow;
+        background-color: rgb(138, 193, 186);
+    }
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        width: 130px;
+        height: 130px;
+        margin: 10px;
+        box-shadow: none;
+        border-radius: 0px;
+        background-color: rgba(187, 187, 187, .4);
+    } 
 }
 
 // Project Container Two
@@ -275,9 +381,19 @@ body {
     transition-duration: .6s;
 
     &:hover {
-            color: snow;
-            background-color: rgb(138, 193, 186);
-        }
+        color: snow;
+        background-color: rgb(138, 193, 186);
+    }
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        width: 130px;
+        height: 130px;
+        margin: 10px;
+        box-shadow: none;
+        border-radius: 0px;
+        background-color: rgba(187, 187, 187, .4);
+    } 
 }
 
 // Project Container Three
@@ -299,6 +415,16 @@ body {
         color: snow;
         background-color: rgb(138, 193, 186);
     }
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        width: 130px;
+        height: 130px;
+        margin: 10px;
+        box-shadow: none;
+        border-radius: 0px;
+        background-color: rgba(187, 187, 187, .4);
+    }  
 }
 
 // Project Container Four
@@ -317,9 +443,19 @@ body {
     transition-duration: .6s;
 
     &:hover {
-            color: snow;
-            background-color: rgb(138, 193, 186);
-        }
+        color: snow;
+        background-color: rgb(138, 193, 186);
+    }
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        width: 130px;
+        height: 130px;
+        margin: 10px;
+        box-shadow: none;
+        border-radius: 0px;
+        background-color: rgba(187, 187, 187, .4);
+    } 
 }
 
 // Project Container Five
@@ -338,9 +474,19 @@ body {
     transition-duration: .6s;
 
     &:hover {
-            color: snow;
-            background-color: rgb(138, 193, 186);
-        }
+        color: snow;
+        background-color: rgb(138, 193, 186);
+    }
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        width: 130px;
+        height: 130px;
+        margin: 10px;
+        box-shadow: none;
+        border-radius: 0px;
+        background-color: rgba(187, 187, 187, .4);
+    }  
 }
 
 // Project Container Six
@@ -362,6 +508,16 @@ body {
         color: snow;
         background-color: rgb(138, 193, 186);
     }
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        width: 130px;
+        height: 130px;
+        margin: 10px;
+        box-shadow: none;
+        border-radius: 0px;
+        background-color: rgba(187, 187, 187, .4);
+    }  
 }
 
 // Work Section End
@@ -382,6 +538,11 @@ body {
     background-color: rgba(72, 126, 119, 0.8);
     width: 100%;
     height: 525px; 
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        height: auto;
+    }
 }
 
 .about-me-copy {
@@ -398,6 +559,8 @@ body {
 
     /* Smartphones (portrait) ----------- */
     @media only screen and (max-width : 320px) {
+        margin-bottom: 0px;
+        padding-bottom: 45px;
         padding-top: 50px;
         line-height: 23px;
         padding-left: 20px;
