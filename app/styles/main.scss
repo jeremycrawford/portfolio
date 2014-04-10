@@ -645,6 +645,55 @@ body {
     }  
 }
 
+// Project Container Seven
+
+.project-seven-container {
+    position: relative;
+    margin: 20px;      
+    display: inline-block;
+    background-color: snow;
+    width: 345px;
+    height: 410px;
+    text-decoration: none;
+    color: rgb(46, 49, 51);
+    transition-duration: .6s;
+
+    &:hover {
+        color: snow;
+        background-color: rgb(138, 193, 186);
+
+        .project-title {
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            margin-top: 15px;
+            margin-left: 15px;
+            margin-bottom: 5px;
+            color: white;
+            transition-duration: .6s;
+        }
+
+        .about-section-start {
+            margin-top: 10px;
+            margin-left: 15px;
+            margin-right: 15px;
+            height: 1px;
+            background-color: white;
+            transition-duration: .6s;
+        }
+    }
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        width: 130px;
+        height: 130px;
+        margin: 10px;
+        box-shadow: none;
+        border-radius: 0px;
+        background-color: rgba(187, 187, 187, .4);
+    }  
+}
+
 // Work Section End
 
 
