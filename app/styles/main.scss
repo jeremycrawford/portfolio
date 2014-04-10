@@ -305,8 +305,8 @@ body {
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
-    margin-top: 138px;
-    margin-left: 48px;
+    margin-top: 15px;
+    margin-left: 15px;
     margin-bottom: 5px;
 
     /* Smartphones (portrait) ----------- */
@@ -324,7 +324,7 @@ body {
     font-size: 13px;
     font-weight: 200;
     letter-spacing: 1px;
-    margin-left: 48px;
+    margin-left: 15px;
     margin-top: 0px;
 
     /* Smartphones (portrait) ----------- */
@@ -332,7 +332,15 @@ body {
         display: none;
     } 
 }
-        
+
+.about-project {
+    font-size: 12px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 25px;
+}       
 
 // Project Container One
 
