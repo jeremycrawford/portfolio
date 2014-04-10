@@ -333,13 +333,21 @@ body {
     } 
 }
 
+.about-section-start {
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 1px;
+    background-color: rgb(138, 193, 186);
+}
+
 .about-project {
     font-size: 12px;
     font-weight: 200;
     letter-spacing: 1px;
     margin-left: 15px;
     margin-right: 15px;
-    margin-top: 25px;
+    margin-top: 20px;
 }       
 
 // Project Container One
