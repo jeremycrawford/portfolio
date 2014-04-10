@@ -645,55 +645,6 @@ body {
     }  
 }
 
-// Project Container Seven
-
-.project-seven-container {
-    position: relative;
-    margin: 20px;      
-    display: inline-block;
-    background-color: snow;
-    width: 345px;
-    height: 410px;
-    text-decoration: none;
-    color: rgb(46, 49, 51);
-    transition-duration: .6s;
-
-    &:hover {
-        color: snow;
-        background-color: rgb(138, 193, 186);
-
-        .project-title {
-            font-size: 14px;
-            font-weight: 600;
-            letter-spacing: 1px;
-            margin-top: 15px;
-            margin-left: 15px;
-            margin-bottom: 5px;
-            color: white;
-            transition-duration: .6s;
-        }
-
-        .about-section-start {
-            margin-top: 10px;
-            margin-left: 15px;
-            margin-right: 15px;
-            height: 1px;
-            background-color: white;
-            transition-duration: .6s;
-        }
-    }
-
-    /* Smartphones (portrait) ----------- */
-    @media only screen and (max-width : 320px) {
-        width: 130px;
-        height: 130px;
-        margin: 10px;
-        box-shadow: none;
-        border-radius: 0px;
-        background-color: rgba(187, 187, 187, .4);
-    }  
-}
-
 // Work Section End
 
 
@@ -1349,7 +1300,7 @@ body {
     transition-duration: .7s;
 
     &:hover {
-        background: url(/images/linkedin-white.png) no-repeat;
+        background: url(/images/linkedin-color.png) no-repeat;
         background-size: 100%;
     }
 
@@ -1373,7 +1324,7 @@ body {
     transition-duration: .7s;
 
     &:hover {
-        background: url(/images/wordpress-white.png) no-repeat;
+        background: url(/images/wordpress-color.png) no-repeat;
         background-size: 100%;
     }
 
@@ -1398,7 +1349,7 @@ body {
     transition-duration: .7s;
 
     &:hover {
-        background: url(/images/twiiter-white.png) no-repeat;
+        background: url(/images/twiiter-color.png) no-repeat;
         background-size: 100%;
     }
 
@@ -1414,6 +1365,7 @@ body {
     display: inline-block;
     margin: 0 auto;
     border-radius: 50%;
+    margin-right: 20px;
     width: 85px;
     height: 85px;
     background: url(/images/mail-light-green.png) no-repeat;
@@ -1421,7 +1373,30 @@ body {
     transition-duration: .7s;
 
     &:hover {
-        background: url(/images/mail-white.png) no-repeat;
+        background: url(/images/mail-color.png) no-repeat;
+        background-size: 100%;
+    }
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }  
+}
+
+.dribbble {
+    display: inline-block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+    background: url(/images/dribbble-light-green.png) no-repeat;
+    background-size: 100%;
+    transition-duration: .7s;
+
+    &:hover {
+        background: url(/images/dribbble-color.png) no-repeat;
         background-size: 100%;
     }
 
