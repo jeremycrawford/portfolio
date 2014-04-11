@@ -142,9 +142,10 @@ body {
     display: inline-block;
     font-weight: 200;
     letter-spacing: 1px;
+    cursor: pointer;
+    cursor: hand;
 
     &:hover {
-
         background-color: rgba(138, 193, 186, .4);
     }
 
@@ -169,9 +170,10 @@ body {
     display: inline-block;
     font-weight: 200;
     letter-spacing: 1px;
+    cursor: pointer;
+    cursor: hand;
 
     &:hover {
-
         background-color: rgba(138, 193, 186, .4);
     }
 
@@ -195,9 +197,10 @@ body {
     display: inline-block;
     font-weight: 200;
     letter-spacing: 1px;
+    cursor: pointer;
+    cursor: hand;
 
     &:hover {
-
         background-color: rgba(138, 193, 186, .4);
     }
 
@@ -1908,15 +1911,15 @@ body {
     border-radius: 50%;
     width: 65px;
     height: 65px;
-    background: url(/images/up-arrow-white.png) no-repeat;
+    background: url(/images/up-arrow-green.png) no-repeat;
     background-size: 100%;
-    opacity: .5;
     transition-duration: .7s;
+    cursor: pointer;
+    cursor: hand;
 
     &:hover {
-        background: url(/images/up-arrow-green.png) no-repeat;
+        background: url(/images/up-arrow-white.png) no-repeat;
         background-size: 100%;
-        opacity: .5;
     }
 
     /* Smartphones (portrait) ----------- */
