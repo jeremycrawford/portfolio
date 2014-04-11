@@ -1000,11 +1000,21 @@ body {
     width: 100%;
     height: 80px;
     background-color: rgb(46, 49, 51);
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        position: relative;
+    } 
 }
 
 .header-container {
     width: 1228px;
     margin: 0 auto;
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        width: 100%;
+    } 
 }
 
 .header-logo-div {
@@ -1017,6 +1027,11 @@ body {
         margin-top: 10px;
         width: 50px;
         height: 50px;
+
+        /* Smartphones (portrait) ----------- */
+        @media only screen and (max-width : 320px) {
+            margin-left: 10px;
+        } 
     }
 }
 
@@ -1065,6 +1080,11 @@ body {
         background-color: rgba(0, 0, 0, .1);
         border-bottom: 4px solid rgb(138, 193, 186);
     }
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        display: none;
+    } 
 }
 
 
@@ -1076,6 +1096,11 @@ body {
     overflow: hidden;
     background-size: auto;
     background-color: rgb(138, 193, 186);
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        height: auto;
+    } 
 }
 
 .col-lg-12 {
@@ -1091,6 +1116,13 @@ body {
         font-size: 4em;
         font-weight: 100;
         letter-spacing: 2px;
+
+        /* Smartphones (portrait) ----------- */
+        @media only screen and (max-width : 320px) {
+            padding-top: 10px;
+            padding-bottom: 25px;
+            font-size: 20px;
+        } 
     }
 }
 
@@ -1102,6 +1134,11 @@ body {
     color: white;
     font-weight: 100;
     font-size: 20px;
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        display: none;
+    } 
 }
 
 // Main Section End
@@ -1134,13 +1171,25 @@ body {
     background-color: snow;
     width: 380px;
     height: 330px;
-    color: rgb(46, 49, 51); 
+    color: rgb(46, 49, 51);
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        width: 280px;
+        height: 265px;
+    }  
 }
 
 .get-logo-container {
     width: 350px;
     height: 330px;
     margin: 0 auto;
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        width: 280px;
+        height: 265px;
+    } 
 
     .get-logo {
         margin-top: 34px;
@@ -1157,6 +1206,12 @@ body {
             background-size: 100%;
             opacity: 1;
         }
+
+        /* Smartphones (portrait) ----------- */
+        @media only screen and (max-width : 320px) {
+            width: 200px;
+            height: 260px;
+        } 
     }
 }
 
@@ -1174,12 +1229,24 @@ body {
     width: 380px;
     height: 330px;
     color: rgb(46, 49, 51);
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        width: 280px;
+        height: 265px;
+    }
 }
 
 .rivera-logo-container {
     width: 350px;
     height: 330px;
     margin: 0 auto;
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        width: 280px;
+        height: 265px;
+    }
 
     .rivera-logo {
         display: inline-block;
@@ -1196,6 +1263,12 @@ body {
             background-size: 100%;
             opacity: 1;
         }
+
+        /* Smartphones (portrait) ----------- */
+        @media only screen and (max-width : 320px) {
+            width: 230px;
+            height: 240px;
+        }
     }
 }
 
@@ -1210,12 +1283,24 @@ body {
     height: 330px;
     text-decoration: none;
     color: rgb(46, 49, 51);
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        width: 280px;
+        height: 265px;
+    }
 }
 
 .golf-slayer-logo-container {
     width: 350px;
     height: 330px;
     margin: 0 auto;
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        width: 280px;
+        height: 265px;
+    }
 
     .golf-slayer-logo {
         display: inline-block;
@@ -1232,6 +1317,13 @@ body {
             background-size: 100%;
             opacity: 1;
         }
+
+        /* Smartphones (portrait) ----------- */
+        @media only screen and (max-width : 320px) {
+            width: 230px;
+            height: 245px;
+            margin-top: 20px;
+        }
     }
 }
 
@@ -1246,12 +1338,24 @@ body {
     height: 330px;
     text-decoration: none;
     color: rgb(46, 49, 51);
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        width: 280px;
+        height: 265px;
+    }
 }
 
 .my-yellow-logo-container {
     width: 350px;
     height: 330px;
     margin: 0 auto;
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        width: 280px;
+        height: 265px;
+    }
 
     .my-yellow-logo {
         display: inline-block;
@@ -1281,12 +1385,24 @@ body {
     height: 330px;
     text-decoration: none;
     color: rgb(46, 49, 51);
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        width: 280px;
+        height: 265px;
+    }
 }
 
 .queen-city-logo-container {
     width: 350px;
     height: 330px;
     margin: 0 auto;
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        width: 280px;
+        height: 265px;
+    }
 
     .queen-city-logo {
         display: inline-block;
@@ -1315,12 +1431,24 @@ body {
     height: 330px;
     text-decoration: none;
     color: rgb(46, 49, 51);
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        width: 280px;
+        height: 265px;
+    }
 }
 
 .safe-logo-container {
     width: 350px;
     height: 330px;
     margin: 0 auto;
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        width: 280px;
+        height: 265px;
+    }
 
     .safe-logo {
         display: inline-block;
@@ -1349,12 +1477,24 @@ body {
     height: 330px;
     text-decoration: none;
     color: rgb(46, 49, 51);
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        width: 280px;
+        height: 265px;
+    }
 }
 
 .river-logo-container {
     width: 350px;
     height: 330px;
     margin: 0 auto;
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        width: 280px;
+        height: 265px;
+    }
 
     .river-logo {
         display: inline-block;
@@ -1383,12 +1523,24 @@ body {
     height: 330px;
     text-decoration: none;
     color: rgb(46, 49, 51);
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        width: 280px;
+        height: 265px;
+    }
 }
 
 .senior-logo-container {
     width: 350px;
     height: 330px;
     margin: 0 auto;
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        width: 280px;
+        height: 265px;
+    }
 
     .senior-logo {
         display: inline-block;
@@ -1417,12 +1569,24 @@ body {
     height: 330px;
     text-decoration: none;
     color: rgb(46, 49, 51);
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        width: 280px;
+        height: 265px;
+    }
 }
 
 .tinas-logo-container {
     width: 350px;
     height: 330px;
     margin: 0 auto;
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        width: 280px;
+        height: 265px;
+    }
 
     .tinas-logo {
         display: inline-block;
