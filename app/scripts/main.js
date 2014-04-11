@@ -7,18 +7,18 @@ $("#work-btn").click(function() {
 });
 
 $("#about-btn").click(function() {
-    $('html, body').animate({
+    $('body').animate({
         scrollTop: $("#about").offset().top
     }, 1000);
 });
 
 $("#contact-btn").click(function() {
-    $('html, body').animate({
+    $('body').animate({
         scrollTop: $("#footer").offset().top
     }, 750);
 });
 
 $("#scroll-up-btn").click(function() {
-    $('html, body').animate({
+    $('body').animate({
         scrollTop: 0}, 500);
 });
