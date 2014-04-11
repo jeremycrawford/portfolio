@@ -302,8 +302,8 @@ body {
 }
 
 .project-title {
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 100;
     letter-spacing: 1px;
     margin-top: 15px;
     margin-left: 15px;
@@ -327,6 +327,8 @@ body {
     letter-spacing: 1px;
     margin-left: 15px;
     margin-top: 0px;
+    color: gray;
+    transition-duration: .6s;
 
     /* Smartphones (portrait) ----------- */
     @media only screen and (max-width : 320px) {
@@ -340,6 +342,7 @@ body {
     margin-right: 15px;
     height: 1px;
     background-color: rgb(138, 193, 186);
+    transition-duration: .6s;
 }
 
 .about-project {
@@ -349,6 +352,13 @@ body {
     margin-left: 15px;
     margin-right: 15px;
     margin-top: 20px;
+    color: gray;
+    transition-duration: .6s;
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        display: none;
+    } 
 }       
 
 // Project Container One
@@ -369,14 +379,28 @@ body {
         background-color: rgb(138, 193, 186);
 
         .project-title {
-            font-size: 14px;
-            font-weight: 600;
+            font-size: 18px;
+            font-weight: 100;
             letter-spacing: 1px;
             margin-top: 15px;
             margin-left: 15px;
             margin-bottom: 5px;
             color: white;
             transition-duration: .6s;
+        }
+
+        .project-description {
+            font-size: 13px;
+            font-weight: 200;
+            letter-spacing: 1px;
+            margin-left: 15px;
+            margin-top: 0px;
+            color: white;
+
+            /* Smartphones (portrait) ----------- */
+            @media only screen and (max-width : 320px) {
+                display: none;
+            } 
         }
 
         .about-section-start {
@@ -386,6 +410,21 @@ body {
             height: 1px;
             background-color: white;
             transition-duration: .6s;
+        }
+
+        .about-project {
+            font-size: 12px;
+            font-weight: 200;
+            letter-spacing: 1px;
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-top: 20px;
+            color: white;
+
+            /* Smartphones (portrait) ----------- */
+            @media only screen and (max-width : 320px) {
+                display: none;
+            } 
         }
     }
 
@@ -418,14 +457,28 @@ body {
         background-color: rgb(138, 193, 186);
 
         .project-title {
-            font-size: 14px;
-            font-weight: 600;
+            font-size: 18px;
+            font-weight: 100;
             letter-spacing: 1px;
             margin-top: 15px;
             margin-left: 15px;
             margin-bottom: 5px;
             color: white;
             transition-duration: .6s;
+        }
+
+        .project-description {
+            font-size: 13px;
+            font-weight: 200;
+            letter-spacing: 1px;
+            margin-left: 15px;
+            margin-top: 0px;
+            color: white;
+
+            /* Smartphones (portrait) ----------- */
+            @media only screen and (max-width : 320px) {
+                display: none;
+            } 
         }
 
         .about-section-start {
@@ -435,6 +488,21 @@ body {
             height: 1px;
             background-color: white;
             transition-duration: .6s;
+        }
+
+        .about-project {
+            font-size: 12px;
+            font-weight: 200;
+            letter-spacing: 1px;
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-top: 20px;
+            color: white;
+
+            /* Smartphones (portrait) ----------- */
+            @media only screen and (max-width : 320px) {
+                display: none;
+            } 
         }
     }
 
@@ -467,14 +535,28 @@ body {
         background-color: rgb(138, 193, 186);
 
         .project-title {
-            font-size: 14px;
-            font-weight: 600;
+            font-size: 18px;
+            font-weight: 100;
             letter-spacing: 1px;
             margin-top: 15px;
             margin-left: 15px;
             margin-bottom: 5px;
             color: white;
             transition-duration: .6s;
+        }
+
+        .project-description {
+            font-size: 13px;
+            font-weight: 200;
+            letter-spacing: 1px;
+            margin-left: 15px;
+            margin-top: 0px;
+            color: white;
+
+            /* Smartphones (portrait) ----------- */
+            @media only screen and (max-width : 320px) {
+                display: none;
+            } 
         }
 
         .about-section-start {
@@ -484,6 +566,21 @@ body {
             height: 1px;
             background-color: white;
             transition-duration: .6s;
+        }
+
+        .about-project {
+            font-size: 12px;
+            font-weight: 200;
+            letter-spacing: 1px;
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-top: 20px;
+            color: white;
+
+            /* Smartphones (portrait) ----------- */
+            @media only screen and (max-width : 320px) {
+                display: none;
+            } 
         }
     }
 
@@ -516,14 +613,28 @@ body {
         background-color: rgb(138, 193, 186);
 
         .project-title {
-            font-size: 14px;
-            font-weight: 600;
+            font-size: 18px;
+            font-weight: 100;
             letter-spacing: 1px;
             margin-top: 15px;
             margin-left: 15px;
             margin-bottom: 5px;
             color: white;
             transition-duration: .6s;
+        }
+
+        .project-description {
+            font-size: 13px;
+            font-weight: 200;
+            letter-spacing: 1px;
+            margin-left: 15px;
+            margin-top: 0px;
+            color: white;
+
+            /* Smartphones (portrait) ----------- */
+            @media only screen and (max-width : 320px) {
+                display: none;
+            } 
         }
 
         .about-section-start {
@@ -533,6 +644,21 @@ body {
             height: 1px;
             background-color: white;
             transition-duration: .6s;
+        }
+
+        .about-project {
+            font-size: 12px;
+            font-weight: 200;
+            letter-spacing: 1px;
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-top: 20px;
+            color: white;
+
+            /* Smartphones (portrait) ----------- */
+            @media only screen and (max-width : 320px) {
+                display: none;
+            } 
         }
     }
 
@@ -565,14 +691,28 @@ body {
         background-color: rgb(138, 193, 186);
 
         .project-title {
-            font-size: 14px;
-            font-weight: 600;
+            font-size: 18px;
+            font-weight: 100;
             letter-spacing: 1px;
             margin-top: 15px;
             margin-left: 15px;
             margin-bottom: 5px;
             color: white;
             transition-duration: .6s;
+        }
+
+        .project-description {
+            font-size: 13px;
+            font-weight: 200;
+            letter-spacing: 1px;
+            margin-left: 15px;
+            margin-top: 0px;
+            color: white;
+
+            /* Smartphones (portrait) ----------- */
+            @media only screen and (max-width : 320px) {
+                display: none;
+            } 
         }
 
         .about-section-start {
@@ -582,6 +722,21 @@ body {
             height: 1px;
             background-color: white;
             transition-duration: .6s;
+        }
+
+        .about-project {
+            font-size: 12px;
+            font-weight: 200;
+            letter-spacing: 1px;
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-top: 20px;
+            color: white;
+
+            /* Smartphones (portrait) ----------- */
+            @media only screen and (max-width : 320px) {
+                display: none;
+            } 
         }
     }
 
@@ -614,14 +769,29 @@ body {
         background-color: rgb(138, 193, 186);
 
         .project-title {
-            font-size: 14px;
-            font-weight: 600;
+            font-size: 18px;
+            font-weight: 100;
             letter-spacing: 1px;
             margin-top: 15px;
             margin-left: 15px;
             margin-bottom: 5px;
             color: white;
             transition-duration: .6s;
+        }
+
+        .project-description {
+            font-size: 13px;
+            font-weight: 200;
+            letter-spacing: 1px;
+            margin-left: 15px;
+            margin-top: 0px;
+            color: white;
+            transition-duration: .6s;
+
+            /* Smartphones (portrait) ----------- */
+            @media only screen and (max-width : 320px) {
+                display: none;
+            } 
         }
 
         .about-section-start {
@@ -631,6 +801,22 @@ body {
             height: 1px;
             background-color: white;
             transition-duration: .6s;
+        }
+
+        .about-project {
+            font-size: 12px;
+            font-weight: 200;
+            letter-spacing: 1px;
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-top: 20px;
+            color: white;
+            transition-duration: .6s;
+
+            /* Smartphones (portrait) ----------- */
+            @media only screen and (max-width : 320px) {
+                display: none;
+            } 
         }
     }
 
