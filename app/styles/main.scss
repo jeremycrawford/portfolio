@@ -1227,6 +1227,7 @@ body {
 
         /* Smartphones (portrait) ----------- */
         @media only screen and (max-width : 320px) {
+            -webkit-filter: grayscale(0);
             width: 185px;
             height: 230px;
             margin-top: 40px;
@@ -1289,6 +1290,7 @@ body {
 
         /* Smartphones (portrait) ----------- */
         @media only screen and (max-width : 320px) {
+            -webkit-filter: grayscale(0);
             width: 230px;
             height: 240px;
             background: url(/images/rivera-logo-color.png) no-repeat;
@@ -1348,6 +1350,7 @@ body {
 
         /* Smartphones (portrait) ----------- */
         @media only screen and (max-width : 320px) {
+            -webkit-filter: grayscale(0);
             width: 230px;
             height: 245px;
             margin-top: 20px;
@@ -1408,6 +1411,7 @@ body {
 
         /* Smartphones (portrait) ----------- */
         @media only screen and (max-width : 320px) {
+            -webkit-filter: grayscale(0);
             width: 230px;
             height: 245px;
             margin-top: 20px;
@@ -1466,6 +1470,7 @@ body {
 
         /* Smartphones (portrait) ----------- */
         @media only screen and (max-width : 320px) {
+            -webkit-filter: grayscale(0);
             width: 230px;
             height: 245px;
             margin-top: 20px;
@@ -1524,6 +1529,7 @@ body {
 
         /* Smartphones (portrait) ----------- */
         @media only screen and (max-width : 320px) {
+            -webkit-filter: grayscale(0);
             width: 230px;
             height: 245px;
             margin-top: 20px;
@@ -1582,6 +1588,7 @@ body {
 
         /* Smartphones (portrait) ----------- */
         @media only screen and (max-width : 320px) {
+            -webkit-filter: grayscale(0);
             width: 230px;
             height: 245px;
             margin-top: 20px;
@@ -1640,6 +1647,7 @@ body {
 
         /* Smartphones (portrait) ----------- */
         @media only screen and (max-width : 320px) {
+            -webkit-filter: grayscale(0);
             width: 230px;
             height: 245px;
             margin-top: 20px;
@@ -1681,8 +1689,8 @@ body {
 
     .tinas-logo {
         display: inline-block;
-        width: 340px;
-        margin-top: 3px;
+        width: 265px;
+        margin-top: 35px;
         height: 315px;
         -webkit-filter: grayscale(1);
         background: url(/images/tees-cakery-logo-color.png) no-repeat;
@@ -1698,6 +1706,7 @@ body {
 
         /* Smartphones (portrait) ----------- */
         @media only screen and (max-width : 320px) {
+            -webkit-filter: grayscale(0);
             width: 230px;
             height: 245px;
             margin-top: 20px;
