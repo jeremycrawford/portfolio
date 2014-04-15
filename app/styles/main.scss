@@ -1213,13 +1213,14 @@ body {
         display: inline-block;
         width: 260px;
         height: 280px;
-        background: url(/images/get-a-gig-logo-gray.png) no-repeat;
+        -webkit-filter: grayscale(1);
+        background: url(/images/get-a-gig-logo.png) no-repeat;
         background-size: 100%;
         transition-duration: .7s;
         opacity: .7;
 
         &:hover {
-            background: url(/images/get-a-gig-logo.png) no-repeat;
+            -webkit-filter: grayscale(0);
             background-size: 100%;
             opacity: 1;
         }
@@ -1274,13 +1275,14 @@ body {
         width: 290px;
         margin-top: 17px;
         height: 280px;
-        background: url(/images/rivera-logo-gray.png) no-repeat;
+        -webkit-filter: grayscale(1);
+        background: url(/images/rivera-logo-color.png) no-repeat;
         background-size: 100%;
         transition-duration: .7s;
         opacity: .7;
 
         &:hover {
-            background: url(/images/rivera-logo-color.png) no-repeat;
+            -webkit-filter: grayscale(0);
             background-size: 100%;
             opacity: 1;
         }
@@ -1332,13 +1334,14 @@ body {
         width: 278px;
         margin-top: 27px;
         height: 280px;
-        background: url(/images/golf-slayer-gray.png) no-repeat;
+        -webkit-filter: grayscale(1);
+        background: url(/images/golf-slayer-color.png) no-repeat;
         background-size: 100%;
         transition-duration: .7s;
         opacity: .7;
 
         &:hover {
-            background: url(/images/golf-slayer-color.png) no-repeat;
+            -webkit-filter: grayscale(0);
             background-size: 100%;
             opacity: 1;
         }
@@ -1391,14 +1394,14 @@ body {
         width: 278px;
         margin-top: 27px;
         height: 280px;
-        background: url(/images/my-yellow-gray.png) no-repeat;
-
+        -webkit-filter: grayscale(1);
+        background: url(/images/my-yellow-color.png) no-repeat;
         background-size: 100%;
         transition-duration: .7s;
         opacity: .7;
 
         &:hover {
-            background: url(/images/my-yellow-color.png) no-repeat;
+            -webkit-filter: grayscale(0);
             background-size: 100%;
             opacity: 1; 
         }
@@ -1449,13 +1452,14 @@ body {
         width: 278px;
         margin-top: 27px;
         height: 280px;
-        background: url(/images/queen-city-fab-gray.png) no-repeat;
+        -webkit-filter: grayscale(1);
+        background: url(/images/queen-city-fab-color.png) no-repeat;
         background-size: 100%;
         transition-duration: .7s;
         opacity: .7;
 
         &:hover {
-            background: url(/images/queen-city-fab-color.png) no-repeat;
+            -webkit-filter: grayscale(0);
             background-size: 100%;
             opacity: 1;
         }
@@ -1506,13 +1510,14 @@ body {
         width: 278px;
         margin-top: 27px;
         height: 280px;
-        background: url(/images/safe-logo-gray.png) no-repeat;
+        -webkit-filter: grayscale(1);
+        background: url(/images/safe-logo-color.png) no-repeat;
         background-size: 100%;
         transition-duration: .7s;
         opacity: .7;
 
         &:hover {
-            background: url(/images/safe-logo-color.png) no-repeat;
+            -webkit-filter: grayscale(0);
             background-size: 100%;
             opacity: 1;
         }
@@ -1563,13 +1568,14 @@ body {
         width: 330px;
         margin-top: 4px;
         height: 315px;
-        background: url(/images/river-logo-gray.png) no-repeat;
+        -webkit-filter: grayscale(1);
+        background: url(/images/river-logo-color.png) no-repeat;
         background-size: 100%;
         transition-duration: .7s;
         opacity: .7;
 
         &:hover {
-            background: url(/images/river-logo-color.png) no-repeat;
+            -webkit-filter: grayscale(0);
             background-size: 100%;
             opacity: 1;
         }
@@ -1620,13 +1626,14 @@ body {
         width: 340px;
         margin-top: 3px;
         height: 315px;
-        background: url(/images/senior-services-logo-gray.png) no-repeat;
+        -webkit-filter: grayscale(1);
+        background: url(/images/senior-services-logo-color.png) no-repeat;
         background-size: 100%;
         transition-duration: .7s;
         opacity: .7;
 
         &:hover {
-            background: url(/images/senior-services-logo-color.png) no-repeat;
+            -webkit-filter: grayscale(0);
             background-size: 100%;
             opacity: 1;
         }
@@ -1677,13 +1684,14 @@ body {
         width: 340px;
         margin-top: 3px;
         height: 315px;
-        background: url(/images/tees-cakery-logo-gray.png) no-repeat;
+        -webkit-filter: grayscale(1);
+        background: url(/images/tees-cakery-logo-color.png) no-repeat;
         background-size: 100%;
         transition-duration: .7s;
         opacity: .7;
 
         &:hover {
-            background: url(/images/tees-cakery-logo-color.png) no-repeat;
+            -webkit-filter: grayscale(0);
             background-size: 100%;
             opacity: 1;
         }
