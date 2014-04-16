@@ -766,6 +766,25 @@ body {
     color: rgb(46, 49, 51);
     transition-duration: .6s;
 
+    .design-button {
+        display: inline-block;
+        border: 1px solid #8ac1ba;
+        width: 150px;
+        height: 40px;
+        margin-left: 15px;
+        margin-top: 51px;
+        color: #8ac1ba;
+
+        .design-copy {
+            font-size: 14px;
+            letter-spacing: 1px;
+            font-weight: 200;
+            text-align: center;
+            line-height: 35px;
+
+        }
+    }
+
     &:hover {
         color: snow;
         background-color: rgb(138, 193, 186);
@@ -827,6 +846,17 @@ body {
             @media only screen and (max-width : 320px) {
                 display: none;
             } 
+        }
+
+        .design-button {
+            border: 1px solid white;
+            color: white;
+            transition-duration: .6s;
+
+            &:hover {
+                background-color: white;
+                color: #8ac1ba;
+            }
         }
     }
 
@@ -854,6 +884,25 @@ body {
     color: rgb(46, 49, 51);
     transition-duration: .6s;
 
+    .design-button {
+        display: inline-block;
+        border: 1px solid #8ac1ba;
+        width: 150px;
+        height: 40px;
+        margin-left: 15px;
+        margin-top: 34px;
+        color: #8ac1ba;
+
+        .design-copy {
+            font-size: 14px;
+            letter-spacing: 1px;
+            font-weight: 200;
+            text-align: center;
+            line-height: 35px;
+
+        }
+    }
+
     &:hover {
         color: snow;
         background-color: rgb(138, 193, 186);
@@ -915,6 +964,17 @@ body {
             @media only screen and (max-width : 320px) {
                 display: none;
             } 
+        }
+
+        .design-button {
+            border: 1px solid white;
+            color: white;
+            transition-duration: .6s;
+
+            &:hover {
+                background-color: white;
+                color: #8ac1ba;
+            }
         }
     }
 
@@ -940,7 +1000,26 @@ body {
     width: 345px;
     height: 450px;
     color: rgb(46, 49, 51);
-    transition-duration: .6s; 
+    transition-duration: .6s;
+
+    .design-button {
+        display: inline-block;
+        border: 1px solid #8ac1ba;
+        width: 150px;
+        height: 40px;
+        margin-left: 15px;
+        margin-top: 51px;
+        color: #8ac1ba;
+
+        .design-copy {
+            font-size: 14px;
+            letter-spacing: 1px;
+            font-weight: 200;
+            text-align: center;
+            line-height: 35px;
+
+        }
+    } 
 
     &:hover {
         color: snow;
@@ -1003,6 +1082,17 @@ body {
             @media only screen and (max-width : 320px) {
                 display: none;
             } 
+        }
+
+        .design-button {
+            border: 1px solid white;
+            color: white;
+            transition-duration: .6s;
+
+            &:hover {
+                background-color: white;
+                color: #8ac1ba;
+            }
         }
     }
 
