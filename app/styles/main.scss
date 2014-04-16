@@ -362,8 +362,7 @@ body {
     @media only screen and (max-width : 320px) {
         display: none;
     } 
-}       
-
+}      
 
 // Get-A-Gig 
 
@@ -374,10 +373,48 @@ body {
     display: inline-block;
     background-color: snow;
     width: 345px;
-    height: 410px;
+    height: 450px;
     text-decoration: none;
     color: rgb(46, 49, 51);
     transition-duration: .6s;
+
+    .code-button {
+        display: inline-block;
+        border: 1px solid #8ac1ba;
+        width: 150px;
+        height: 40px;
+        margin-left: 15px;
+        margin-right: 11px;
+        margin-top: 17px;
+        color: rgb(138, 193, 186);
+
+        .code-copy {
+            font-size: 14px;
+            letter-spacing: 1px;
+            font-weight: 200;
+            text-align: center;
+            line-height: 35px;
+
+        }
+    }  
+
+    .design-button {
+        display: inline-block;
+        border: 1px solid #8ac1ba;
+        width: 150px;
+        height: 40px;
+        margin-right: 15px;
+        color: rgb(138, 193, 186);
+
+        .design-copy {
+            font-size: 14px;
+            letter-spacing: 1px;
+            font-weight: 200;
+            text-align: center;
+            line-height: 35px;
+
+        }
+    } 
 
     &:hover {
         color: snow;
@@ -442,6 +479,28 @@ body {
             @media only screen and (max-width : 320px) {
                 display: none;
             } 
+        }
+
+        .code-button {
+            border: 1px solid white;
+            color: white;
+            transition-duration: .6s;
+
+            &:hover {
+                background-color: white;
+                color: #8ac1ba;
+            }
+        }  
+
+        .design-button {
+            border: 1px solid white;
+            color: white;
+            transition-duration: .6s;
+
+            &:hover {
+                background-color: white;
+                color: #8ac1ba;
+            }
         }
     }
 
@@ -466,9 +525,28 @@ body {
     display: inline-block;
     background-color: snow;
     width: 345px;
-    height: 410px;
+    height: 450px;
     color: rgb(46, 49, 51);
     transition-duration: .6s;
+
+    .design-button {
+        display: inline-block;
+        border: 1px solid #8ac1ba;
+        width: 150px;
+        height: 40px;
+        margin-left: 15px;
+        margin-top: 68px;
+        color: #8ac1ba;
+
+        .design-copy {
+            font-size: 14px;
+            letter-spacing: 1px;
+            font-weight: 200;
+            text-align: center;
+            line-height: 35px;
+
+        }
+    } 
 
     &:hover {
         color: snow;
@@ -531,6 +609,17 @@ body {
             @media only screen and (max-width : 320px) {
                 display: none;
             } 
+        } 
+
+        .design-button {
+            border: 1px solid white;
+            color: white;
+            transition-duration: .6s;
+
+            &:hover {
+                background-color: white;
+                color: #8ac1ba;
+            }
         }
     }
 
@@ -554,10 +643,29 @@ body {
     display: inline-block;
     background-color: snow;
     width: 345px;
-    height: 410px;
+    height: 450px;
     text-decoration: none;
     color: rgb(46, 49, 51);
     transition-duration: .6s;
+
+    .design-button {
+        display: inline-block;
+        border: 1px solid #8ac1ba;
+        width: 150px;
+        height: 40px;
+        margin-left: 15px;
+        margin-top: 51px;
+        color: #8ac1ba;
+
+        .design-copy {
+            font-size: 14px;
+            letter-spacing: 1px;
+            font-weight: 200;
+            text-align: center;
+            line-height: 35px;
+
+        }
+    }
 
     &:hover {
         color: snow;
@@ -621,6 +729,17 @@ body {
                 display: none;
             } 
         }
+
+        .design-button {
+            border: 1px solid white;
+            color: white;
+            transition-duration: .6s;
+
+            &:hover {
+                background-color: white;
+                color: #8ac1ba;
+            }
+        }
     }
 
     /* Smartphones (portrait) ----------- */
@@ -643,7 +762,7 @@ body {
     display: inline-block;
     background-color: snow;
     width: 345px;
-    height: 410px;
+    height: 450px;
     color: rgb(46, 49, 51);
     transition-duration: .6s;
 
@@ -731,7 +850,7 @@ body {
     display: inline-block;
     background-color: snow;
     width: 345px;
-    height: 410px;
+    height: 450px;
     color: rgb(46, 49, 51);
     transition-duration: .6s;
 
@@ -819,7 +938,7 @@ body {
     display: inline-block;
     background-color: snow;
     width: 345px;
-    height: 410px;
+    height: 450px;
     color: rgb(46, 49, 51);
     transition-duration: .6s; 
 
