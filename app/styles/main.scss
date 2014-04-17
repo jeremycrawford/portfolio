@@ -679,12 +679,42 @@ body {
     color: rgb(46, 49, 51);
     transition-duration: .6s;
 
-    .design-button {
+    .code-button {
         display: inline-block;
         border: 1px solid #8ac1ba;
         width: 150px;
         height: 40px;
         margin-left: 15px;
+        margin-right: 11px;
+        margin-top: 51px;
+        color: rgb(138, 193, 186);
+
+        .code-copy {
+            font-size: 14px;
+            letter-spacing: 1px;
+            font-weight: 200;
+            text-align: center;
+            line-height: 35px;
+        }
+
+        // iPhone
+        @media only screen and (max-width : 320px) {
+            width: 90%;
+            margin-top: 33px;
+            margin-left: 15px;
+            margin-right: 0px;
+            margin-bottom: 15px;
+            color: white;
+            border: none;
+            background-color: rgb(138, 193, 186); 
+        }
+    }
+
+    .design-button {
+        display: inline-block;
+        border: 1px solid #8ac1ba;
+        width: 150px;
+        height: 40px;
         margin-top: 51px;
         color: #8ac1ba;
 
@@ -769,6 +799,17 @@ body {
             @media only screen and (max-width : 320px) {
                 display: none;
             } 
+        }
+
+        .code-button {
+            border: 1px solid white;
+            color: white;
+            transition-duration: .6s;
+
+            &:hover {
+                background-color: white;
+                color: #8ac1ba;
+            }
         }
 
         .design-button {
@@ -935,12 +976,42 @@ body {
     color: rgb(46, 49, 51);
     transition-duration: .6s;
 
-    .design-button {
+    .code-button {
         display: inline-block;
         border: 1px solid #8ac1ba;
         width: 150px;
         height: 40px;
         margin-left: 15px;
+        margin-right: 11px;
+        margin-top: 34px;
+        color: rgb(138, 193, 186);
+
+        .code-copy {
+            font-size: 14px;
+            letter-spacing: 1px;
+            font-weight: 200;
+            text-align: center;
+            line-height: 35px;
+        }
+
+        // iPhone
+        @media only screen and (max-width : 320px) {
+            width: 90%;
+            margin-top: 33px;
+            margin-left: 15px;
+            margin-right: 0px;
+            margin-bottom: 15px;
+            color: white;
+            border: none;
+            background-color: rgb(138, 193, 186); 
+        }
+    }
+
+    .design-button {
+        display: inline-block;
+        border: 1px solid #8ac1ba;
+        width: 150px;
+        height: 40px;
         margin-top: 34px;
         color: #8ac1ba;
 
@@ -1025,6 +1096,17 @@ body {
             @media only screen and (max-width : 320px) {
                 display: none;
             } 
+        }
+
+        .code-button {
+            border: 1px solid white;
+            color: white;
+            transition-duration: .6s;
+
+            &:hover {
+                background-color: white;
+                color: #8ac1ba;
+            }
         }
 
         .design-button {
