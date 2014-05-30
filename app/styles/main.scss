@@ -2188,20 +2188,48 @@ body {
     }  
 }
 
-.github {
+.github-icon {
     display: inline-block;
     margin: 0 auto;
     margin-right: 20px;
     border-radius: 50%;
     width: 85px;
     height: 85px;
-    background: url(/images/mark-light-green.png) no-repeat;
     background-size: 100%;
+    transition-duration: .7s;
+    opacity: .25;
+    -webkit-filter: grayscale(1);
+
+    &:hover {
+        -webkit-filter: grayscale(0);
+        background-size: 100%;
+        opacity: 1;
+    }
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+    }  
+}
+
+.linkedin-icon {
+    display: inline-block;
+    margin: 0 auto;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+    -webkit-filter: grayscale(1);
+    background: no-repeat;
+    background-size: 100%;
+    opacity: .8;
     transition-duration: .7s;
 
     &:hover {
-        background: url(/images/mark-white.png) no-repeat;
+        -webkit-filter: grayscale(0);
         background-size: 100%;
+        opacity: 1;
     }
 
     /* Smartphones (portrait) ----------- */
@@ -2212,44 +2240,21 @@ body {
     }  
 }
 
-.linkedin {
+.wordpress-icon {
     display: inline-block;
     margin: 0 auto;
     margin-right: 20px;
     border-radius: 50%;
     width: 85px;
     height: 85px;
-    background: url(/images/linkedin-light-green.png) no-repeat;
+    -webkit-filter: grayscale(1);
     background-size: 100%;
     transition-duration: .7s;
 
     &:hover {
-        background: url(/images/linkedin-color.png) no-repeat;
+        -webkit-filter: grayscale(0);
         background-size: 100%;
-    }
-
-    /* Smartphones (portrait) ----------- */
-    @media only screen and (max-width : 320px) {
-        width: 35px;
-        height: 35px;
-        margin-right: 10px;
-    }  
-}
-
-.wordpress {
-    display: inline-block;
-    margin: 0 auto;
-    margin-right: 20px;
-    border-radius: 50%;
-    width: 85px;
-    height: 85px;
-    background: url(/images/wordpress-light-green.png) no-repeat;
-    background-size: 100%;
-    transition-duration: .7s;
-
-    &:hover {
-        background: url(/images/wordpress-color.png) no-repeat;
-        background-size: 100%;
+        opacity: 1;
     }
 
     /* Smartphones (portrait) ----------- */
@@ -2261,20 +2266,22 @@ body {
 }
 
 
-.twitter {
+.twitter-icon {
     display: inline-block;
     margin: 0 auto;
     margin-right: 20px;
     border-radius: 50%;
     width: 85px;
     height: 85px;
-    background: url(/images/twiiter-light-green.png) no-repeat;
+    -webkit-filter: grayscale(1);
     background-size: 100%;
+    opacity: .5;
     transition-duration: .7s;
 
     &:hover {
-        background: url(/images/twiiter-color.png) no-repeat;
+        -webkit-filter: grayscale(0);
         background-size: 100%;
+        opacity: 1;
     }
 
     /* Smartphones (portrait) ----------- */
@@ -2285,20 +2292,22 @@ body {
     }  
 }
 
-.mail {
+.mail-icon {
     display: inline-block;
     margin: 0 auto;
     border-radius: 50%;
     margin-right: 20px;
     width: 85px;
     height: 85px;
-    background: url(/images/mail-light-green.png) no-repeat;
+    -webkit-filter: grayscale(1);
     background-size: 100%;
+    opacity: .7;
     transition-duration: .7s;
 
     &:hover {
-        background: url(/images/mail-color.png) no-repeat;
+        -webkit-filter: grayscale(0);
         background-size: 100%;
+        opacity: 1;
     }
 
     /* Smartphones (portrait) ----------- */
@@ -2309,19 +2318,21 @@ body {
     }  
 }
 
-.dribbble {
+.dribbble-icon {
     display: inline-block;
     margin: 0 auto;
     border-radius: 50%;
     width: 85px;
     height: 85px;
-    background: url(/images/dribbble-light-green.png) no-repeat;
+    -webkit-filter: grayscale(1);
     background-size: 100%;
+    opacity: .7;
     transition-duration: .7s;
 
     &:hover {
-        background: url(/images/dribbble-color.png) no-repeat;
+        -webkit-filter: grayscale(0);
         background-size: 100%;
+        opacity: 1;
     }
 
     /* Smartphones (portrait) ----------- */
@@ -2379,15 +2390,16 @@ body {
     border-radius: 50%;
     width: 65px;
     height: 65px;
-    background: url(/images/up-arrow-green.png) no-repeat;
-    background-size: 100%;
+    -webkit-filter: grayscale(1);
     transition-duration: .7s;
+    opacity: .4;
     cursor: pointer;
     cursor: hand;
 
     &:hover {
-        background: url(/images/up-arrow-white.png) no-repeat;
+        -webkit-filter: grayscale(0);
         background-size: 100%;
+        opacity: 1;
     }
 
     /* Smartphones (portrait) ----------- */
