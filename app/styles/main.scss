@@ -2199,6 +2199,7 @@ body {
     transition-duration: .7s;
     opacity: .25;
     -webkit-filter: grayscale(1);
+    cursor: pointer;
 
     &:hover {
         -webkit-filter: grayscale(0);
@@ -2225,6 +2226,7 @@ body {
     background-size: 100%;
     opacity: .8;
     transition-duration: .7s;
+    cursor: pointer;
 
     &:hover {
         -webkit-filter: grayscale(0);
@@ -2250,6 +2252,7 @@ body {
     -webkit-filter: grayscale(1);
     background-size: 100%;
     transition-duration: .7s;
+    cursor: pointer;
 
     &:hover {
         -webkit-filter: grayscale(0);
@@ -2277,6 +2280,7 @@ body {
     background-size: 100%;
     opacity: .5;
     transition-duration: .7s;
+    cursor: pointer;
 
     &:hover {
         -webkit-filter: grayscale(0);
@@ -2303,6 +2307,7 @@ body {
     background-size: 100%;
     opacity: .7;
     transition-duration: .7s;
+    cursor: pointer;
 
     &:hover {
         -webkit-filter: grayscale(0);
@@ -2328,6 +2333,7 @@ body {
     background-size: 100%;
     opacity: .7;
     transition-duration: .7s;
+    cursor: pointer;
 
     &:hover {
         -webkit-filter: grayscale(0);
