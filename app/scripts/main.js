@@ -2,7 +2,7 @@ console.log('\'Allo \'Allo!');
 
 $("#work-btn").click(function() {
     $('body').animate({
-        scrollTop: $("#work").offset().top
+        scrollTop: $("#graphic-design").offset().top
     }, 1250);
 });
 
@@ -38,4 +38,42 @@ $(window).scroll(function () {
     // $('#logo-page-header').hide();
     $("#logo-page-header").fadeOut(500);
   }
+});
+
+// Design Buttons
+
+$( ".design-button-one" ).click(function() {
+  $( ".ettain-gallery-container" ).slideToggle( "slow" );
+});
+
+// exit Buttons
+
+$( "#exit-ettain-container" ).click(function() {
+  $( ".ettain-gallery-container" ).slideToggle( "slow" );
+});
+
+// Image Gallery
+ 
+$(document).ready(function(){
+ 
+var counter = 0,
+$items = $('.diy-slideshow figure'),
+numItems = $items.length;
+ 
+var showCurrent = function(){
+var itemToShow = Math.abs(counter%numItems);
+$items.removeClass('show');
+$items.eq(itemToShow).addClass('show');
+};
+ 
+$('.next').on('click', function(){
+counter++;
+showCurrent();
+});
+ 
+$('.prev').on('click', function(){
+counter--;
+showCurrent();
+});
+ 
 });
