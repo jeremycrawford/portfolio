@@ -25,6 +25,58 @@ $("#scroll-up-btn").click(function() {
         scrollTop: 0}, 500);
 });
 
+// Header Nav Buttons
+
+$("#header-home-button").click(function() {
+    $('body').animate({
+        scrollTop: 0}, 500);
+});
+
+$(".menu-graphic-design").click(function() {
+    $('body').animate({
+        scrollTop: $("#graphic-design").offset().top
+    }, 750);
+});
+
+$(".menu-ui-design").click(function() {
+    $('body').animate({
+        scrollTop: $("#ui-design").offset().top
+    }, 750);
+});
+
+$("#header-about-button").click(function() {
+    $('body').animate({
+        scrollTop: $("#about").offset().top
+    }, 750);
+});
+
+$("#header-contact-button").click(function() {
+    $('body').animate({
+        scrollTop: $("#footer").offset().top
+    }, 750);
+});
+
+
+// Header Nav Dropdown 
+
+$(function(){
+
+    $("ul.dropdown li").hover(function(){
+    
+        $(this).addClass("hover");
+        $('ul:first',this).css('visibility', 'visible');
+    
+    }, function(){
+    
+        $(this).removeClass("hover");
+        $('ul:first',this).css('visibility', 'hidden');
+    
+    });
+    
+    $("ul.dropdown li ul li:has(ul)").find("a:first").append(" &raquo; ");
+
+});
+
 
 // Navbar
 

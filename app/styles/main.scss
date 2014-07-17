@@ -302,7 +302,9 @@ figure.show {
 
 // Graphic Design Section
 
-#graphic-design {
+#graphic-design,
+#ui-design,
+#web-development {
     background-color: #DADADA;
     width: 100%;
     height: auto;
@@ -634,7 +636,7 @@ figure.show {
 
 
 
-// Logo Page Section Start
+// Header
 
 #logo-page-header {
     position: fixed;
@@ -655,7 +657,7 @@ figure.show {
 }
 
 .header-container {
-    width: 1228px;
+    width: 100%;
     margin: 0 auto;
 
     /* Smartphones (portrait) ----------- */
@@ -672,6 +674,7 @@ figure.show {
 
     .header-logo {
         margin-top: 10px;
+        margin-left: 15px;
         width: 50px;
         height: 50px;
 
@@ -686,7 +689,31 @@ figure.show {
     display: inline-block;
     float: right;
 
-    .home-button {
+    #header-home-button {
+        cursor: pointer;
+        font-weight: 100;
+        letter-spacing: 2px;
+        display: inline-block;
+        width: 121px;
+        height: 80px;
+        color: white;
+        border: none;
+        background-color: rgb(46, 49, 51);
+        line-height: 70px;
+        text-align: center;
+        padding-top: 3px;
+        margin: 0 auto;
+        -webkit-transition: all .2s ease-in-out;
+
+        &:hover {
+            text-decoration: none;
+            background-color: rgba(0, 0, 0, .1);
+            border-bottom: 4px solid rgb(138, 193, 186);
+        }
+    }
+
+    #header-work-button {
+        cursor: pointer;
         font-weight: 100;
         letter-spacing: 2px;
         display: inline-block;
@@ -704,11 +731,132 @@ figure.show {
         &:hover {
             background-color: rgba(0, 0, 0, .1);
             border-bottom: 4px solid rgb(138, 193, 186);
+
+            .menu-graphic-design {
+                visibility: visible;
+            }
+
+            .menu-ui-design {
+                visibility: visible;
+            }
+
+            .menu-web-dev {
+                visibility: visible;
+            }
+        }
+
+        /* Smartphones (portrait) ----------- */
+        @media only screen and (max-width : 320px) {
+            display: none;
+        } 
+    }
+
+    .menu-graphic-design {
+        cursor: pointer;
+        font-weight: 100;
+        visibility: hidden;
+        letter-spacing: 2px;
+        display: inline-block;
+        width: 246px;
+        height: 80px;
+        color: white;
+        border: none;
+        float: left;
+        padding-right: 47px;
+        margin-left: -40px;
+        position: relative;
+        background-color: #2e3133;
+        line-height: 70px;
+        margin-top: 7px;
+        z-index: 999;
+        -webkit-transition: all .2s ease-in-out;
+
+        &:hover {
+            visibility: visible;
+            background-color: rgb(42, 44, 45);
+        }
+    }
+
+    .menu-ui-design {
+        cursor: pointer;
+        font-weight: 100;
+        visibility: hidden;
+        letter-spacing: 2px;
+        display: inline-block;
+        width: 246px;
+        height: 80px;
+        color: white;
+        border: none;
+        float: left;
+        padding-right: 90px;
+        margin-left: -40px;
+        position: relative;
+        background-color: #2e3133;
+        line-height: 70px;
+        z-index: 999;
+        -webkit-transition: all .2s ease-in-out;
+
+        &:hover {
+            visibility: visible;
+            background-color: rgb(42, 44, 45);
+        }
+    }
+
+    .menu-web-dev {
+        cursor: pointer;
+        font-weight: 100;
+        visibility: hidden;
+        letter-spacing: 2px;
+        display: inline-block;
+        width: 246px;
+        height: 80px;
+        color: white;
+        border: none;
+        float: left;
+        padding-right: 26px;
+        margin-left: -40px;
+        position: relative;
+        background-color: #2e3133;
+        line-height: 70px;
+        z-index: 999;
+        -webkit-transition: all .2s ease-in-out;
+
+        &:hover {
+            visibility: visible;
+            background-color: rgb(42, 44, 45);
         }
     }
 }
 
-#contact-button {
+#header-about-button {
+    cursor: pointer;
+    font-weight: 100;
+    letter-spacing: 2px;
+    display: inline-block;
+    width: 121px;
+    height: 80px;
+    color: white;
+    border: none;
+    background-color: rgb(46, 49, 51);
+    line-height: 70px;
+    text-align: center;
+    padding-top: 3px;
+    margin: 0 auto;
+    -webkit-transition: all .2s ease-in-out;
+
+    &:hover {
+        background-color: rgba(0, 0, 0, .1);
+        border-bottom: 4px solid rgb(138, 193, 186);
+    }
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        display: none;
+    } 
+}
+
+#header-contact-button {
+    cursor: pointer;
     font-weight: 100;
     letter-spacing: 2px;
     display: inline-block;
