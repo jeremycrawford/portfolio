@@ -107,6 +107,10 @@ $( ".design-button-four" ).click(function() {
   $( ".river-gallery-container" ).slideDown( "slow" );
 });
 
+$( ".design-button-six" ).click(function() {
+  $( ".affluent-gallery-container" ).slideDown( "slow" );
+});
+
 
 
 // exit Buttons
@@ -125,6 +129,10 @@ $( "#exit-woolpert-container" ).click(function() {
 
 $( "#exit-river-container" ).click(function() {
   $( ".river-gallery-container" ).slideUp( "slow" );
+});
+
+$( "#exit-affluent-container" ).click(function() {
+  $( ".affluent-gallery-container" ).slideUp( "slow" );
 });
 
 
@@ -212,6 +220,33 @@ showCurrent();
 });
 
 
+// Affluent Gallery
+ 
+$(document).ready(function(){
+ 
+var counter = 0,
+$items = $('.affluent-slideshow figure'),
+numItems = $items.length;
+ 
+var showCurrent = function(){
+var itemToShow = Math.abs(counter%numItems);
+$items.removeClass('affluent-show');
+$items.eq(itemToShow).addClass('affluent-show');
+};
+ 
+$('.affluent-next').on('click', function(){
+counter++;
+showCurrent();
+});
+ 
+$('.affluent-prev').on('click', function(){
+counter--;
+showCurrent();
+});
+ 
+});
+
+
 
 // buttons-scroll-to
 
@@ -239,6 +274,12 @@ $(".design-button-four").click(function() {
     }, 750);
 });
 
+$(".design-button-six").click(function() {
+    $('body').animate({
+        scrollTop: $(".affluent-gallery-container").offset().top +32.5
+    }, 750);
+});
+
 // exit-scroll-to-buttons
 
 $("#exit-ettain-container").click(function() {
@@ -260,6 +301,12 @@ $("#exit-woolpert-container").click(function() {
 });
 
 $("#exit-river-container").click(function() {
+    $('body').animate({
+        scrollTop: $("#graphic-design").offset().top 
+    }, 750);
+});
+
+$("#exit-affluent-container").click(function() {
     $('body').animate({
         scrollTop: $("#graphic-design").offset().top 
     }, 750);
