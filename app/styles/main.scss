@@ -230,9 +230,9 @@ body {
 
 
 
-// Image Scrolling Gallery Start
-
-.diy-slideshow {
+// Ettain Group Scrolling Gallery Start
+ 
+.ettain-slideshow {
   position: relative;
   display: block;
   overflow: hidden;
@@ -243,12 +243,12 @@ figure {
   opacity: 0;
 }
 
-figure.show {
+figure.ettain-show {
   opacity: 1;
   position: static;
 }
 
-.next, .prev {
+.ettain-next, .ettain-prev {
   color: #fff;
   position: absolute;
   background: rgba(0,0,0, .6);
@@ -260,12 +260,12 @@ figure.show {
   user-select: none;
 }
 
-.next:hover, .prev:hover {
+.ettain-next:hover, .ettain-prev:hover {
   cursor: pointer;
   opacity: 1;
 }
 
-.next {
+.ettain-next {
     width: 60px;
     height: auto;
     right: 0;
@@ -275,7 +275,7 @@ figure.show {
     margin-right: 20px;
 }
 
-.prev {
+.ettain-prev {
     width: 60px;
     height: auto;
     left: 0;
@@ -286,6 +286,66 @@ figure.show {
 }
 
 
+
+
+
+
+
+
+// Woolpert Scrolling Gallery Start
+ 
+.woolpert-slideshow {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+figure {
+  position: absolute;
+  opacity: 0;
+}
+
+figure.woolpert-show {
+  opacity: 1;
+  position: static;
+}
+
+.woolpert-next, .woolpert-prev {
+  color: #fff;
+  position: absolute;
+  background: rgba(0,0,0, .6);
+  top: 46.5%;
+  z-index: 1;
+  font-size: 2em;
+  margin-top: -.75em;
+  opacity: .3;
+  user-select: none;
+}
+
+.woolpert-next:hover, .woolpert-prev:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.woolpert-next {
+    width: 60px;
+    height: auto;
+    right: 0;
+    padding: 15px 15px 15px 15px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin-right: 20px;
+}
+
+.woolpert-prev {
+    width: 60px;
+    height: auto;
+    left: 0;
+    padding: 15px 15px 15px 15px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-left: 20px;
+}
 
 
 
@@ -446,7 +506,9 @@ figure.show {
     } 
 }
 
-// Grpahic Design Section End
+// Graphic Design Gallery Section
+
+// Ettain Group Gallery
 
 .ettain-gallery-container {
     height: auto;
@@ -531,6 +593,242 @@ figure.show {
         border-bottom: 25px solid rgb(138, 193, 186);
     }
 }
+
+
+
+// Logo Gallery
+
+
+
+.logo-gallery-container {
+    height: auto;
+    width: 100%;
+    padding-top: 20px;
+    display: none;
+    padding-bottom: 20px;
+
+    .logo-gallery {
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        width: 100%;
+        background-color: rgb(113, 195, 174);
+        text-align: center;
+        padding-bottom: 60px;
+
+        #exit-logo-container {
+            display: inline-block;
+            cursor: pointer;
+            width: 30px;
+            height: 36px;
+            float: right;
+            margin: 15px;
+            z-index: 100;
+            margin-top: 100px;
+            margin-right: 36px;
+
+            .x-line-one {
+                height: 38px;
+                width: 2px;
+                margin-left: 13px;
+                background-color: white;
+                transform: rotate(45deg);
+                -ms-transform: rotate(45deg); /* IE 9 */
+                -webkit-transform: rotate(45deg); /* Safari and Chrome */
+                z-index: 1;
+            }
+
+            .x-line-two {
+                height: 38px;
+                width: 2px;
+                background-color: white;
+                transform: rotate(90deg);
+                -ms-transform: rotate(90deg); /* IE 9 */
+                -webkit-transform: rotate(90deg); /* Safari and Chrome */
+                z-index: 2;
+            }
+
+            &:hover {
+                opacity: .5;
+            }
+        }
+
+        .logo-photo-container {
+            padding-top: 155px;
+
+            .logo-container {
+                vertical-align: top;
+                margin: 20px;
+                position: relative;
+                display: inline-block;
+                background-color: snow;
+                width: 345px;
+                height: 325px;
+                color: rgb(46, 49, 51);
+
+                /* Smartphones (portrait) ----------- */
+                @media only screen and (max-width : 320px) {
+                    width: 280px;
+                    height: 265px;
+                }  
+            }
+
+            .inside-logo-container {
+                width: 350px;
+                height: 330px;
+                margin: 0 auto;
+
+                /* Smartphones (portrait) ----------- */
+                @media only screen and (max-width : 320px) {
+                    width: 280px;
+                    height: 265px;
+                } 
+
+                .logo-image {
+                    margin-top: 34px;
+                    display: inline-block;
+                    width: 260px;
+                    height: auto;
+                    -webkit-filter: grayscale(1);
+                    background-size: 100%;
+                    transition-duration: .7s;
+                    opacity: .7;
+
+                    &:hover {
+                        -webkit-filter: grayscale(0);
+                        background-size: 100%;
+                        opacity: 1;
+                    }
+
+                    /* Smartphones (portrait) ----------- */
+                    @media only screen and (max-width : 320px) {
+                        -webkit-filter: grayscale(0);
+                        width: 185px;
+                        height: auto;
+                        margin-top: 40px;
+                        background-size: 100%;
+                        opacity: 1;
+                    } 
+                }
+            }
+        }
+    }
+
+    .logo-arrow-up {
+        width: 0; 
+        height: 0;
+        margin-left: 48.27%; 
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-bottom: 25px solid rgb(113, 195, 174);
+    }
+}
+
+
+// Woolpert Gallery
+ 
+
+.woolpert-gallery-container {
+    height: auto;
+    width: 100%;
+    padding-top: 20px;
+    display: none;
+    padding-bottom: 20px;
+
+    .woolpert-gallery {
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        width: 100%;
+        background-color: rgb(113, 195, 174);
+        text-align: center;
+        padding-bottom: 60px;
+
+        #exit-woolpert-container {
+            display: inline-block;
+            cursor: pointer;
+            width: 30px;
+            height: 36px;
+            float: right;
+            margin: 15px;
+            z-index: 100;
+            margin-top: 100px;
+            margin-right: 36px;
+
+            .x-line-one {
+                height: 38px;
+                width: 2px;
+                margin-left: 13px;
+                background-color: white;
+                transform: rotate(45deg);
+                -ms-transform: rotate(45deg); /* IE 9 */
+                -webkit-transform: rotate(45deg); /* Safari and Chrome */
+                z-index: 1;
+            }
+
+            .x-line-two {
+                height: 38px;
+                width: 2px;
+                background-color: white;
+                transform: rotate(90deg);
+                -ms-transform: rotate(90deg); /* IE 9 */
+                -webkit-transform: rotate(90deg); /* Safari and Chrome */
+                z-index: 2;
+            }
+
+            &:hover {
+                opacity: .5;
+            }
+        }
+
+        .woolpert-photo-container {
+            vertical-align: top;
+            position: relative;
+            margin: 0 auto;
+            margin-top: 80px; 
+            margin-left: 80px;     
+            display: inline-block;
+            background-color: white;
+            width: 78%;
+            height: auto;
+            text-decoration: none;
+            color: rgb(46, 49, 51);
+
+            .woolpert-photos {
+                padding: 20px;
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+
+    .woolpert-arrow-up {
+        width: 0; 
+        height: 0;
+        margin-left: 21.27%; 
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-bottom: 25px solid rgb(138, 193, 186);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -764,7 +1062,7 @@ figure.show {
         color: white;
         border: none;
         float: left;
-        padding-right: 47px;
+        padding-right: 52px;
         margin-left: -40px;
         position: relative;
         background-color: rgb(47, 63, 79);
@@ -888,7 +1186,18 @@ figure.show {
 
 
 
+
+
+
+
+
+
+
+
+
+
 // Main Section Start
+
 #logo-main {
     width: 100%;
     height: 380px;
@@ -944,544 +1253,7 @@ figure.show {
 
 
 
-// Work Section Start
 
-#logo-work {
-    background-color: #DADADA;
-    margin: 0 auto;
-    height: auto;
-}
-
-.logo-work-container {
-    padding-top: 65px;
-    padding-bottom: 65px;
-    width: 100%;
-    text-align: center;
-    margin: 0 auto;
-}       
-
-// Project Container One
-
-.logo-one-container {
-    vertical-align: top;
-    margin: 20px;
-    position: relative;
-    display: inline-block;
-    background-color: snow;
-    width: 380px;
-    height: 330px;
-    color: rgb(46, 49, 51);
-
-    /* Smartphones (portrait) ----------- */
-    @media only screen and (max-width : 320px) {
-        width: 280px;
-        height: 265px;
-    }  
-}
-
-.get-logo-container {
-    width: 350px;
-    height: 330px;
-    margin: 0 auto;
-
-    /* Smartphones (portrait) ----------- */
-    @media only screen and (max-width : 320px) {
-        width: 280px;
-        height: 265px;
-    } 
-
-    .get-logo {
-        margin-top: 34px;
-        display: inline-block;
-        width: 260px;
-        height: auto;
-        -webkit-filter: grayscale(1);
-        background-size: 100%;
-        transition-duration: .7s;
-        opacity: .7;
-
-        &:hover {
-            -webkit-filter: grayscale(0);
-            background-size: 100%;
-            opacity: 1;
-        }
-
-        /* Smartphones (portrait) ----------- */
-        @media only screen and (max-width : 320px) {
-            -webkit-filter: grayscale(0);
-            width: 185px;
-            height: auto;
-            margin-top: 40px;
-            background-size: 100%;
-            opacity: 1;
-        } 
-    }
-}
-
-
-
-
-// Project Container Two
-
-.logo-two-container {
-    vertical-align: top;
-    margin: 20px;
-    position: relative;
-    display: inline-block;
-    background-color: snow;
-    width: 380px;
-    height: 330px;
-    color: rgb(46, 49, 51);
-
-    /* Smartphones (portrait) ----------- */
-    @media only screen and (max-width : 320px) {
-        width: 280px;
-        height: 265px;
-    }
-}
-
-.rivera-logo-container {
-    width: 350px;
-    height: 330px;
-    margin: 0 auto;
-
-    /* Smartphones (portrait) ----------- */
-    @media only screen and (max-width : 320px) {
-        width: 280px;
-        height: 265px;
-    }
-
-    .rivera-logo {
-        display: inline-block;
-        width: 290px;
-        margin-top: 17px;
-        height: auto;
-        -webkit-filter: grayscale(1);
-        background-size: 100%;
-        transition-duration: .7s;
-        opacity: .7;
-
-        &:hover {
-            -webkit-filter: grayscale(0);
-            background-size: 100%;
-            opacity: 1;
-        }
-
-        /* Smartphones (portrait) ----------- */
-        @media only screen and (max-width : 320px) {
-            -webkit-filter: grayscale(0);
-            width: 230px;
-            height: auto;
-            background-size: 100%;
-            opacity: 1;
-        }
-    }
-}
-
-// Project Container Three
-
-.logo-three-container {
-    vertical-align: top;
-    margin: 20px;
-    position: relative;
-    display: inline-block;
-    background-color: snow;
-    width: 380px;
-    height: 330px;
-    text-decoration: none;
-    color: rgb(46, 49, 51);
-
-    /* Smartphones (portrait) ----------- */
-    @media only screen and (max-width : 320px) {
-        width: 280px;
-        height: 265px;
-    }
-}
-
-.golf-slayer-logo-container {
-    width: 350px;
-    height: 330px;
-    margin: 0 auto;
-
-    /* Smartphones (portrait) ----------- */
-    @media only screen and (max-width : 320px) {
-        width: 280px;
-        height: 265px;
-    }
-
-    .golf-slayer-logo {
-        display: inline-block;
-        width: 278px;
-        margin-top: 27px;
-        height: auto;
-        -webkit-filter: grayscale(1);
-        background-size: 100%;
-        transition-duration: .7s;
-        opacity: .7;
-
-        &:hover {
-            -webkit-filter: grayscale(0);
-            background-size: 100%;
-            opacity: 1;
-        }
-
-        /* Smartphones (portrait) ----------- */
-        @media only screen and (max-width : 320px) {
-            -webkit-filter: grayscale(0);
-            width: 230px;
-            height: auto;
-            margin-top: 20px;
-            background-size: 100%;
-            opacity: 1;
-        }
-    }
-}
-
-// Project Container Four
-
-.logo-four-container {
-    vertical-align: top;
-    margin: 20px;
-    position: relative;
-    display: inline-block;
-    background-color: snow;
-    width: 380px;
-    height: 330px;
-    text-decoration: none;
-    color: rgb(46, 49, 51);
-
-    /* Smartphones (portrait) ----------- */
-    @media only screen and (max-width : 320px) {
-        width: 280px;
-        height: 265px;
-    }
-}
-
-.my-yellow-logo-container {
-    width: 350px;
-    height: 330px;
-    margin: 0 auto;
-
-    /* Smartphones (portrait) ----------- */
-    @media only screen and (max-width : 320px) {
-        width: 280px;
-        height: 265px;
-    }
-
-    .my-yellow-logo {
-        display: inline-block;
-        width: 278px;
-        margin-top: 27px;
-        height: auto;
-        -webkit-filter: grayscale(1);
-        background-size: 100%;
-        transition-duration: .7s;
-        opacity: .7;
-
-        &:hover {
-            -webkit-filter: grayscale(0);
-            background-size: 100%;
-            opacity: 1; 
-        }
-
-        /* Smartphones (portrait) ----------- */
-        @media only screen and (max-width : 320px) {
-            -webkit-filter: grayscale(0);
-            width: 230px;
-            height: auto;
-            margin-top: 20px;
-            background-size: 100%;
-            opacity: 1; 
-        }
-    }
-}
-
-.logo-five-container {
-    vertical-align: top;
-    margin: 20px;
-    position: relative;
-    display: inline-block;
-    background-color: snow;
-    width: 380px;
-    height: 330px;
-    text-decoration: none;
-    color: rgb(46, 49, 51);
-
-    /* Smartphones (portrait) ----------- */
-    @media only screen and (max-width : 320px) {
-        width: 280px;
-        height: 265px;
-    }
-}
-
-.queen-city-logo-container {
-    width: 350px;
-    height: 330px;
-    margin: 0 auto;
-
-    /* Smartphones (portrait) ----------- */
-    @media only screen and (max-width : 320px) {
-        width: 280px;
-        height: 265px;
-    }
-
-    .queen-city-logo {
-        display: inline-block;
-        width: 278px;
-        margin-top: 27px;
-        height: auto;
-        -webkit-filter: grayscale(1);
-        background-size: 100%;
-        transition-duration: .7s;
-        opacity: .7;
-
-        &:hover {
-            -webkit-filter: grayscale(0);
-            background-size: 100%;
-            opacity: 1;
-        }
-
-        /* Smartphones (portrait) ----------- */
-        @media only screen and (max-width : 320px) {
-            -webkit-filter: grayscale(0);
-            width: 230px;
-            height: auto;
-            margin-top: 20px;
-            background-size: 100%;
-            opacity: 1;
-        }
-    }
-}
-
-.logo-six-container {
-    vertical-align: top;
-    margin: 20px;
-    position: relative;
-    display: inline-block;
-    background-color: snow;
-    width: 380px;
-    height: 330px;
-    text-decoration: none;
-    color: rgb(46, 49, 51);
-
-    /* Smartphones (portrait) ----------- */
-    @media only screen and (max-width : 320px) {
-        width: 280px;
-        height: 265px;
-    }
-}
-
-.safe-logo-container {
-    width: 350px;
-    height: 330px;
-    margin: 0 auto;
-
-    /* Smartphones (portrait) ----------- */
-    @media only screen and (max-width : 320px) {
-        width: 280px;
-        height: 265px;
-    }
-
-    .safe-logo {
-        display: inline-block;
-        width: 278px;
-        margin-top: 27px;
-        height: auto;
-        -webkit-filter: grayscale(1);
-        background-size: 100%;
-        transition-duration: .7s;
-        opacity: .7;
-
-        &:hover {
-            -webkit-filter: grayscale(0);
-            background-size: 100%;
-            opacity: 1;
-        }
-
-        /* Smartphones (portrait) ----------- */
-        @media only screen and (max-width : 320px) {
-            -webkit-filter: grayscale(0);
-            width: 230px;
-            height: auto;
-            margin-top: 20px;
-            background-size: 100%;
-            opacity: 1;
-        }
-    }
-}
-
-.logo-seven-container {
-    vertical-align: top;
-    margin: 20px;
-    position: relative;
-    display: inline-block;
-    background-color: snow;
-    width: 380px;
-    height: 330px;
-    text-decoration: none;
-    color: rgb(46, 49, 51);
-
-    /* Smartphones (portrait) ----------- */
-    @media only screen and (max-width : 320px) {
-        width: 280px;
-        height: 265px;
-    }
-}
-
-.river-logo-container {
-    width: 350px;
-    height: 330px;
-    margin: 0 auto;
-
-    /* Smartphones (portrait) ----------- */
-    @media only screen and (max-width : 320px) {
-        width: 280px;
-        height: 265px;
-    }
-
-    .river-logo {
-        display: inline-block;
-        width: 330px;
-        margin-top: 4px;
-        height: auto;
-        -webkit-filter: grayscale(1);
-        background-size: 100%;
-        transition-duration: .7s;
-        opacity: .7;
-
-        &:hover {
-            -webkit-filter: grayscale(0);
-            background-size: 100%;
-            opacity: 1;
-        }
-
-        /* Smartphones (portrait) ----------- */
-        @media only screen and (max-width : 320px) {
-            -webkit-filter: grayscale(0);
-            width: 230px;
-            height: auto;
-            margin-top: 20px;
-            background-size: 100%;
-            opacity: 1;
-        }
-    }
-}
-
-.logo-eight-container {
-    vertical-align: top;
-    margin: 20px;
-    position: relative;
-    display: inline-block;
-    background-color: snow;
-    width: 380px;
-    height: 330px;
-    text-decoration: none;
-    color: rgb(46, 49, 51);
-
-    /* Smartphones (portrait) ----------- */
-    @media only screen and (max-width : 320px) {
-        width: 280px;
-        height: 265px;
-    }
-}
-
-.senior-logo-container {
-    width: 350px;
-    height: auto;
-    margin: 0 auto;
-
-    /* Smartphones (portrait) ----------- */
-    @media only screen and (max-width : 320px) {
-        width: 280px;
-        height: 265px;
-    }
-
-    .senior-logo {
-        display: inline-block;
-        width: 340px;
-        margin-top: 3px;
-        height: auto;
-        -webkit-filter: grayscale(1);
-        background-size: 100%;
-        transition-duration: .7s;
-        opacity: .7;
-
-        &:hover {
-            -webkit-filter: grayscale(0);
-            background-size: 100%;
-            opacity: 1;
-        }
-
-        /* Smartphones (portrait) ----------- */
-        @media only screen and (max-width : 320px) {
-            -webkit-filter: grayscale(0);
-            width: 230px;
-            height: 245px;
-            margin-top: 20px;
-            background-size: 100%;
-            opacity: 1;
-        }
-    }
-}
-
-.logo-nine-container {
-    vertical-align: top;
-    margin: 20px;
-    position: relative;
-    display: inline-block;
-    background-color: snow;
-    width: 380px;
-    height: 330px;
-    text-decoration: none;
-    color: rgb(46, 49, 51);
-
-    /* Smartphones (portrait) ----------- */
-    @media only screen and (max-width : 320px) {
-        width: 280px;
-        height: 265px;
-    }
-}
-
-.tinas-logo-container {
-    width: 350px;
-    height: 330px;
-    margin: 0 auto;
-
-    /* Smartphones (portrait) ----------- */
-    @media only screen and (max-width : 320px) {
-        width: 280px;
-        height: 265px;
-    }
-
-    .tinas-logo {
-        display: inline-block;
-        width: 245px;
-        margin-top: 42px;
-        height: auto;
-        -webkit-filter: grayscale(1);
-        background-size: 100%;
-        transition-duration: .7s;
-        opacity: .7;
-
-        &:hover {
-            -webkit-filter: grayscale(0);
-            background-size: 100%;
-            opacity: 1;
-        }
-
-        /* Smartphones (portrait) ----------- */
-        @media only screen and (max-width : 320px) {
-            -webkit-filter: grayscale(0);
-            width: 230px;
-            height: auto;
-            margin-top: 20px;
-            background-size: 100%;
-            opacity: 1;
-        }
-    }
-}
-
-// Logo Page Section End
 
 
 
