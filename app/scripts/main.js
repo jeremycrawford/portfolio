@@ -77,3 +77,19 @@ showCurrent();
 });
  
 });
+
+// buttons-scroll-to
+
+$(".design-button-one").click(function() {
+    $('body').animate({
+        scrollTop: $(".ettain-gallery-container").offset().top +50
+    }, 750);
+});
+
+// exit-scroll-to-buttons
+
+$("#exit-ettain-container").click(function() {
+    $('body').animate({
+        scrollTop: $("#graphic-design").offset().top 
+    }, 750);
+});
