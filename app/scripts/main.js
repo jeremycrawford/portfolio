@@ -10,7 +10,7 @@ $("#work-btn").click(function() {
 
 $("#about-btn").click(function() {
     $('body').animate({
-        scrollTop: $("#about").offset().top
+        scrollTop: $("#about").offset().top -80
     }, 1000);
 });
 
@@ -34,7 +34,7 @@ $("#header-home-button").click(function() {
 
 $(".menu-graphic-design").click(function() {
     $('body').animate({
-        scrollTop: $("#graphic-design").offset().top
+        scrollTop: $("#graphic-design").offset().top -80
     }, 750);
 });
 
@@ -46,7 +46,7 @@ $(".menu-ui-design").click(function() {
 
 $("#header-about-button").click(function() {
     $('body').animate({
-        scrollTop: $("#about").offset().top
+        scrollTop: $("#about").offset().top -80
     }, 750);
 });
 
