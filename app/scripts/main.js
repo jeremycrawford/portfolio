@@ -1,5 +1,7 @@
 console.log('\'Allo \'Allo!');
 
+// Main Nav Buttons
+
 $("#work-btn").click(function() {
     $('body').animate({
         scrollTop: $("#graphic-design").offset().top
@@ -23,34 +25,36 @@ $("#scroll-up-btn").click(function() {
         scrollTop: 0}, 500);
 });
 
-// $(window).scroll(function () { 
-//   if ($('body').scrollTop() < 380) {
-//     $("#logo-page-header").removeClass("logo-page-header-hidden", 1500);
-//   }
-//       else
-//         $("#logo-page-header").addClass("logo-page-header-hidden", 1000);
-// });
+
+// Navbar
 
 $(window).scroll(function () { 
-  if ($(this).scrollTop() < 300) {
-    $('#logo-page-header').fadeIn(500);
+  if ($(this).scrollTop() > 779) {
+    $('#logo-page-header').slideDown(500);
   } else {
-    // $('#logo-page-header').hide();
-    $("#logo-page-header").fadeOut(500);
+    $("#logo-page-header").slideUp(500);
   }
 });
 
-// Design Buttons
+
+// Project Buttons
 
 $( ".design-button-one" ).click(function() {
-  $( ".ettain-gallery-container" ).slideToggle( "slow" );
+  $( ".ettain-gallery-container" ).slideDown( "slow" );
 });
+
+
+
 
 // exit Buttons
 
 $( "#exit-ettain-container" ).click(function() {
-  $( ".ettain-gallery-container" ).slideToggle( "slow" );
+  $( ".ettain-gallery-container" ).slideUp( "slow" );
 });
+
+
+
+
 
 // Image Gallery
  
@@ -82,7 +86,7 @@ showCurrent();
 
 $(".design-button-one").click(function() {
     $('body').animate({
-        scrollTop: $(".ettain-gallery-container").offset().top +50
+        scrollTop: $(".ettain-gallery-container").offset().top +32.5
     }, 750);
 });
 
