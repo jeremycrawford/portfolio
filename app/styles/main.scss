@@ -365,7 +365,7 @@ figure.woolpert-show {
 #graphic-design,
 #ui-design,
 #web-development {
-    background-color: rgb(237, 240, 241);
+    background-color: rgb(218, 220, 221);
     width: 100%;
     height: auto;
 
@@ -376,7 +376,7 @@ figure.woolpert-show {
 }
 
 .work-container {
-    padding-bottom: 100px;
+    padding-bottom: 20px;
     width: 100%;
     margin: 0 auto;
     text-align: center;
@@ -389,7 +389,7 @@ figure.woolpert-show {
 }
 
 .work-header {
-    padding-top: 90px;
+    padding-top: 10px;
     margin-top: 0px;
 
     .work-intro {
@@ -590,7 +590,7 @@ figure.woolpert-show {
         margin-left: 21.27%; 
         border-left: 25px solid transparent;
         border-right: 25px solid transparent;
-        border-bottom: 25px solid rgb(138, 193, 186);
+        border-bottom: 25px solid rgb(113, 195, 174);
     }
 }
 
@@ -805,10 +805,10 @@ figure.woolpert-show {
     .woolpert-arrow-up {
         width: 0; 
         height: 0;
-        margin-left: 21.27%; 
+        margin-left: 75.27%; 
         border-left: 25px solid transparent;
         border-right: 25px solid transparent;
-        border-bottom: 25px solid rgb(138, 193, 186);
+        border-bottom: 25px solid rgb(113, 195, 174);
     }
 }
 
@@ -1007,7 +1007,7 @@ figure.woolpert-show {
 
         &:hover {
             background-color: rgb(55, 74, 93);
-            border-bottom: 4px solid rgb(77, 155, 131);
+            border-bottom: 4px solid rgb(113, 195, 174);
         }
     }
 
@@ -1030,7 +1030,7 @@ figure.woolpert-show {
 
         &:hover {
             background-color: rgb(55, 74, 93);
-            border-bottom: 4px solid rgb(77, 155, 131);
+            border-bottom: 4px solid rgb(113, 195, 174);
 
             .menu-graphic-design {
                 visibility: visible;
@@ -1147,7 +1147,7 @@ figure.woolpert-show {
 
     &:hover {
         background-color: rgb(55, 74, 93);
-        border-bottom: 4px solid rgb(77, 155, 131);
+        border-bottom: 4px solid rgb(113, 195, 174);
     }
 
     /* Smartphones (portrait) ----------- */
@@ -1175,7 +1175,7 @@ figure.woolpert-show {
 
     &:hover {
         background-color: rgb(55, 74, 93);
-        border-bottom: 4px solid rgb(77, 155, 131);
+        border-bottom: 4px solid rgb(113, 195, 174);
     }
 
     /* Smartphones (portrait) ----------- */
@@ -1288,7 +1288,7 @@ figure.woolpert-show {
         font-weight: 500;
         padding-top: 55px;
         font-size: 24px;
-        color: rgb(77, 155, 131);
+        color: rgb(113, 195, 174);
         margin-top: 0px;
         text-align: center;
 
@@ -1301,7 +1301,7 @@ figure.woolpert-show {
 
 .underline {
     margin: 20px auto;
-    background-color: rgb(77, 155, 131);
+    background-color: rgb(113, 195, 174);
     width: 20px;
     height: 2px;
 }
@@ -1329,13 +1329,12 @@ figure.woolpert-show {
     width: 85px;
     height: 85px;
     background-size: 100%;
-    transition-duration: .7s;
-    opacity: .25;
-    -webkit-filter: grayscale(1);
+    -webkit-filter: brightness(10);
+    opacity: .7;
     cursor: pointer;
 
     &:hover {
-        -webkit-filter: grayscale(0);
+        -webkit-filter: none;
         background-size: 100%;
         opacity: 1;
     }
@@ -1354,15 +1353,14 @@ figure.woolpert-show {
     border-radius: 50%;
     width: 85px;
     height: 85px;
-    -webkit-filter: grayscale(1);
     background: no-repeat;
     background-size: 100%;
-    opacity: .8;
-    transition-duration: .7s;
+    -webkit-filter: brightness(10);
+    opacity: .7;
     cursor: pointer;
 
     &:hover {
-        -webkit-filter: grayscale(0);
+        -webkit-filter: none;
         background-size: 100%;
         opacity: 1;
     }
@@ -1382,13 +1380,13 @@ figure.woolpert-show {
     border-radius: 50%;
     width: 85px;
     height: 85px;
-    -webkit-filter: grayscale(1);
     background-size: 100%;
-    transition-duration: .7s;
+    -webkit-filter: brightness(10);
+    opacity: .7;
     cursor: pointer;
 
     &:hover {
-        -webkit-filter: grayscale(0);
+        -webkit-filter: none;
         background-size: 100%;
         opacity: 1;
     }
@@ -1409,14 +1407,13 @@ figure.woolpert-show {
     border-radius: 50%;
     width: 85px;
     height: 85px;
-    -webkit-filter: grayscale(1);
+    -webkit-filter: brightness(10);
+    opacity: .7;
     background-size: 100%;
-    opacity: .5;
-    transition-duration: .7s;
     cursor: pointer;
 
     &:hover {
-        -webkit-filter: grayscale(0);
+        -webkit-filter: none;
         background-size: 100%;
         opacity: 1;
     }
@@ -1436,14 +1433,13 @@ figure.woolpert-show {
     margin-right: 20px;
     width: 85px;
     height: 85px;
-    -webkit-filter: grayscale(1);
-    background-size: 100%;
+    -webkit-filter: brightness(10);
     opacity: .7;
-    transition-duration: .7s;
+    background-size: 100%;
     cursor: pointer;
 
     &:hover {
-        -webkit-filter: grayscale(0);
+        -webkit-filter: none;
         background-size: 100%;
         opacity: 1;
     }
@@ -1462,14 +1458,13 @@ figure.woolpert-show {
     border-radius: 50%;
     width: 85px;
     height: 85px;
-    -webkit-filter: grayscale(1);
+    -webkit-filter: brightness(10);
     background-size: 100%;
     opacity: .7;
-    transition-duration: .7s;
     cursor: pointer;
 
     &:hover {
-        -webkit-filter: grayscale(0);
+        -webkit-filter: none;
         background-size: 100%;
         opacity: 1;
     }
@@ -1485,7 +1480,7 @@ figure.woolpert-show {
     margin-top: 75px;
     width: 100%;
     height: 1px;
-    background-color: silver;
+    background-color: rgb(113, 195, 174);
     opacity: .2;
 
     /* Smartphones (portrait) ----------- */

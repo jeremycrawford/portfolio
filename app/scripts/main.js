@@ -4,7 +4,7 @@ console.log('\'Allo \'Allo!');
 
 $("#work-btn").click(function() {
     $('body').animate({
-        scrollTop: $("#graphic-design").offset().top
+        scrollTop: $("#graphic-design").offset().top -80
     }, 1250);
 });
 
@@ -40,7 +40,7 @@ $(".menu-graphic-design").click(function() {
 
 $(".menu-ui-design").click(function() {
     $('body').animate({
-        scrollTop: $("#ui-design").offset().top
+        scrollTop: $("#ui-design").offset().top -80
     }, 750);
 });
 
@@ -81,8 +81,8 @@ $(function(){
 // Navbar
 
 $(window).scroll(function () { 
-  if ($(this).scrollTop() > 779) {
-    $('#logo-page-header').slideDown(500);
+  if ($(this).scrollTop() > 699) {
+    $('#logo-page-header').slideDown(50);
   } else {
     $("#logo-page-header").slideUp(500);
   }
