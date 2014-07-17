@@ -103,6 +103,9 @@ $( ".design-button-three" ).click(function() {
   $( ".woolpert-gallery-container" ).slideDown( "slow" );
 });
 
+$( ".design-button-four" ).click(function() {
+  $( ".river-gallery-container" ).slideDown( "slow" );
+});
 
 
 
@@ -118,6 +121,10 @@ $( "#exit-logo-container" ).click(function() {
 
 $( "#exit-woolpert-container" ).click(function() {
   $( ".woolpert-gallery-container" ).slideUp( "slow" );
+});
+
+$( "#exit-river-container" ).click(function() {
+  $( ".river-gallery-container" ).slideUp( "slow" );
 });
 
 
@@ -178,6 +185,33 @@ showCurrent();
 });
 
 
+// River Church Gallery
+ 
+$(document).ready(function(){
+ 
+var counter = 0,
+$items = $('.river-slideshow figure'),
+numItems = $items.length;
+ 
+var showCurrent = function(){
+var itemToShow = Math.abs(counter%numItems);
+$items.removeClass('river-show');
+$items.eq(itemToShow).addClass('river-show');
+};
+ 
+$('.river-next').on('click', function(){
+counter++;
+showCurrent();
+});
+ 
+$('.river-prev').on('click', function(){
+counter--;
+showCurrent();
+});
+ 
+});
+
+
 
 // buttons-scroll-to
 
@@ -199,6 +233,12 @@ $(".design-button-three").click(function() {
     }, 750);
 });
 
+$(".design-button-four").click(function() {
+    $('body').animate({
+        scrollTop: $(".river-gallery-container").offset().top +32.5
+    }, 750);
+});
+
 // exit-scroll-to-buttons
 
 $("#exit-ettain-container").click(function() {
@@ -214,6 +254,12 @@ $("#exit-logo-container").click(function() {
 });
 
 $("#exit-woolpert-container").click(function() {
+    $('body').animate({
+        scrollTop: $("#graphic-design").offset().top 
+    }, 750);
+});
+
+$("#exit-river-container").click(function() {
     $('body').animate({
         scrollTop: $("#graphic-design").offset().top 
     }, 750);
