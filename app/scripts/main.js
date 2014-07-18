@@ -107,6 +107,10 @@ $( ".design-button-four" ).click(function() {
   $( ".river-gallery-container" ).slideDown( "slow" );
 });
 
+$( ".design-button-five" ).click(function() {
+  $( ".home-depot-gallery-container" ).slideDown( "slow" );
+});
+
 $( ".design-button-six" ).click(function() {
   $( ".affluent-gallery-container" ).slideDown( "slow" );
 });
@@ -129,6 +133,10 @@ $( "#exit-woolpert-container" ).click(function() {
 
 $( "#exit-river-container" ).click(function() {
   $( ".river-gallery-container" ).slideUp( "slow" );
+});
+
+$( "#exit-home-depot-container" ).click(function() {
+  $( ".home-depot-gallery-container" ).slideUp( "slow" );
 });
 
 $( "#exit-affluent-container" ).click(function() {
@@ -220,6 +228,33 @@ showCurrent();
 });
 
 
+// Home Depot Gallery
+ 
+$(document).ready(function(){
+ 
+var counter = 0,
+$items = $('.home-depot-slideshow figure'),
+numItems = $items.length;
+ 
+var showCurrent = function(){
+var itemToShow = Math.abs(counter%numItems);
+$items.removeClass('home-depot-show');
+$items.eq(itemToShow).addClass('home-depot-show');
+};
+ 
+$('.home-depot-next').on('click', function(){
+counter++;
+showCurrent();
+});
+ 
+$('.home-depot-prev').on('click', function(){
+counter--;
+showCurrent();
+});
+ 
+});
+
+
 // Affluent Gallery
  
 $(document).ready(function(){
@@ -274,6 +309,12 @@ $(".design-button-four").click(function() {
     }, 750);
 });
 
+$(".design-button-five").click(function() {
+    $('body').animate({
+        scrollTop: $(".home-depot-gallery-container").offset().top +32.5
+    }, 750);
+});
+
 $(".design-button-six").click(function() {
     $('body').animate({
         scrollTop: $(".affluent-gallery-container").offset().top +32.5
@@ -301,6 +342,12 @@ $("#exit-woolpert-container").click(function() {
 });
 
 $("#exit-river-container").click(function() {
+    $('body').animate({
+        scrollTop: $("#graphic-design").offset().top 
+    }, 750);
+});
+
+$("#exit-home-depot-container").click(function() {
     $('body').animate({
         scrollTop: $("#graphic-design").offset().top 
     }, 750);
