@@ -115,6 +115,18 @@ $( ".design-button-six" ).click(function() {
   $( ".affluent-gallery-container" ).slideDown( "slow" );
 });
 
+$( ".design-button-seven" ).click(function() {
+  $( ".booming-gallery-container" ).slideDown( "slow" );
+});
+
+$( ".design-button-eight" ).click(function() {
+  $( ".smart-fox-gallery-container" ).slideDown( "slow" );
+});
+
+$( ".design-button-nine" ).click(function() {
+  $( ".red-sea-gallery-container" ).slideDown( "slow" );
+});
+
 
 
 // exit Buttons
@@ -141,6 +153,18 @@ $( "#exit-home-depot-container" ).click(function() {
 
 $( "#exit-affluent-container" ).click(function() {
   $( ".affluent-gallery-container" ).slideUp( "slow" );
+});
+
+$( "#exit-booming-container" ).click(function() {
+  $( ".booming-gallery-container" ).slideUp( "slow" );
+});
+
+$( "#exit-smart-fox-container" ).click(function() {
+  $( ".smart-fox-gallery-container" ).slideUp( "slow" );
+});
+
+$( "#exit-red-sea-container" ).click(function() {
+  $( ".red-sea-gallery-container" ).slideUp( "slow" );
 });
 
 
@@ -281,6 +305,84 @@ showCurrent();
  
 });
 
+// Booming Gallery
+ 
+$(document).ready(function(){
+ 
+var counter = 0,
+$items = $('.booming-slideshow figure'),
+numItems = $items.length;
+ 
+var showCurrent = function(){
+var itemToShow = Math.abs(counter%numItems);
+$items.removeClass('booming-show');
+$items.eq(itemToShow).addClass('booming-show');
+};
+ 
+$('.booming-next').on('click', function(){
+counter++;
+showCurrent();
+});
+ 
+$('.booming-prev').on('click', function(){
+counter--;
+showCurrent();
+});
+ 
+});
+
+// Smart Fox Gallery
+ 
+$(document).ready(function(){
+ 
+var counter = 0,
+$items = $('.smart-fox-slideshow figure'),
+numItems = $items.length;
+ 
+var showCurrent = function(){
+var itemToShow = Math.abs(counter%numItems);
+$items.removeClass('smart-fox-show');
+$items.eq(itemToShow).addClass('smart-fox-show');
+};
+ 
+$('.smart-fox-next').on('click', function(){
+counter++;
+showCurrent();
+});
+ 
+$('.smart-fox-prev').on('click', function(){
+counter--;
+showCurrent();
+});
+ 
+});
+
+// Red Sea Gallery
+ 
+$(document).ready(function(){
+ 
+var counter = 0,
+$items = $('.red-sea-slideshow figure'),
+numItems = $items.length;
+ 
+var showCurrent = function(){
+var itemToShow = Math.abs(counter%numItems);
+$items.removeClass('red-sea-show');
+$items.eq(itemToShow).addClass('red-sea-show');
+};
+ 
+$('.red-sea-next').on('click', function(){
+counter++;
+showCurrent();
+});
+ 
+$('.red-sea-prev').on('click', function(){
+counter--;
+showCurrent();
+});
+ 
+});
+
 
 
 // buttons-scroll-to
@@ -321,6 +423,24 @@ $(".design-button-six").click(function() {
     }, 750);
 });
 
+$(".design-button-seven").click(function() {
+    $('body').animate({
+        scrollTop: $(".booming-gallery-container").offset().top +32.5
+    }, 750);
+});
+
+$(".design-button-eight").click(function() {
+    $('body').animate({
+        scrollTop: $(".smart-fox-gallery-container").offset().top +32.5
+    }, 750);
+});
+
+$(".design-button-nine").click(function() {
+    $('body').animate({
+        scrollTop: $(".red-sea-gallery-container").offset().top +32.5
+    }, 750);
+});
+
 // exit-scroll-to-buttons
 
 $("#exit-ettain-container").click(function() {
@@ -354,6 +474,24 @@ $("#exit-home-depot-container").click(function() {
 });
 
 $("#exit-affluent-container").click(function() {
+    $('body').animate({
+        scrollTop: $("#graphic-design").offset().top 
+    }, 750);
+});
+
+$("#exit-booming-container").click(function() {
+    $('body').animate({
+        scrollTop: $("#graphic-design").offset().top 
+    }, 750);
+});
+
+$("#exit-smart-fox-container").click(function() {
+    $('body').animate({
+        scrollTop: $("#graphic-design").offset().top 
+    }, 750);
+});
+
+$("#exit-red-sea-container").click(function() {
     $('body').animate({
         scrollTop: $("#graphic-design").offset().top 
     }, 750);
