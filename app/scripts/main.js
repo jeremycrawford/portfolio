@@ -44,6 +44,12 @@ $(".menu-ui-design").click(function() {
     }, 750);
 });
 
+$(".menu-web-dev").click(function() {
+    $('body').animate({
+        scrollTop: $("#web-development").offset().top -80
+    }, 750);
+});
+
 $("#header-about-button").click(function() {
     $('body').animate({
         scrollTop: $("#about").offset().top -80
