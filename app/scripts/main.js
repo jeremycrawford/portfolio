@@ -137,6 +137,10 @@ $( ".ui-button-one" ).click(function() {
   $( ".mello-yello-gallery-container" ).slideDown( "slow" );
 });
 
+$( ".ui-button-three" ).click(function() {
+  $( ".gag-gallery-container" ).slideDown( "slow" );
+});
+
 
 // exit Buttons
 
@@ -179,6 +183,11 @@ $( "#exit-red-sea-container" ).click(function() {
 $( "#exit-mello-yello-container" ).click(function() {
   $( ".mello-yello-gallery-container" ).slideUp( "slow" );
 });
+
+$( "#exit-gag-container" ).click(function() {
+  $( ".gag-gallery-container" ).slideUp( "slow" );
+});
+
 
 
 
@@ -422,6 +431,32 @@ showCurrent();
  
 });
 
+// Get A Gig Gallery
+ 
+$(document).ready(function(){
+ 
+var counter = 0,
+$items = $('.gag-slideshow figure'),
+numItems = $items.length;
+ 
+var showCurrent = function(){
+var itemToShow = Math.abs(counter%numItems);
+$items.removeClass('gag-show');
+$items.eq(itemToShow).addClass('gag-show');
+};
+ 
+$('.gag-next').on('click', function(){
+counter++;
+showCurrent();
+});
+ 
+$('.gag-prev').on('click', function(){
+counter--;
+showCurrent();
+});
+ 
+});
+
 
 
 // buttons-scroll-to
@@ -486,6 +521,12 @@ $(".ui-button-one").click(function() {
     }, 750);
 });
 
+$(".ui-button-three").click(function() {
+    $('body').animate({
+        scrollTop: $(".gag-gallery-container").offset().top +32.5
+    }, 750);
+});
+
 // exit-scroll-to-buttons
 
 $("#exit-ettain-container").click(function() {
@@ -508,41 +549,47 @@ $("#exit-woolpert-container").click(function() {
 
 $("#exit-river-container").click(function() {
     $('body').animate({
-        scrollTop: $("#graphic-design").offset().top 
+        scrollTop: $("#graphic-design").offset().top +430
     }, 750);
 });
 
 $("#exit-home-depot-container").click(function() {
     $('body').animate({
-        scrollTop: $("#graphic-design").offset().top 
+        scrollTop: $("#graphic-design").offset().top +430
     }, 750);
 });
 
 $("#exit-affluent-container").click(function() {
     $('body').animate({
-        scrollTop: $("#graphic-design").offset().top 
+        scrollTop: $("#graphic-design").offset().top +430
     }, 750);
 });
 
 $("#exit-chicopee-container").click(function() {
     $('body').animate({
-        scrollTop: $("#graphic-design").offset().top 
+        scrollTop: $("#graphic-design").offset().top +820
     }, 750);
 });
 
 $("#exit-smart-fox-container").click(function() {
     $('body').animate({
-        scrollTop: $("#graphic-design").offset().top 
+        scrollTop: $("#graphic-design").offset().top +820
     }, 750);
 });
 
 $("#exit-red-sea-container").click(function() {
     $('body').animate({
-        scrollTop: $("#graphic-design").offset().top 
+        scrollTop: $("#graphic-design").offset().top +820
     }, 750);
 });
 
 $("#exit-mello-yello-container").click(function() {
+    $('body').animate({
+        scrollTop: $("#ui-design").offset().top -80 
+    }, 750);
+});
+
+$("#exit-gag-container").click(function() {
     $('body').animate({
         scrollTop: $("#ui-design").offset().top -80 
     }, 750);
