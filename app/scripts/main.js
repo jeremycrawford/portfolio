@@ -122,7 +122,7 @@ $( ".design-button-six" ).click(function() {
 });
 
 $( ".design-button-seven" ).click(function() {
-  $( ".booming-gallery-container" ).slideDown( "slow" );
+  $( ".chicopee-gallery-container" ).slideDown( "slow" );
 });
 
 $( ".design-button-eight" ).click(function() {
@@ -133,6 +133,9 @@ $( ".design-button-nine" ).click(function() {
   $( ".red-sea-gallery-container" ).slideDown( "slow" );
 });
 
+$( ".ui-button-one" ).click(function() {
+  $( ".mello-yello-gallery-container" ).slideDown( "slow" );
+});
 
 
 // exit Buttons
@@ -161,8 +164,8 @@ $( "#exit-affluent-container" ).click(function() {
   $( ".affluent-gallery-container" ).slideUp( "slow" );
 });
 
-$( "#exit-booming-container" ).click(function() {
-  $( ".booming-gallery-container" ).slideUp( "slow" );
+$( "#exit-chicopee-container" ).click(function() {
+  $( ".chicopee-gallery-container" ).slideUp( "slow" );
 });
 
 $( "#exit-smart-fox-container" ).click(function() {
@@ -171,6 +174,10 @@ $( "#exit-smart-fox-container" ).click(function() {
 
 $( "#exit-red-sea-container" ).click(function() {
   $( ".red-sea-gallery-container" ).slideUp( "slow" );
+});
+
+$( "#exit-mello-yello-container" ).click(function() {
+  $( ".mello-yello-gallery-container" ).slideUp( "slow" );
 });
 
 
@@ -316,21 +323,21 @@ showCurrent();
 $(document).ready(function(){
  
 var counter = 0,
-$items = $('.booming-slideshow figure'),
+$items = $('.chicopee-slideshow figure'),
 numItems = $items.length;
  
 var showCurrent = function(){
 var itemToShow = Math.abs(counter%numItems);
-$items.removeClass('booming-show');
-$items.eq(itemToShow).addClass('booming-show');
+$items.removeClass('chicopee-show');
+$items.eq(itemToShow).addClass('chicopee-show');
 };
  
-$('.booming-next').on('click', function(){
+$('.chicopee-next').on('click', function(){
 counter++;
 showCurrent();
 });
  
-$('.booming-prev').on('click', function(){
+$('.chicopee-prev').on('click', function(){
 counter--;
 showCurrent();
 });
@@ -389,6 +396,32 @@ showCurrent();
  
 });
 
+// Mello Yello Gallery
+ 
+$(document).ready(function(){
+ 
+var counter = 0,
+$items = $('.mello-yello-slideshow figure'),
+numItems = $items.length;
+ 
+var showCurrent = function(){
+var itemToShow = Math.abs(counter%numItems);
+$items.removeClass('mello-yello-show');
+$items.eq(itemToShow).addClass('mello-yello-show');
+};
+ 
+$('.mello-yello-next').on('click', function(){
+counter++;
+showCurrent();
+});
+ 
+$('.mello-yello-prev').on('click', function(){
+counter--;
+showCurrent();
+});
+ 
+});
+
 
 
 // buttons-scroll-to
@@ -431,7 +464,7 @@ $(".design-button-six").click(function() {
 
 $(".design-button-seven").click(function() {
     $('body').animate({
-        scrollTop: $(".booming-gallery-container").offset().top +32.5
+        scrollTop: $(".chicopee-gallery-container").offset().top +32.5
     }, 750);
 });
 
@@ -444,6 +477,12 @@ $(".design-button-eight").click(function() {
 $(".design-button-nine").click(function() {
     $('body').animate({
         scrollTop: $(".red-sea-gallery-container").offset().top +32.5
+    }, 750);
+});
+
+$(".ui-button-one").click(function() {
+    $('body').animate({
+        scrollTop: $(".mello-yello-gallery-container").offset().top +32.5
     }, 750);
 });
 
@@ -485,7 +524,7 @@ $("#exit-affluent-container").click(function() {
     }, 750);
 });
 
-$("#exit-booming-container").click(function() {
+$("#exit-chicopee-container").click(function() {
     $('body').animate({
         scrollTop: $("#graphic-design").offset().top 
     }, 750);
@@ -500,5 +539,11 @@ $("#exit-smart-fox-container").click(function() {
 $("#exit-red-sea-container").click(function() {
     $('body').animate({
         scrollTop: $("#graphic-design").offset().top 
+    }, 750);
+});
+
+$("#exit-mello-yello-container").click(function() {
+    $('body').animate({
+        scrollTop: $("#ui-design").offset().top -80 
     }, 750);
 });
