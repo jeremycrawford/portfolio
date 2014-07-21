@@ -145,6 +145,10 @@ $( ".ui-button-four" ).click(function() {
   $( ".river-ui-gallery-container" ).slideDown( "slow" );
 });
 
+$( ".ui-button-five" ).click(function() {
+  $( ".woolpert-ui-gallery-container" ).slideDown( "slow" );
+});
+
 
 // exit Buttons
 
@@ -194,6 +198,10 @@ $( "#exit-gag-container" ).click(function() {
 
 $( "#exit-river-ui-container" ).click(function() {
   $( ".river-ui-gallery-container" ).slideUp( "slow" );
+});
+
+$( "#exit-woolpert-ui-container" ).click(function() {
+  $( ".woolpert-ui-gallery-container" ).slideUp( "slow" );
 });
 
 
@@ -491,6 +499,32 @@ showCurrent();
  
 });
 
+// Woolpert UI Gallery
+ 
+$(document).ready(function(){
+ 
+var counter = 0,
+$items = $('.woolpert-ui-slideshow figure'),
+numItems = $items.length;
+ 
+var showCurrent = function(){
+var itemToShow = Math.abs(counter%numItems);
+$items.removeClass('woolpert-ui-show');
+$items.eq(itemToShow).addClass('woolpert-ui-show');
+};
+ 
+$('.woolpert-ui-next').on('click', function(){
+counter++;
+showCurrent();
+});
+ 
+$('.woolpert-ui-prev').on('click', function(){
+counter--;
+showCurrent();
+});
+ 
+});
+
 
 
 // buttons-scroll-to
@@ -567,6 +601,12 @@ $(".ui-button-four").click(function() {
     }, 750);
 });
 
+$(".ui-button-five").click(function() {
+    $('body').animate({
+        scrollTop: $(".woolpert-ui-gallery-container").offset().top +32.5
+    }, 750);
+});
+
 // exit-scroll-to-buttons
 
 $("#exit-ettain-container").click(function() {
@@ -636,6 +676,12 @@ $("#exit-gag-container").click(function() {
 });
 
 $("#exit-river-ui-container").click(function() {
+    $('body').animate({
+        scrollTop: $("#ui-design").offset().top +430
+    }, 750);
+});
+
+$("#exit-woolpert-ui-container").click(function() {
     $('body').animate({
         scrollTop: $("#ui-design").offset().top +430
     }, 750);
