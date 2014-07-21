@@ -813,6 +813,60 @@ figure.gag-show {
     margin-left: 20px;
 }
 
+// River UI Gallery Start
+ 
+.river-ui-slideshow {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+figure {
+  position: absolute;
+  opacity: 0;
+}
+
+figure.river-ui-show {
+  opacity: 1;
+  position: static;
+}
+
+.river-ui-next, .river-ui-prev {
+  color: #fff;
+  position: absolute;
+  background: rgba(0,0,0, .6);
+  top: 46.5%;
+  z-index: 1;
+  font-size: 2em;
+  margin-top: -.75em;
+  opacity: .3;
+  user-select: none;
+}
+
+.river-ui-next:hover, .river-ui-prev:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.river-ui-next {
+    width: 60px;
+    height: auto;
+    right: 0;
+    padding: 15px 15px 15px 15px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin-right: 20px;
+}
+
+.river-ui-prev {
+    width: 60px;
+    height: auto;
+    left: 0;
+    padding: 15px 15px 15px 15px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-left: 20px;
+}
 
 
 
@@ -1992,6 +2046,92 @@ figure.gag-show {
     }
 }
 
+// River UI Gallery
+ 
+
+.river-ui-gallery-container {
+    height: auto;
+    width: 100%;
+    padding-top: 20px;
+    display: none;
+    padding-bottom: 20px;
+
+    .river-ui-gallery {
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        width: 100%;
+        background-color: rgb(113, 195, 174);
+        text-align: center;
+        padding-bottom: 60px;
+
+        #exit-river-ui-container {
+            display: inline-block;
+            cursor: pointer;
+            width: 30px;
+            height: 36px;
+            float: right;
+            margin: 15px;
+            z-index: 100;
+            margin-top: 100px;
+            margin-right: 36px;
+
+            .x-line-one {
+                height: 38px;
+                width: 2px;
+                margin-left: 13px;
+                background-color: white;
+                transform: rotate(45deg);
+                -ms-transform: rotate(45deg); /* IE 9 */
+                -webkit-transform: rotate(45deg); /* Safari and Chrome */
+                z-index: 1;
+            }
+
+            .x-line-two {
+                height: 38px;
+                width: 2px;
+                background-color: white;
+                transform: rotate(90deg);
+                -ms-transform: rotate(90deg); /* IE 9 */
+                -webkit-transform: rotate(90deg); /* Safari and Chrome */
+                z-index: 2;
+            }
+
+            &:hover {
+                opacity: .5;
+            }
+        }
+
+        .river-ui-photo-container {
+            vertical-align: top;
+            position: relative;
+            margin: 0 auto;
+            margin-top: 80px; 
+            margin-left: 80px;     
+            display: inline-block;
+            background-color: white;
+            width: 78%;
+            height: auto;
+            text-decoration: none;
+            color: rgb(46, 49, 51);
+
+            .river-ui-photos {
+                padding: 20px;
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+
+    .river-ui-arrow-up {
+        width: 0; 
+        height: 0;
+        margin-left: 34.5%; 
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-bottom: 25px solid rgb(113, 195, 174);
+    }
+}
 
 
 

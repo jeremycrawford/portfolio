@@ -141,6 +141,10 @@ $( ".ui-button-three" ).click(function() {
   $( ".gag-gallery-container" ).slideDown( "slow" );
 });
 
+$( ".ui-button-four" ).click(function() {
+  $( ".river-ui-gallery-container" ).slideDown( "slow" );
+});
+
 
 // exit Buttons
 
@@ -186,6 +190,10 @@ $( "#exit-mello-yello-container" ).click(function() {
 
 $( "#exit-gag-container" ).click(function() {
   $( ".gag-gallery-container" ).slideUp( "slow" );
+});
+
+$( "#exit-river-ui-container" ).click(function() {
+  $( ".river-ui-gallery-container" ).slideUp( "slow" );
 });
 
 
@@ -457,6 +465,32 @@ showCurrent();
  
 });
 
+// River UI Gallery
+ 
+$(document).ready(function(){
+ 
+var counter = 0,
+$items = $('.river-ui-slideshow figure'),
+numItems = $items.length;
+ 
+var showCurrent = function(){
+var itemToShow = Math.abs(counter%numItems);
+$items.removeClass('river-ui-show');
+$items.eq(itemToShow).addClass('river-ui-show');
+};
+ 
+$('.river-ui-next').on('click', function(){
+counter++;
+showCurrent();
+});
+ 
+$('.river-ui-prev').on('click', function(){
+counter--;
+showCurrent();
+});
+ 
+});
+
 
 
 // buttons-scroll-to
@@ -527,6 +561,12 @@ $(".ui-button-three").click(function() {
     }, 750);
 });
 
+$(".ui-button-four").click(function() {
+    $('body').animate({
+        scrollTop: $(".river-ui-gallery-container").offset().top +32.5
+    }, 750);
+});
+
 // exit-scroll-to-buttons
 
 $("#exit-ettain-container").click(function() {
@@ -592,5 +632,11 @@ $("#exit-mello-yello-container").click(function() {
 $("#exit-gag-container").click(function() {
     $('body').animate({
         scrollTop: $("#ui-design").offset().top -80 
+    }, 750);
+});
+
+$("#exit-river-ui-container").click(function() {
+    $('body').animate({
+        scrollTop: $("#ui-design").offset().top +430
     }, 750);
 });
