@@ -28,8 +28,8 @@ body {
     /* Smartphones (portrait) ----------- */
     @media only screen and (max-width : 320px) {
         width: 100%;
-        height: 155px;
-        background-color: rgb(46, 49, 51);
+        height: 480px;
+        background-color: rgb(47, 63, 79);
     }  
 }
 
@@ -85,7 +85,9 @@ body {
     /* Smartphones (portrait) ----------- */
     @media only screen and (max-width : 320px) {
         display: inline-block;
-        margin-top: 40px;
+        margin-top: 150px;
+        width: 150px;
+        height: auto;
     } 
 }
 
@@ -105,14 +107,7 @@ body {
 
         /* Smartphones (portrait) ----------- */
         @media only screen and (max-width : 320px) {
-            text-align: center;
-            color: white;
-            text-transform: capitalize;
-            margin-top: 11px;
-            padding-top: 0px;
-            font-size: 12px;
-            font-weight: 100;
-            letter-spacing: 2px;
+            display: none;
         } 
     }
 
@@ -235,7 +230,310 @@ body {
 
 
 
+// Header
 
+#logo-page-header {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(47, 63, 79);
+    display: none;
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        position: relative;
+    }
+
+    &:active {
+        display: hidden;
+    }
+}
+
+.header-container {
+    width: 100%;
+    margin: 0 auto;
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        width: 100%;
+    } 
+}
+
+.header-logo-div {
+    padding-top: 5px;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+
+    .header-logo {
+        margin-top: 10px;
+        margin-left: 15px;
+        width: 50px;
+        height: 50px;
+
+        /* Smartphones (portrait) ----------- */
+        @media only screen and (max-width : 320px) {
+            margin-left: 10px;
+        } 
+    }
+}
+
+.navigation-buttons {
+    display: inline-block;
+    float: right;
+
+    #header-home-button {
+        cursor: pointer;
+        font-weight: 200;
+        letter-spacing: 2px;
+        display: inline-block;
+        width: 121px;
+        height: 80px;
+        color: white;
+        border: none;
+        float: right;
+        background-color: rgb(47, 63, 79);
+        line-height: 70px;
+        text-align: center;
+        padding-top: 3px;
+        margin: 0 auto;
+        -webkit-transition: all .2s ease-in-out;
+
+        &:hover {
+            background-color: rgb(55, 74, 93);
+            border-bottom: 4px solid rgb(113, 195, 174);
+        }
+    }
+
+    #header-work-button {
+        cursor: pointer;
+        font-weight: 200;
+        letter-spacing: 2px;
+        display: inline-block;
+        width: 121px;
+        height: 80px;
+        color: white;
+        border: none;
+        float: right;
+        background-color: rgb(47, 63, 79);
+        line-height: 70px;
+        text-align: center;
+        padding-top: 3px;
+        margin: 0 auto;
+        -webkit-transition: all .2s ease-in-out;
+
+        &:hover {
+            background-color: rgb(55, 74, 93);
+            border-bottom: 4px solid rgb(113, 195, 174);
+
+            .menu-graphic-design {
+                visibility: visible;
+            }
+
+            .menu-ui-design {
+                visibility: visible;
+            }
+
+            .menu-web-dev {
+                visibility: visible;
+            }
+        }
+
+        /* Smartphones (portrait) ----------- */
+        @media only screen and (max-width : 320px) {
+            display: none;
+        } 
+    }
+
+    .menu-graphic-design {
+        cursor: pointer;
+        font-weight: 200;
+        visibility: hidden;
+        letter-spacing: 2px;
+        display: inline-block;
+        width: 246px;
+        height: 80px;
+        color: white;
+        border: none;
+        float: left;
+        padding-right: 52px;
+        margin-left: -40px;
+        position: relative;
+        background-color: rgb(47, 63, 79);
+        line-height: 80px;
+        margin-top: 7px;
+        z-index: 999;
+        -webkit-transition: all .2s ease-in-out;
+
+        &:hover {
+            visibility: visible;
+            background-color: rgb(55, 74, 93);
+        }
+    }
+
+    .menu-ui-design {
+        cursor: pointer;
+        font-weight: 200;
+        visibility: hidden;
+        letter-spacing: 2px;
+        display: inline-block;
+        width: 246px;
+        height: 80px;
+        color: white;
+        border: none;
+        float: left;
+        padding-right: 90px;
+        margin-left: -40px;
+        position: relative;
+        background-color: rgb(47, 63, 79);
+        line-height: 80px;
+        z-index: 999;
+        -webkit-transition: all .2s ease-in-out;
+
+        &:hover {
+            visibility: visible;
+            background-color: rgb(55, 74, 93);
+        }
+    }
+
+    .menu-web-dev {
+        cursor: pointer;
+        font-weight: 200;
+        visibility: hidden;
+        letter-spacing: 2px;
+        display: inline-block;
+        width: 246px;
+        height: 80px;
+        color: white;
+        border: none;
+        float: left;
+        padding-right: 26px;
+        margin-left: -40px;
+        position: relative;
+        background-color: rgb(47, 63, 79);
+        line-height: 80px;
+        z-index: 999;
+        -webkit-transition: all .2s ease-in-out;
+
+        &:hover {
+            visibility: visible;
+            background-color: rgb(55, 74, 93);
+        }
+    }
+}
+
+#header-about-button {
+    cursor: pointer;
+    font-weight: 200;
+    letter-spacing: 2px;
+    display: inline-block;
+    width: 121px;
+    height: 80px;
+    color: white;
+    border: none;
+    float: right;
+    background-color: rgb(47, 63, 79);
+    line-height: 70px;
+    text-align: center;
+    padding-top: 3px;
+    margin: 0 auto;
+    -webkit-transition: all .2s ease-in-out;
+
+    &:hover {
+        background-color: rgb(55, 74, 93);
+        border-bottom: 4px solid rgb(113, 195, 174);
+    }
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        display: none;
+    } 
+}
+
+#header-contact-button {
+    cursor: pointer;
+    font-weight: 200;
+    letter-spacing: 2px;
+    display: inline-block;
+    width: 121px;
+    height: 80px;
+    color: white;
+    border: none;
+    float: right;
+    background-color: rgb(47, 63, 79);
+    line-height: 70px;
+    text-align: center;
+    padding-top: 3px;
+    margin: 0 auto;
+    -webkit-transition: all .2s ease-in-out;
+
+    &:hover {
+        background-color: rgb(55, 74, 93);
+        border-bottom: 4px solid rgb(113, 195, 174);
+    }
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        display: none;
+    } 
+}
+
+
+
+
+#logo-main {
+    width: 100%;
+    height: 380px;
+    overflow: hidden;
+    background-size: auto;
+    background-color: rgb(138, 193, 186);
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        height: auto;
+    } 
+}
+
+.col-lg-12 {
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+
+    h1 {
+        text-align: center;
+        color: white;
+        text-transform: capitalize;
+        padding-top: 152px;
+        font-size: 4em;
+        font-weight: 100;
+        letter-spacing: 2px;
+
+        /* Smartphones (portrait) ----------- */
+        @media only screen and (max-width : 320px) {
+            padding-top: 10px;
+            padding-bottom: 25px;
+            font-size: 20px;
+        } 
+    }
+}
+
+.logo-work-intro {
+    letter-spacing: 1px;
+    padding-left: 200px;
+    padding-right: 200px;
+    line-height: 24px;
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        display: none;
+    } 
+}
+
+// Main Section End
 
 
 
@@ -2388,321 +2686,7 @@ figure.woolpert-ui-show {
 
 
 
-// Header
 
-#logo-page-header {
-    position: fixed;
-    z-index: 100;
-    width: 100%;
-    height: 80px;
-    background-color: rgb(47, 63, 79);
-    display: none;
-
-    /* Smartphones (portrait) ----------- */
-    @media only screen and (max-width : 320px) {
-        position: relative;
-    }
-
-    &:active {
-        display: hidden;
-    }
-}
-
-.header-container {
-    width: 100%;
-    margin: 0 auto;
-
-    /* Smartphones (portrait) ----------- */
-    @media only screen and (max-width : 320px) {
-        width: 100%;
-    } 
-}
-
-.header-logo-div {
-    padding-top: 5px;
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-
-    .header-logo {
-        margin-top: 10px;
-        margin-left: 15px;
-        width: 50px;
-        height: 50px;
-
-        /* Smartphones (portrait) ----------- */
-        @media only screen and (max-width : 320px) {
-            margin-left: 10px;
-        } 
-    }
-}
-
-.navigation-buttons {
-    display: inline-block;
-    float: right;
-
-    #header-home-button {
-        cursor: pointer;
-        font-weight: 200;
-        letter-spacing: 2px;
-        display: inline-block;
-        width: 121px;
-        height: 80px;
-        color: white;
-        border: none;
-        float: right;
-        background-color: rgb(47, 63, 79);
-        line-height: 70px;
-        text-align: center;
-        padding-top: 3px;
-        margin: 0 auto;
-        -webkit-transition: all .2s ease-in-out;
-
-        &:hover {
-            background-color: rgb(55, 74, 93);
-            border-bottom: 4px solid rgb(113, 195, 174);
-        }
-    }
-
-    #header-work-button {
-        cursor: pointer;
-        font-weight: 200;
-        letter-spacing: 2px;
-        display: inline-block;
-        width: 121px;
-        height: 80px;
-        color: white;
-        border: none;
-        float: right;
-        background-color: rgb(47, 63, 79);
-        line-height: 70px;
-        text-align: center;
-        padding-top: 3px;
-        margin: 0 auto;
-        -webkit-transition: all .2s ease-in-out;
-
-        &:hover {
-            background-color: rgb(55, 74, 93);
-            border-bottom: 4px solid rgb(113, 195, 174);
-
-            .menu-graphic-design {
-                visibility: visible;
-            }
-
-            .menu-ui-design {
-                visibility: visible;
-            }
-
-            .menu-web-dev {
-                visibility: visible;
-            }
-        }
-
-        /* Smartphones (portrait) ----------- */
-        @media only screen and (max-width : 320px) {
-            display: none;
-        } 
-    }
-
-    .menu-graphic-design {
-        cursor: pointer;
-        font-weight: 200;
-        visibility: hidden;
-        letter-spacing: 2px;
-        display: inline-block;
-        width: 246px;
-        height: 80px;
-        color: white;
-        border: none;
-        float: left;
-        padding-right: 52px;
-        margin-left: -40px;
-        position: relative;
-        background-color: rgb(47, 63, 79);
-        line-height: 80px;
-        margin-top: 7px;
-        z-index: 999;
-        -webkit-transition: all .2s ease-in-out;
-
-        &:hover {
-            visibility: visible;
-            background-color: rgb(55, 74, 93);
-        }
-    }
-
-    .menu-ui-design {
-        cursor: pointer;
-        font-weight: 200;
-        visibility: hidden;
-        letter-spacing: 2px;
-        display: inline-block;
-        width: 246px;
-        height: 80px;
-        color: white;
-        border: none;
-        float: left;
-        padding-right: 90px;
-        margin-left: -40px;
-        position: relative;
-        background-color: rgb(47, 63, 79);
-        line-height: 80px;
-        z-index: 999;
-        -webkit-transition: all .2s ease-in-out;
-
-        &:hover {
-            visibility: visible;
-            background-color: rgb(55, 74, 93);
-        }
-    }
-
-    .menu-web-dev {
-        cursor: pointer;
-        font-weight: 200;
-        visibility: hidden;
-        letter-spacing: 2px;
-        display: inline-block;
-        width: 246px;
-        height: 80px;
-        color: white;
-        border: none;
-        float: left;
-        padding-right: 26px;
-        margin-left: -40px;
-        position: relative;
-        background-color: rgb(47, 63, 79);
-        line-height: 80px;
-        z-index: 999;
-        -webkit-transition: all .2s ease-in-out;
-
-        &:hover {
-            visibility: visible;
-            background-color: rgb(55, 74, 93);
-        }
-    }
-}
-
-#header-about-button {
-    cursor: pointer;
-    font-weight: 200;
-    letter-spacing: 2px;
-    display: inline-block;
-    width: 121px;
-    height: 80px;
-    color: white;
-    border: none;
-    float: right;
-    background-color: rgb(47, 63, 79);
-    line-height: 70px;
-    text-align: center;
-    padding-top: 3px;
-    margin: 0 auto;
-    -webkit-transition: all .2s ease-in-out;
-
-    &:hover {
-        background-color: rgb(55, 74, 93);
-        border-bottom: 4px solid rgb(113, 195, 174);
-    }
-
-    /* Smartphones (portrait) ----------- */
-    @media only screen and (max-width : 320px) {
-        display: none;
-    } 
-}
-
-#header-contact-button {
-    cursor: pointer;
-    font-weight: 200;
-    letter-spacing: 2px;
-    display: inline-block;
-    width: 121px;
-    height: 80px;
-    color: white;
-    border: none;
-    float: right;
-    background-color: rgb(47, 63, 79);
-    line-height: 70px;
-    text-align: center;
-    padding-top: 3px;
-    margin: 0 auto;
-    -webkit-transition: all .2s ease-in-out;
-
-    &:hover {
-        background-color: rgb(55, 74, 93);
-        border-bottom: 4px solid rgb(113, 195, 174);
-    }
-
-    /* Smartphones (portrait) ----------- */
-    @media only screen and (max-width : 320px) {
-        display: none;
-    } 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Main Section Start
-
-#logo-main {
-    width: 100%;
-    height: 380px;
-    overflow: hidden;
-    background-size: auto;
-    background-color: rgb(138, 193, 186);
-
-    /* Smartphones (portrait) ----------- */
-    @media only screen and (max-width : 320px) {
-        height: auto;
-    } 
-}
-
-.col-lg-12 {
-    margin: 0 auto;
-    position: relative;
-    text-align: center;
-
-    h1 {
-        text-align: center;
-        color: white;
-        text-transform: capitalize;
-        padding-top: 152px;
-        font-size: 4em;
-        font-weight: 100;
-        letter-spacing: 2px;
-
-        /* Smartphones (portrait) ----------- */
-        @media only screen and (max-width : 320px) {
-            padding-top: 10px;
-            padding-bottom: 25px;
-            font-size: 20px;
-        } 
-    }
-}
-
-.logo-work-intro {
-    letter-spacing: 1px;
-    padding-left: 200px;
-    padding-right: 200px;
-    line-height: 24px;
-    color: white;
-    font-weight: 100;
-    font-size: 20px;
-
-    /* Smartphones (portrait) ----------- */
-    @media only screen and (max-width : 320px) {
-        display: none;
-    } 
-}
-
-// Main Section End
 
 
 
