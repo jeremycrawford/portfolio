@@ -544,630 +544,19 @@ body {
 
 
 
-// Ettain Group Scrolling Gallery Start
+// Scrolling Galleries Section
  
-.ettain-slideshow {
-  position: relative;
-  display: block;
-  overflow: hidden;
-}
-
-figure {
-  position: absolute;
-  opacity: 0;
-}
-
-figure.ettain-show {
-  opacity: 1;
-  position: static;
-}
-
-.ettain-next, .ettain-prev {
-  color: #fff;
-  position: absolute;
-  background: rgba(0,0,0, .6);
-  top: 46.5%;
-  z-index: 1;
-  font-size: 2em;
-  margin-top: -.75em;
-  opacity: .3;
-  user-select: none;
-}
-
-.ettain-next:hover, .ettain-prev:hover {
-  cursor: pointer;
-  opacity: 1;
-}
-
-.ettain-next {
-    width: 60px;
-    height: auto;
-    right: 0;
-    padding: 15px 15px 15px 15px;
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-    margin-right: 20px;
-}
-
-.ettain-prev {
-    width: 60px;
-    height: auto;
-    left: 0;
-    padding: 15px 15px 15px 15px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    margin-left: 20px;
-}
-
-
-
-
-
-
-
-
-// Woolpert Scrolling Gallery Start
- 
-.woolpert-slideshow {
-  position: relative;
-  display: block;
-  overflow: hidden;
-}
-
-figure {
-  position: absolute;
-  opacity: 0;
-}
-
-figure.woolpert-show {
-  opacity: 1;
-  position: static;
-}
-
-.woolpert-next, .woolpert-prev {
-  color: #fff;
-  position: absolute;
-  background: rgba(0,0,0, .6);
-  top: 46.5%;
-  z-index: 1;
-  font-size: 2em;
-  margin-top: -.75em;
-  opacity: .3;
-  user-select: none;
-}
-
-.woolpert-next:hover, .woolpert-prev:hover {
-  cursor: pointer;
-  opacity: 1;
-}
-
-.woolpert-next {
-    width: 60px;
-    height: auto;
-    right: 0;
-    padding: 15px 15px 15px 15px;
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-    margin-right: 20px;
-}
-
-.woolpert-prev {
-    width: 60px;
-    height: auto;
-    left: 0;
-    padding: 15px 15px 15px 15px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    margin-left: 20px;
-}
-
-
-
-
-
-
-
-// River Church Gallery Start
- 
-.river-slideshow {
-  position: relative;
-  display: block;
-  overflow: hidden;
-}
-
-figure {
-  position: absolute;
-  opacity: 0;
-}
-
-figure.river-show {
-  opacity: 1;
-  position: static;
-}
-
-.river-next, .river-prev {
-  color: #fff;
-  position: absolute;
-  background: rgba(0,0,0, .6);
-  top: 46.5%;
-  z-index: 1;
-  font-size: 2em;
-  margin-top: -.75em;
-  opacity: .3;
-  user-select: none;
-}
-
-.river-next:hover, .river-prev:hover {
-  cursor: pointer;
-  opacity: 1;
-}
-
-.river-next {
-    width: 60px;
-    height: auto;
-    right: 0;
-    padding: 15px 15px 15px 15px;
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-    margin-right: 20px;
-}
-
-.river-prev {
-    width: 60px;
-    height: auto;
-    left: 0;
-    padding: 15px 15px 15px 15px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    margin-left: 20px;
-}
-
-
-
-// Home Depot Gallery Start
- 
-.home-depot-slideshow {
-  position: relative;
-  display: block;
-  overflow: hidden;
-}
-
-figure {
-  position: absolute;
-  opacity: 0;
-}
-
-figure.home-depot-show {
-  opacity: 1;
-  position: static;
-}
-
-.home-depot-next, .home-depot-prev {
-  color: #fff;
-  position: absolute;
-  background: rgba(0,0,0, .6);
-  top: 46.5%;
-  z-index: 1;
-  font-size: 2em;
-  margin-top: -.75em;
-  opacity: .3;
-  user-select: none;
-}
-
-.home-depot-next:hover, .home-depot-prev:hover {
-  cursor: pointer;
-  opacity: 1;
-}
-
-.home-depot-next {
-    width: 60px;
-    height: auto;
-    right: 0;
-    padding: 15px 15px 15px 15px;
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-    margin-right: 20px;
-}
-
-.home-depot-prev {
-    width: 60px;
-    height: auto;
-    left: 0;
-    padding: 15px 15px 15px 15px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    margin-left: 20px;
-}
-
-
-
-// Affluent Gallery Start
- 
-.affluent-slideshow {
-  position: relative;
-  display: block;
-  overflow: hidden;
-}
-
-figure {
-  position: absolute;
-  opacity: 0;
-}
-
-figure.affluent-show {
-  opacity: 1;
-  position: static;
-}
-
-.affluent-next, .affluent-prev {
-  color: #fff;
-  position: absolute;
-  background: rgba(0,0,0, .6);
-  top: 46.5%;
-  z-index: 1;
-  font-size: 2em;
-  margin-top: -.75em;
-  opacity: .3;
-  user-select: none;
-}
-
-.affluent-next:hover, .affluent-prev:hover {
-  cursor: pointer;
-  opacity: 1;
-}
-
-.affluent-next {
-    width: 60px;
-    height: auto;
-    right: 0;
-    padding: 15px 15px 15px 15px;
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-    margin-right: 20px;
-}
-
-.affluent-prev {
-    width: 60px;
-    height: auto;
-    left: 0;
-    padding: 15px 15px 15px 15px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    margin-left: 20px;
-}
-
-// Chicopee Gallery Start
- 
-.chicopee-slideshow {
-  position: relative;
-  display: block;
-  overflow: hidden;
-}
-
-figure {
-  position: absolute;
-  opacity: 0;
-}
-
-figure.chicopee-show {
-  opacity: 1;
-  position: static;
-}
-
-.chicopee-next, .chicopee-prev {
-  color: #fff;
-  position: absolute;
-  background: rgba(0,0,0, .6);
-  top: 46.5%;
-  z-index: 1;
-  font-size: 2em;
-  margin-top: -.75em;
-  opacity: .3;
-  user-select: none;
-}
-
-.chicopee-next:hover, .chicopee-prev:hover {
-  cursor: pointer;
-  opacity: 1;
-}
-
-.chicopee-next {
-    width: 60px;
-    height: auto;
-    right: 0;
-    padding: 15px 15px 15px 15px;
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-    margin-right: 20px;
-}
-
-.chicopee-prev {
-    width: 60px;
-    height: auto;
-    left: 0;
-    padding: 15px 15px 15px 15px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    margin-left: 20px;
-}
-
-// Smart Fox Gallery Start
- 
-.smart-fox-slideshow {
-  position: relative;
-  display: block;
-  overflow: hidden;
-}
-
-figure {
-  position: absolute;
-  opacity: 0;
-}
-
-figure.smart-fox-show {
-  opacity: 1;
-  position: static;
-}
-
-.smart-fox-next, .smart-fox-prev {
-  color: #fff;
-  position: absolute;
-  background: rgba(0,0,0, .6);
-  top: 46.5%;
-  z-index: 1;
-  font-size: 2em;
-  margin-top: -.75em;
-  opacity: .3;
-  user-select: none;
-}
-
-.smart-fox-next:hover, .smart-fox-prev:hover {
-  cursor: pointer;
-  opacity: 1;
-}
-
-.smart-fox-next {
-    width: 60px;
-    height: auto;
-    right: 0;
-    padding: 15px 15px 15px 15px;
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-    margin-right: 20px;
-}
-
-.smart-fox-prev {
-    width: 60px;
-    height: auto;
-    left: 0;
-    padding: 15px 15px 15px 15px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    margin-left: 20px;
-}
-
-// Red Sea Gallery Start
- 
-.red-sea-slideshow {
-  position: relative;
-  display: block;
-  overflow: hidden;
-}
-
-figure {
-  position: absolute;
-  opacity: 0;
-}
-
-figure.red-sea-show {
-  opacity: 1;
-  position: static;
-}
-
-.red-sea-next, .red-sea-prev {
-  color: #fff;
-  position: absolute;
-  background: rgba(0,0,0, .6);
-  top: 46.5%;
-  z-index: 1;
-  font-size: 2em;
-  margin-top: -.75em;
-  opacity: .3;
-  user-select: none;
-}
-
-.red-sea-next:hover, .red-sea-prev:hover {
-  cursor: pointer;
-  opacity: 1;
-}
-
-.red-sea-next {
-    width: 60px;
-    height: auto;
-    right: 0;
-    padding: 15px 15px 15px 15px;
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-    margin-right: 20px;
-}
-
-.red-sea-prev {
-    width: 60px;
-    height: auto;
-    left: 0;
-    padding: 15px 15px 15px 15px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    margin-left: 20px;
-}
-
-// Mello Yello Gallery Start
- 
-.mello-yello-slideshow {
-  position: relative;
-  display: block;
-  overflow: hidden;
-}
-
-figure {
-  position: absolute;
-  opacity: 0;
-}
-
-figure.mello-yello-show {
-  opacity: 1;
-  position: static;
-}
-
-.mello-yello-next, .mello-yello-prev {
-  color: #fff;
-  position: absolute;
-  background: rgba(0,0,0, .6);
-  top: 46.5%;
-  z-index: 1;
-  font-size: 2em;
-  margin-top: -.75em;
-  opacity: .3;
-  user-select: none;
-}
-
-.mello-yello-next:hover, .mello-yello-prev:hover {
-  cursor: pointer;
-  opacity: 1;
-}
-
-.mello-yello-next {
-    width: 60px;
-    height: auto;
-    right: 0;
-    padding: 15px 15px 15px 15px;
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-    margin-right: 20px;
-}
-
-.mello-yello-prev {
-    width: 60px;
-    height: auto;
-    left: 0;
-    padding: 15px 15px 15px 15px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    margin-left: 20px;
-}
-
-// Get A Gig UI Gallery Start
- 
-.gag-slideshow {
-  position: relative;
-  display: block;
-  overflow: hidden;
-}
-
-figure {
-  position: absolute;
-  opacity: 0;
-}
-
-figure.gag-show {
-  opacity: 1;
-  position: static;
-}
-
-.gag-next, .gag-prev {
-  color: #fff;
-  position: absolute;
-  background: rgba(0,0,0, .6);
-  top: 46.5%;
-  z-index: 1;
-  font-size: 2em;
-  margin-top: -.75em;
-  opacity: .3;
-  user-select: none;
-}
-
-.gag-next:hover, .gag-prev:hover {
-  cursor: pointer;
-  opacity: 1;
-}
-
-.gag-next {
-    width: 60px;
-    height: auto;
-    right: 0;
-    padding: 15px 15px 15px 15px;
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-    margin-right: 20px;
-}
-
-.gag-prev {
-    width: 60px;
-    height: auto;
-    left: 0;
-    padding: 15px 15px 15px 15px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    margin-left: 20px;
-}
-
-// River UI Gallery Start
- 
-.river-ui-slideshow {
-  position: relative;
-  display: block;
-  overflow: hidden;
-}
-
-figure {
-  position: absolute;
-  opacity: 0;
-}
-
-figure.river-ui-show {
-  opacity: 1;
-  position: static;
-}
-
-.river-ui-next, .river-ui-prev {
-  color: #fff;
-  position: absolute;
-  background: rgba(0,0,0, .6);
-  top: 46.5%;
-  z-index: 1;
-  font-size: 2em;
-  margin-top: -.75em;
-  opacity: .3;
-  user-select: none;
-}
-
-.river-ui-next:hover, .river-ui-prev:hover {
-  cursor: pointer;
-  opacity: 1;
-}
-
-.river-ui-next {
-    width: 60px;
-    height: auto;
-    right: 0;
-    padding: 15px 15px 15px 15px;
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-    margin-right: 20px;
-}
-
-.river-ui-prev {
-    width: 60px;
-    height: auto;
-    left: 0;
-    padding: 15px 15px 15px 15px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    margin-left: 20px;
-}
-
-// Woolpert UI Gallery Start
- 
+.ettain-slideshow,
+.woolpert-slideshow,
+.river-slideshow,
+.home-depot-slideshow,
+.affluent-slideshow,
+.chicopee-slideshow,
+.smart-fox-slideshow,
+.red-sea-slideshow,
+.mello-yello-slideshow,
+.gag-slideshow,
+.river-ui-slideshow,
 .woolpert-ui-slideshow {
   position: relative;
   display: block;
@@ -1179,11 +568,33 @@ figure {
   opacity: 0;
 }
 
-figure.woolpert-ui-show {
+figure.ettain-show,
+figure.woolpert-show,
+figure.river-show,
+figure.home-depot-show,
+figure.affluent-show,
+figure.chicopee-show,
+figure.smart-fox-show,
+figure.red-sea-show,
+figure.mello-yello-show,
+figure.gag-show,
+figure.river-ui-show,
+figure.woolpert-ui-show  {
   opacity: 1;
   position: static;
 }
 
+.ettain-next, .ettain-prev,
+.woolpert-next, .woolpert-prev,
+.river-next, .river-prev,
+.home-depot-next, .home-depot-prev,
+.affluent-next, .affluent-prev,
+.chicopee-next, .chicopee-prev,
+.smart-fox-next, .smart-fox-prev,
+.red-sea-next, .red-sea-prev,
+.mello-yello-next, .mello-yello-prev,
+.gag-next, .gag-prev,
+.river-ui-next, .river-ui-prev,
 .woolpert-ui-next, .woolpert-ui-prev {
   color: #fff;
   position: absolute;
@@ -1196,11 +607,33 @@ figure.woolpert-ui-show {
   user-select: none;
 }
 
+.ettain-next:hover, .ettain-prev:hover,
+.woolpert-next:hover, .woolpert-prev:hover,
+.river-next:hover, .river-prev:hover,
+.home-depot-next:hover, .home-depot-prev:hover,
+.affluent-next:hover, .affluent-prev:hover,
+.chicopee-next:hover, .chicopee-prev:hover,
+.smart-fox-next:hover, .smart-fox-prev:hover,
+.red-sea-next:hover, .red-sea-prev:hover,
+.mello-yello-next:hover, .mello-yello-prev:hover,
+.gag-next:hover, .gag-prev:hover,
+.river-ui-next:hover, .river-ui-prev:hover,
 .woolpert-ui-next:hover, .woolpert-ui-prev:hover {
   cursor: pointer;
   opacity: 1;
 }
 
+.ettain-next,
+.woolpert-next,
+.river-next,
+.home-depot-next,
+.affluent-next,
+.chicopee-next,
+.smart-fox-next,
+.red-sea-next,
+.mello-yello-next,
+.gag-next,
+.river-ui-next,
 .woolpert-ui-next {
     width: 60px;
     height: auto;
@@ -1211,7 +644,18 @@ figure.woolpert-ui-show {
     margin-right: 20px;
 }
 
-.woolpert-ui-prev {
+.ettain-prev,
+.woolpert-prev,
+.river-prev,
+.home-depot-prev,
+.affluent-prev,
+.chicopee-prev,
+.smart-fox-prev,
+.red-sea-prev,
+.mello-yello-prev,
+.gag-prev,
+.river-ui-prev,
+.woolpert-ui-prev  {
     width: 60px;
     height: auto;
     left: 0;
@@ -1220,6 +664,7 @@ figure.woolpert-ui-show {
     border-bottom-right-radius: 0px;
     margin-left: 20px;
 }
+
 
 
 
